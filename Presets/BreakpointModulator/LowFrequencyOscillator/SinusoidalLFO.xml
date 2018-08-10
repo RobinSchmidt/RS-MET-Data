@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PitchEnvelope PatchFormat="1" ScaleFactor="1" Offset="0" TimeScale="0.5" TimeScaleByKey="0"
+               TimeScaleByVel="0" Depth="0.04" DepthByKey="0" DepthByVel="0"
+               SyncMode="0" LoopStartIndex="0" LoopEndIndex="3" LoopMode="Forward">
+  <Breakpoint Time="-0.0345323741" Level="1" Shape="Smooth" ShapeAmount="1"/>
+  <Breakpoint Time="0.125" Level="1.125" Shape="Sine 1" ShapeAmount="1"/>
+  <Breakpoint Time="0.375" Level="0.875" Shape="Smooth" ShapeAmount="1"/>
+  <Breakpoint Time="0.5" Level="1" Shape="Sine 2" ShapeAmount="1"/>
+  <Breakpoint Time="1" Level="1" Shape="Smooth" ShapeAmount="1"/>
+</PitchEnvelope>

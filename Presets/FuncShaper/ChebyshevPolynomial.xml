@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ModulatorState FunctionString="cheby(x,a);" a="1" aMin="1" aMax="10" b="0" bMin="0"
+                bMax="1" c="0" cMin="0" cMax="1" d="0.625" dMin="0" dMax="1"
+                InputFilterUsed="0" InputLowpass="20000" InputHighpass="20" Drive="0"
+                DC="0" Oversampling="1" OutputFilterUsed="0" OutputLowpass="20000"
+                OutputHighpass="20" OutLevel="0" DryWet="100"/>

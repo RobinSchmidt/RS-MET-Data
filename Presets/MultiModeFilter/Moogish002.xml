@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Filter PatchFormat="1" Mode="Moogish Lowpass" Frequency="1864.39416"
+        FrequencyByKey="0" FrequencyByVel="0" Resonance="74.0740741"
+        Drive="0" Order="4" PreAllpass="20000" MakeUp="100"/>

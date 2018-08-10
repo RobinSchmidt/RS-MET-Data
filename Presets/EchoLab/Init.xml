@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DelayDesigner PatchFormat="1" SyncDelayTimes="1" DryWet="0.5">
+  <DelayLine DelayTime="0.5" Amplitude="0.5" Feedback="50" Pan="0"/>
+</DelayDesigner>

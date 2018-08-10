@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Quadrifex PatchFormat="1" DryWet="0.25" Routing="1&gt;2&gt;3&gt;4" Slot1="Harmonics"
+           Slot2="Reverb" Slot3="Bypass" Slot4="Bypass">
+  <AudioModule PatchFormat="1"/>
+  <AudioModule PatchFormat="1"/>
+  <Harmonics1 PatchFormat="1" Drive="-15.2" H02="23.9" H03="43.7" H04="18.3"
+              H05="12.7" H06="26.8" H07="23.9" H08="15.5" H09="39.4" H10="35.2"
+              H11="29.6" H12="26.8"/>
+  <Reverb2 PatchFormat="1" DryWetRatio="0.9" DecayTime="4.3" HighDecayScale="0.85"/>
+</Quadrifex>

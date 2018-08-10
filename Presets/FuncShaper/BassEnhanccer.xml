@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ModulatorState FunctionString="sign(x) * (1 - pow(1-abs(clip(x,-1,1)),a));"
+                a="2.406" aMin="1" aMax="10" b="0" bMin="0" bMax="1" c="0" cMin="0"
+                cMax="1" d="0" dMin="0" dMax="1" InputFilterUsed="1" InputLowpass="359.860007"
+                InputHighpass="20" Drive="0" DC="0.263000011" Oversampling="4"
+                OutputFilterUsed="0" OutputLowpass="20000" OutputHighpass="20"
+                OutLevel="0" DryWet="50"/>

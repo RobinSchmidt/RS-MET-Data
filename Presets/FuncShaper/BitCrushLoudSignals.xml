@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FuncShaperState InputHighpass="20" InputLowpass="20000" Drive="0" DC="0" OutputHighpass="20"
+                 OutputLowpass="20000" OutLevel="0" DryWet="100" FunctionString="sign(x) * pow(quantToBits(pow(abs(x),1/b), a),b);"
+                 a="6" aMin="0.5" aMax="8" b="4" bMin="1" bMax="8" c="0" cMin="0"
+                 cMax="1" d="0" dMin="0" dMax="1" InputFilterUsed="0" Oversampling="4"
+                 OutputFilterUsed="0"/>

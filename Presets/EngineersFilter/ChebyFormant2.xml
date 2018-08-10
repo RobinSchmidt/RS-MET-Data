@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<EngineersFilter PatchFormat="1" Method="Chebychev" Frequency="893.079397" Ripple="10.036906">
+  <ControllerMapping>
+    <Frequency MidiCC="74" Min="20" Max="20000"/>
+  </ControllerMapping>
+</EngineersFilter>

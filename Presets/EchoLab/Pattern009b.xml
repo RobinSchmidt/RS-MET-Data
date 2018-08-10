@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<EchoLab PatchFormat="1" DryWet="0.25" SyncDelayTimes="1" WetLevel="0"
+         Solo="-1">
+  <DelayLine DelayTime="0.5" Amplitude="0.5" Feedback="56.8" Pan="0.5" PingPong="1"
+             Mute="0">
+    <FeedbackFilter GlobalGain="0">
+      <Band Frequency="2433.38911" Gain="-7.5" Bandwidth="3.38461538" Mode="High Shelving"/>
+      <Band Frequency="135.15037" Gain="-2.4" Bandwidth="1.89996863" Mode="Highpass 12 dB/oct"/>
+    </FeedbackFilter>
+    <InputFilter GlobalGain="0">
+      <Band Frequency="620.002023" Gain="10.4470588" Bandwidth="1" Mode="Peak/Dip"/>
+    </InputFilter>
+  </DelayLine>
+  <DelayLine DelayTime="1.25" Amplitude="0.297619048" Feedback="-26.52" Pan="-0.5"
+             PingPong="1" Mute="0">
+    <FeedbackFilter GlobalGain="0">
+      <Band Frequency="2433.38911" Gain="-7.5" Bandwidth="3.38461538" Mode="High Shelving"/>
+      <Band Frequency="135.15037" Gain="-2.4" Bandwidth="1.89996863" Mode="Highpass 12 dB/oct"/>
+    </FeedbackFilter>
+    <InputFilter GlobalGain="0">
+      <Band Frequency="1457.10359" Gain="11.0117647" Bandwidth="1" Mode="Peak/Dip"/>
+    </InputFilter>
+  </DelayLine>
+  <DelayLine DelayTime="1.75" Amplitude="0.152116402" Feedback="0" Pan="0"
+             PingPong="0" Mute="0">
+    <InputFilter GlobalGain="0">
+      <Band Frequency="2937.51802" Gain="11.5764706" Bandwidth="1" Mode="Peak/Dip"/>
+    </InputFilter>
+  </DelayLine>
+</EchoLab>

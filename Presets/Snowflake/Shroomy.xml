@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Slot1-Snowflake PatchFormat="1" Iterations="4" TurningAngle="24.0336" Amplitude="0.765487"
+                 CyclicReset="0" Axiom="FXF--FF--FF--" Rules="F=FF;&#10;X=--FXF++FXF++FXF--"/>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<EngineersFilter PatchFormat="1" Mode="Peak/Dip" Method="Elliptic" Bandwidth="4"
+                 Gain="-48" Ripple="10" Rejection="120"/>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FilterEnvelope ScaleFactor="1" Offset="0" TimeScale="2.26862504" TimeScaleByKey="-25"
+                TimeScaleByVel="0" Depth="1.7" DepthByKey="0" DepthByVel="0"
+                SyncMode="0" LoopStartIndex="1" LoopEndIndex="2" LoopMode="Forward">
+  <Breakpoint Time="0" Level="0.375" Shape="Analog" ShapeAmount="1"/>
+  <Breakpoint Time="0.4" Level="1" Shape="Analog" ShapeAmount="1"/>
+  <Breakpoint Time="1" Level="1" Shape="Analog" ShapeAmount="1"/>
+  <Breakpoint Time="1.25" Level="2" Shape="Analog" ShapeAmount="1"/>
+  <Breakpoint Time="3" Level="0.125" Shape="Analog" ShapeAmount="1"/>
+</FilterEnvelope>

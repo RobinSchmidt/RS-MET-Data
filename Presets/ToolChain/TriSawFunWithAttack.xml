@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="3">
+  <Slot Type="DebugAudioModule">
+    <Slot1-DebugAudioModule PatchFormat="1">
+      <Equalizer PatchFormat="2"/>
+    </Slot1-DebugAudioModule>
+  </Slot>
+  <Slot Type="None">
+    <Slot2-None PatchFormat="1"/>
+  </Slot>
+  <Slot Type="TriSawModulator">
+    <Slot3-TriSawModulator PatchFormat="1" TimeScale="0.164403" Attack="10.2615" Decay="92.4505"
+                           AttackBending="0.5625" DecayBending="-0.602273" AttackSigmoid="-0.846591"
+                           DecaySigmoid="-0.869318"/>
+  </Slot>
+  <Slot Type="None">
+    <Slot4-None PatchFormat="1"/>
+  </Slot>
+  <Modulations>
+    <Connection Source="Slot3-TriSawModulator" Target="Slot1-DebugAudioModule.Right"
+                Depth="0.50000000000000022204" DepthMin="-1" DepthMax="1" Mode="Absolute"/>
+  </Modulations>
+</ToolChain>

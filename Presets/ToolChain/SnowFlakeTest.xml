@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="1">
+  <MetaParameterValues M1="0.37395831942558288574"/>
+  <Slot Type="Snowflake">
+    <Slot1-Snowflake PatchFormat="1" Iterations="2.69543" TurningAngle="91.333" Amplitude="0.795918"
+                     Rotation="90" CyclicReset="0" Axiom="LFL+F+LFL+F+" Rules="L=-RF+LFL+FR-;&#10;R=+LF-RFR-FL+"/>
+  </Slot>
+  <Slot Type="BreakpointModulator">
+    <Slot2-BreakpointModulator PatchFormat="1" GridX="1" GridY="1" ScaleFactor="1" Offset="0"
+                               TimeScale="1" TimeScaleByKey="0" TimeScaleByVel="0" Depth="1"
+                               DepthByKey="0" DepthByVel="0" SyncMode="0" LoopStartIndex="1"
+                               LoopEndIndex="2" LoopMode="Forward">
+      <Breakpoint Time="0" Level="0" Shape="Analog" ShapeAmount="1"/>
+      <Breakpoint Time="0.010000000000000000208" Level="1" Shape="Analog" ShapeAmount="1"/>
+      <Breakpoint Time="1" Level="1" Shape="Analog" ShapeAmount="1"/>
+      <Breakpoint Time="1.1999999999999999556" Level="0" Shape="Analog" ShapeAmount="1"/>
+    </Slot2-BreakpointModulator>
+  </Slot>
+  <Slot Type="EchoLab">
+    <Slot3-EchoLab PatchFormat="1" DryWet="0" Sync="1">
+      <DelayLine PatchFormat="1" DelayTime="0.5" Feedback="56.8" Pan="-0.6" PingPong="1">
+        <InputFilter PatchFormat="2"/>
+        <FeedbackFilter PatchFormat="2">
+          <Band Mode="High Shelving" Frequency="2433.3891100000000733" Gain="-7.5"
+                Bandwidth="3.3799999999999998934"/>
+          <Band Mode="Highpass 12 dB/oct" Frequency="135.15037000000000944" Gain="-2.3999999999999985789"
+                Bandwidth="1.9000000000000001332"/>
+        </FeedbackFilter>
+      </DelayLine>
+    </Slot3-EchoLab>
+  </Slot>
+  <Slot Type="None">
+    <Slot4-None PatchFormat="1"/>
+  </Slot>
+  <Modulations>
+    <Connection Source="Slot2-BreakpointModulator" Target="Slot1-Snowflake.Amplitude"
+                Depth="1" DepthMin="-1" DepthMax="1" Mode="Multiplicative"/>
+  </Modulations>
+</ToolChain>

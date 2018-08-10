@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Equalizer PatchFormat="2">
+  <Channel>
+    <Band Mode="Peak/Dip" Frequency="404.431008" Gain="15.8350515" Bandwidth="0.426724138"/>
+    <Band Mode="Peak/Dip" Frequency="833.393045" Gain="12.6185567" Bandwidth="0.284482759"/>
+    <Band Mode="Peak/Dip" Frequency="3368.61411" Gain="2.72164948" Bandwidth="1"/>
+    <Band Mode="Peak/Dip" Frequency="1895.28367" Gain="-14.3505155" Bandwidth="0.25"/>
+  </Channel>
+  <Channel/>
+</Equalizer>

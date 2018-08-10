@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FuncShaper PatchFormat="1" InputHighpass="252.970008" InputLowpass="6947.77915"
+            Drive="14.2222222" OutputLowpass="20000" DryWet="100" FunctionString="xc=clip(x,-1,1); (3/2)*xc*(1-xc&#94;2/3 );"
+            a="0.2" aMin="0" aMax="1" b="0.2" bMin="0" bMax="1" c="0" cMin="0"
+            cMax="1" d="0" dMin="0" dMax="1" InputFilterUsed="0" DC="0" Oversampling="4"
+            OutputFilterUsed="0" OutputHighpass="20" OutLevel="0"/>

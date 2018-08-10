@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OscSection PatchFormat="1">
+  <Osc1 PatchFormat="1" AudioFileRelativePath="Samples\SingleCycle\HarmonicsAtDistance\HAD_d03s01.flac"
+        Mute="0" Level="0" LevelByKey="0" LevelByVel="0" Pan="0" MidSideRatio="0.5"
+        StartPhase="0" StartPhaseByKey="0" StartPhaseByVel="0" TimeReverse="0"
+        PolarityInvert="0" FullWavePhaseWarp="0" HalfWavePhaseWarp="0"
+        Tune="0" DetuneHz="0" StereoDetuneSemitones="0" StereoDetuneHz="0"
+        PitchModulationDepth="0" SpectralContrast="1" SpectralSlope="0"
+        HighestHarmonicToKeep="1024" LowestHarmonicToKeep="1" EvenOddRatio="0.5"
+        EvenOddPhaseShift="0" StereoPhaseShift="-90" EvenOddStereoPhaseShift="0"/>
+  <Osc2 PatchFormat="1" AudioFileRelativePath="Samples\SingleCycle\HarmonicsAtDistance\HAD_d03s02.flac"
+        Mute="0" Level="0" LevelByKey="0" LevelByVel="0" Pan="0" MidSideRatio="0.5"
+        StartPhase="0" StartPhaseByKey="0" StartPhaseByVel="0" TimeReverse="0"
+        PolarityInvert="0" FullWavePhaseWarp="0" HalfWavePhaseWarp="0"
+        Tune="0" DetuneHz="0" StereoDetuneSemitones="0" StereoDetuneHz="0"
+        PitchModulationDepth="1" SpectralContrast="1" SpectralSlope="0"
+        HighestHarmonicToKeep="1024" LowestHarmonicToKeep="1" EvenOddRatio="0.5"
+        EvenOddPhaseShift="0" StereoPhaseShift="90" EvenOddStereoPhaseShift="0"/>
+  <Osc3 PatchFormat="1" AudioFileRelativePath="Samples\SingleCycle\HarmonicsAtDistance\HAD_d03s03.flac"
+        Mute="0" Level="-10.05" LevelByKey="0" LevelByVel="0" Pan="0"
+        MidSideRatio="0.5" StartPhase="0" StartPhaseByKey="0" StartPhaseByVel="0"
+        TimeReverse="0" PolarityInvert="0" FullWavePhaseWarp="0" HalfWavePhaseWarp="0"
+        Tune="0" DetuneHz="0" StereoDetuneSemitones="0" StereoDetuneHz="0"
+        PitchModulationDepth="-1" SpectralContrast="1" SpectralSlope="0"
+        HighestHarmonicToKeep="1024" LowestHarmonicToKeep="1" EvenOddRatio="0.5"
+        EvenOddPhaseShift="0" StereoPhaseShift="0" EvenOddStereoPhaseShift="60"/>
+  <Osc4 PatchFormat="1" AudioFileRelativePath="Samples\SingleCycle\Classic\Saw.flac"
+        Mute="1" Level="0" LevelByKey="0" LevelByVel="0" Pan="0" MidSideRatio="0.5"
+        StartPhase="0" StartPhaseByKey="0" StartPhaseByVel="0" TimeReverse="0"
+        PolarityInvert="0" FullWavePhaseWarp="0" HalfWavePhaseWarp="0"
+        Tune="0" DetuneHz="0" StereoDetuneSemitones="0" StereoDetuneHz="0"
+        PitchModulationDepth="0" SpectralContrast="1" SpectralSlope="0"
+        HighestHarmonicToKeep="1024" LowestHarmonicToKeep="1" EvenOddRatio="0.5"
+        EvenOddPhaseShift="0" StereoPhaseShift="0" EvenOddStereoPhaseShift="0"/>
+</OscSection>

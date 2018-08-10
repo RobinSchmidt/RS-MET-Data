@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FuncShaper PatchFormat="1" InputFilterUsed="1" InputLowpass="2423.05532"
+            OutputFilterUsed="1" OutputHighpass="145.25835" DryWet="36.1111111"
+            a="0.573" b="0.26" c="0" d="0" aMax="5" bMax="5" FunctionString="softClip(select(x, -abs(x)&#94;a, x&#94;b));"/>

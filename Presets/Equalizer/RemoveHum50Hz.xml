@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Equalizer PatchFormat="1">
+  <Band Frequency="50" Gain="-3.01" Bandwidth="0.25" Mode="Notch 2*6 dB/oct"/>
+</Equalizer>

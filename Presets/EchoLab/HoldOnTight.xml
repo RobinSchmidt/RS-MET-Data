@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<EchoLab PatchFormat="1" SyncDelayTimes="1" DryWet="0.5" WetLevel="0"
+         Solo="-1">
+  <DelayLine DelayTime="0.25" Amplitude="0.575" Feedback="0" Pan="0" PingPong="0"
+             Mute="0"/>
+  <DelayLine DelayTime="0.5" Amplitude="0.525" Feedback="0" Pan="0" PingPong="0"
+             Mute="0"/>
+  <DelayLine DelayTime="1" Amplitude="0.5375" Feedback="0" Pan="0" PingPong="0"
+             Mute="0"/>
+  <DelayLine DelayTime="1.5" Amplitude="0.55" Feedback="0" Pan="0" PingPong="0"
+             Mute="0"/>
+  <DelayLine DelayTime="1.75" Amplitude="0.575" Feedback="0" Pan="0" PingPong="0"
+             Mute="0"/>
+  <DelayLine DelayTime="2" Amplitude="0.575" Feedback="0" Pan="0" PingPong="0"
+             Mute="0"/>
+  <DelayLine DelayTime="2.24479167" Amplitude="0.5875" Feedback="0" Pan="0"
+             PingPong="0" Mute="0"/>
+  <DelayLine DelayTime="2.49142157" Amplitude="0.575" Feedback="0" Pan="0"
+             PingPong="0" Mute="0"/>
+  <DelayLine DelayTime="3" Amplitude="0.5875" Feedback="0" Pan="0" PingPong="0"
+             Mute="0"/>
+</EchoLab>

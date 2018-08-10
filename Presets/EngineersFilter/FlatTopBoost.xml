@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<EngineersFilter PatchFormat="1" Mode="Peak/Dip" Frequency="541.833455" Bandwidth="1.2"
+                 Gain="16.48" Ripple="10" Rejection="120"/>

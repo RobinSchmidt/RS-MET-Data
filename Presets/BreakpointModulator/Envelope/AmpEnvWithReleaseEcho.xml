@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AmpEnvelope ScaleFactor="1" Offset="0" TimeScale="1" TimeScaleByKey="0" TimeScaleByVel="0"
+             Depth="1.68" DepthByKey="0" DepthByVel="0" SyncMode="1" LoopStartIndex="1"
+             LoopEndIndex="2" LoopMode="Forward">
+  <Breakpoint Time="0" Level="1" Shape="Analog" ShapeAmount="1"/>
+  <Breakpoint Time="0.9375" Level="0.8125" Shape="Analog" ShapeAmount="1"/>
+  <Breakpoint Time="1" Level="0.8125" Shape="Analog" ShapeAmount="1"/>
+  <Breakpoint Time="1.0625" Level="1" Shape="Analog" ShapeAmount="1"/>
+  <Breakpoint Time="1.3125" Level="0.5" Shape="Analog" ShapeAmount="1"/>
+  <Breakpoint Time="4" Level="0" Shape="Analog" ShapeAmount="1"/>
+</AmpEnvelope>

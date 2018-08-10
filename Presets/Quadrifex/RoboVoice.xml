@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Quadrifex PatchFormat="1" DryWet="0.25" Routing="1&gt;2&gt;3&gt;4" Slot1="CombResonator"
+           Slot2="CombStereoizer" Slot3="Bypass" Slot4="Bypass">
+  <AudioModule PatchFormat="1"/>
+  <AudioModule PatchFormat="1"/>
+  <CombResonator1 PatchFormat="1" DryWetRatio="1" Frequency="110" Detune="0.253521127"
+                  Pan1="-0.345103433" Pan2="0.352112676" DecayTime="1.3" HighDecayScale="1"
+                  LowDecayScale="0.3" HighCrossoverFrequency="3306.28171" LowCrossoverFrequency="227.702618"/>
+  <CombStereoizer2 PatchFormat="1" DryWetRatio="0.35" ChannelSwitch="0"/>
+</Quadrifex>

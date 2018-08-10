@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StraightlinerOscSectionState>
+  <Osc1 AudioFileRelativePath="Samples\SingleCycle\CombSpectrum\CS_p1n58w1.flac"
+        Mute="0" Level="-2.67" Pan="0" MidSideRatio="0" StartPhase="0" Tune="0"
+        DetuneHz="0" StereoDetuneSemitones="0" StereoDetuneHz="0" SpectralSlope="0"
+        HighestHarmonicToKeep="1024" LowestHarmonicToKeep="1" EvenOddRatio="0.5"
+        StereoPhaseShift="0"/>
+  <Osc2 AudioFileRelativePath="Samples\SingleCycle\CombSpectrum\CS_p3n58w1.flac"
+        Mute="0" Level="-5.33" Pan="0" MidSideRatio="0.5" StartPhase="0" Tune="0.1"
+        DetuneHz="0" StereoDetuneSemitones="0" StereoDetuneHz="0" SpectralSlope="0"
+        HighestHarmonicToKeep="1024" LowestHarmonicToKeep="1" EvenOddRatio="0.5"
+        StereoPhaseShift="90"/>
+  <Osc3 AudioFileRelativePath="Samples\SingleCycle\Classic\Saw.flac"
+        Mute="1" Level="0" Pan="0" MidSideRatio="0.5" StartPhase="0" Tune="0"
+        DetuneHz="0" StereoDetuneSemitones="0" StereoDetuneHz="0" SpectralSlope="0"
+        HighestHarmonicToKeep="1024" LowestHarmonicToKeep="1" EvenOddRatio="0.5"
+        StereoPhaseShift="0"/>
+  <Osc4 AudioFileRelativePath="Samples\SingleCycle\CombSpectrum\CS_p3n58w1.flac"
+        Mute="0" Level="-5.33" Pan="0" MidSideRatio="0.5" StartPhase="0" Tune="-0.1"
+        DetuneHz="0" StereoDetuneSemitones="0" StereoDetuneHz="0" SpectralSlope="0"
+        HighestHarmonicToKeep="1024" LowestHarmonicToKeep="1" EvenOddRatio="0.5"
+        StereoPhaseShift="-90"/>
+</StraightlinerOscSectionState>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Quadrifex PatchFormat="1" DryWet="0.25" Routing="1&gt;2&gt;3&gt;4" Slot1="PingPongEcho"
+           Slot2="TwoPoleFilter" Slot3="Bypass" Slot4="Bypass">
+  <BitCrusher1 PatchFormat="1"/>
+  <CombStereoizer1 PatchFormat="1" ChannelSwitch="0"/>
+  <DualTwoPoleFilter1 PatchFormat="1"/>
+  <MidSideMixer1 PatchFormat="1"/>
+  <PingPongEcho1 PatchFormat="1" DryWet="1" Feedback="45.71" Pan="-0.4"/>
+  <TwoPoleFilter1 PatchFormat="1"/>
+  <BitCrusher2 PatchFormat="1"/>
+  <CombStereoizer2 PatchFormat="1" ChannelSwitch="0"/>
+  <DualTwoPoleFilter2 PatchFormat="1"/>
+  <MidSideMixer2 PatchFormat="1"/>
+  <PingPongEcho2 PatchFormat="1"/>
+  <TwoPoleFilter2 PatchFormat="1" Mode="Peak/Dip" Frequency="552.045504" Gain="14.67"
+                  Bandwidth="1.18">
+    <ControllerMapping>
+      <Frequency MidiCC="74" Min="20" Max="20000"/>
+    </ControllerMapping>
+  </TwoPoleFilter2>
+  <BitCrusher3 PatchFormat="1"/>
+  <CombStereoizer3 PatchFormat="1" ChannelSwitch="0"/>
+  <DualTwoPoleFilter3 PatchFormat="1"/>
+  <MidSideMixer3 PatchFormat="1"/>
+  <PingPongEcho3 PatchFormat="1"/>
+  <TwoPoleFilter3 PatchFormat="1"/>
+  <BitCrusher4 PatchFormat="1"/>
+  <CombStereoizer4 PatchFormat="1" ChannelSwitch="0"/>
+  <DualTwoPoleFilter4 PatchFormat="1"/>
+  <MidSideMixer4 PatchFormat="1"/>
+  <PingPongEcho4 PatchFormat="1"/>
+  <TwoPoleFilter4 PatchFormat="1"/>
+</Quadrifex>

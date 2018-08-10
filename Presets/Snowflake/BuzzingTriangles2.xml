@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Slot1-Snowflake PatchFormat="1" Iterations="2" TurningAngle="120" Amplitude="0.703667"
+                 Phase="5.07042" ResetRatio1="2" ResetOffset1="0.225352" ResetRatio2="1"
+                 ResetOffset2="-0.169014" UseTable="1" Axiom="F+F+F+F" Rules="F=F+f-FF+F+FF+Ff+FF-f+FF-F-FF-Ff-FFF"/>

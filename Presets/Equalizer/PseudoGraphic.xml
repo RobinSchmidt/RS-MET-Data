@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Equalizer PatchFormat="2" GlobalGain="-3.4">
+  <Channel>
+    <Band Mode="Peak/Dip" Frequency="250" Gain="-3.3" Bandwidth="2"/>
+    <Band Mode="Peak/Dip" Frequency="500" Gain="-1.2" Bandwidth="2"/>
+    <Band Mode="Peak/Dip" Frequency="125" Gain="-3.5" Bandwidth="2"/>
+    <Band Mode="Peak/Dip" Frequency="1000" Gain="0.5" Bandwidth="2"/>
+    <Band Mode="Peak/Dip" Frequency="2000" Gain="2.1" Bandwidth="2"/>
+    <Band Mode="Peak/Dip" Frequency="4000" Gain="3.3" Bandwidth="2"/>
+    <Band Mode="Peak/Dip" Frequency="8000" Gain="4.6" Bandwidth="2"/>
+    <Band Mode="Peak/Dip" Frequency="16000" Gain="6.8" Bandwidth="2"/>
+    <Band Mode="Peak/Dip" Frequency="62.5" Gain="9.2" Bandwidth="2"/>
+    <Band Mode="Peak/Dip" Frequency="31.25" Gain="3.6" Bandwidth="2"/>
+  </Channel>
+  <Channel/>
+</Equalizer>

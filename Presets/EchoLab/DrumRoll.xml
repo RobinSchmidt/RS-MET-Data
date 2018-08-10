@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<EchoLab PatchFormat="1" SyncDelayTimes="1" DryWet="0.5" WetLevel="0"
+         Solo="-1">
+  <DelayLine DelayTime="0.125" Amplitude="0.6375" Feedback="42.4" Pan="0.6"
+             PingPong="1" Mute="0">
+    <FeedbackFilter GlobalGain="0">
+      <Band Frequency="1048.96426" Gain="-13.2705882" Bandwidth="1.95977011"
+            Mode="Peak/Dip"/>
+      <Band Frequency="162.91416" Gain="5.92941176" Bandwidth="1.89996863"
+            Mode="Peak/Dip"/>
+    </FeedbackFilter>
+  </DelayLine>
+</EchoLab>

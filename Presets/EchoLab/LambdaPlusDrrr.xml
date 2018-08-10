@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<EchoLab PatchFormat="1" SyncDelayTimes="1" DryWet="0.5" WetLevel="0"
+         Solo="-1">
+  <DelayLine DelayTime="0.25" Amplitude="0.4875" Feedback="0" Pan="0" PingPong="0"
+             Mute="0"/>
+  <DelayLine DelayTime="0.5" Amplitude="0.5875" Feedback="35.4" Pan="0.49"
+             PingPong="1" Mute="0">
+    <FeedbackFilter GlobalGain="0">
+      <Band Frequency="1145.04341" Gain="-9.03529412" Bandwidth="1.89996863"
+            Mode="Peak/Dip"/>
+      <Band Frequency="211.905693" Gain="3.95294118" Bandwidth="1.89996863"
+            Mode="Peak/Dip"/>
+    </FeedbackFilter>
+    <InputFilter GlobalGain="0">
+      <Band Frequency="2519.8421" Gain="6.21176471" Bandwidth="1.89996863"
+            Mode="Peak/Dip"/>
+    </InputFilter>
+  </DelayLine>
+  <DelayLine DelayTime="1" Amplitude="0.75" Feedback="0" Pan="0" PingPong="1"
+             Mute="0">
+    <InputFilter GlobalGain="0">
+      <Band Frequency="531.845997" Gain="6.77647059" Bandwidth="1.89996863"
+            Mode="Peak/Dip"/>
+    </InputFilter>
+  </DelayLine>
+  <DelayLine DelayTime="1.5" Amplitude="0.55" Feedback="0" Pan="0" PingPong="0"
+             Mute="0"/>
+  <DelayLine DelayTime="1.75" Amplitude="0.45" Feedback="0" Pan="0" PingPong="0"
+             Mute="0"/>
+  <DelayLine DelayTime="2" Amplitude="0.4875" Feedback="0" Pan="0" PingPong="0"
+             Mute="0">
+    <InputFilter GlobalGain="0">
+      <Band Frequency="1026.23158" Gain="8.18823529" Bandwidth="3.09770115"
+            Mode="Peak/Dip"/>
+    </InputFilter>
+  </DelayLine>
+  <DelayLine DelayTime="2.25" Amplitude="0.4375" Feedback="0" Pan="0" PingPong="0"
+             Mute="0"/>
+  <DelayLine DelayTime="2.5" Amplitude="0.2875" Feedback="0" Pan="0" PingPong="0"
+             Mute="0"/>
+  <DelayLine DelayTime="3" Amplitude="0.5625" Feedback="0" Pan="0" PingPong="0"
+             Mute="0">
+    <InputFilter GlobalGain="0">
+      <Band Frequency="738.780858" Gain="4.8" Bandwidth="2.97126437" Mode="Peak/Dip"/>
+    </InputFilter>
+  </DelayLine>
+  <DelayLine DelayTime="0.125" Amplitude="0.45" Feedback="84.9" Pan="0.75"
+             PingPong="1" Mute="0">
+    <FeedbackFilter GlobalGain="0">
+      <Band Frequency="2433.38911" Gain="-7.5" Bandwidth="3.38461538" Mode="High Shelving"/>
+      <Band Frequency="135.15037" Gain="-2.4" Bandwidth="1.89996863" Mode="Highpass 12 dB/oct"/>
+    </FeedbackFilter>
+    <InputFilter GlobalGain="0">
+      <Band Frequency="824.313123" Gain="7.62352941" Bandwidth="1.89996863"
+            Mode="Peak/Dip"/>
+    </InputFilter>
+  </DelayLine>
+</EchoLab>

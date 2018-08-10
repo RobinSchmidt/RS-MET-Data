@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PitchShifterState DetuneCoarse="7" DetuneFine="2" GrainLength="5.27" CyclesPerGrain="4"
+                   Feedback="0" DryWet="50" AntiAlias="1" GrainLengthAdaption="1"/>

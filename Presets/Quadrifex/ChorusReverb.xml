@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Quadrifex PatchFormat="1" DryWet="0.8" Routing="1&gt;2&gt;3&gt;4" Slot1="Chorus"
+           Slot2="Reverb" Slot3="Bypass" Slot4="Bypass">
+  <BitCrusher1 PatchFormat="1"/>
+  <Chorus1 PatchFormat="1" DryWetRatio="0.35" DelayScaleVoice2="66" DepthScaleVoice2="60"
+           AmpScaleVoice2="85"/>
+  <CombResonator1 PatchFormat="1"/>
+  <CombStereoizer1 PatchFormat="1" ChannelSwitch="0"/>
+  <Compressor1 PatchFormat="1"/>
+  <CompShaper1 PatchFormat="1"/>
+  <DualTwoPoleFilter1 PatchFormat="1"/>
+  <Flanger1 PatchFormat="1">
+    <ControllerMapping>
+      <CycleLength MidiCC="-1" Min="0.25" Max="1"/>
+    </ControllerMapping>
+  </Flanger1>
+  <FrequencyShifter1 PatchFormat="1"/>
+  <Phaser1 PatchFormat="1">
+    <ControllerMapping>
+      <CycleLength MidiCC="-1" Min="0.25" Max="1"/>
+    </ControllerMapping>
+  </Phaser1>
+  <PingPongEcho1 PatchFormat="1"/>
+  <Reverb1 PatchFormat="1"/>
+  <SineOscillator1 PatchFormat="1"/>
+  <StereoWidth1 PatchFormat="1"/>
+  <Tremolo1 PatchFormat="1"/>
+  <TwoPoleFilter1 PatchFormat="1"/>
+  <Vibrato1 PatchFormat="1"/>
+  <WahWah1 PatchFormat="1">
+    <ControllerMapping>
+      <CycleLength MidiCC="-1" Min="0.25" Max="1"/>
+    </ControllerMapping>
+  </WahWah1>
+  <WaveShaper1 PatchFormat="1"/>
+  <BitCrusher2 PatchFormat="1"/>
+  <Chorus2 PatchFormat="1"/>
+  <CombResonator2 PatchFormat="1"/>
+  <CombStereoizer2 PatchFormat="1" ChannelSwitch="0"/>
+  <Compressor2 PatchFormat="1"/>
+  <CompShaper2 PatchFormat="1"/>
+  <DualTwoPoleFilter2 PatchFormat="1"/>
+  <Flanger2 PatchFormat="1">
+    <ControllerMapping>
+      <CycleLength MidiCC="-1" Min="0.25" Max="1"/>
+    </ControllerMapping>
+  </Flanger2>
+  <FrequencyShifter2 PatchFormat="1"/>
+  <Phaser2 PatchFormat="1">
+    <ControllerMapping>
+      <CycleLength MidiCC="-1" Min="0.25" Max="1"/>
+    </ControllerMapping>
+  </Phaser2>
+  <PingPongEcho2 PatchFormat="1"/>
+  <Reverb2 PatchFormat="1" DryWetRatio="0.2" DecayTime="2"/>
+  <SineOscillator2 PatchFormat="1"/>
+  <StereoWidth2 PatchFormat="1"/>
+  <Tremolo2 PatchFormat="1"/>
+  <TwoPoleFilter2 PatchFormat="1"/>
+  <Vibrato2 PatchFormat="1"/>
+  <WahWah2 PatchFormat="1">
+    <ControllerMapping>
+      <CycleLength MidiCC="-1" Min="0.25" Max="1"/>
+    </ControllerMapping>
+  </WahWah2>
+  <WaveShaper2 PatchFormat="1"/>
+  <BitCrusher3 PatchFormat="1"/>
+  <Chorus3 PatchFormat="1"/>
+  <CombResonator3 PatchFormat="1"/>
+  <CombStereoizer3 PatchFormat="1" ChannelSwitch="0"/>
+  <Compressor3 PatchFormat="1"/>
+  <CompShaper3 PatchFormat="1"/>
+  <DualTwoPoleFilter3 PatchFormat="1"/>
+  <Flanger3 PatchFormat="1">
+    <ControllerMapping>
+      <CycleLength MidiCC="-1" Min="0.25" Max="1"/>
+    </ControllerMapping>
+  </Flanger3>
+  <FrequencyShifter3 PatchFormat="1"/>
+  <Phaser3 PatchFormat="1">
+    <ControllerMapping>
+      <CycleLength MidiCC="-1" Min="0.25" Max="1"/>
+    </ControllerMapping>
+  </Phaser3>
+  <PingPongEcho3 PatchFormat="1"/>
+  <Reverb3 PatchFormat="1"/>
+  <SineOscillator3 PatchFormat="1"/>
+  <StereoWidth3 PatchFormat="1"/>
+  <Tremolo3 PatchFormat="1"/>
+  <TwoPoleFilter3 PatchFormat="1"/>
+  <Vibrato3 PatchFormat="1"/>
+  <WahWah3 PatchFormat="1">
+    <ControllerMapping>
+      <CycleLength MidiCC="-1" Min="0.25" Max="1"/>
+    </ControllerMapping>
+  </WahWah3>
+  <WaveShaper3 PatchFormat="1"/>
+  <BitCrusher4 PatchFormat="1"/>
+  <Chorus4 PatchFormat="1"/>
+  <CombResonator4 PatchFormat="1"/>
+  <CombStereoizer4 PatchFormat="1" ChannelSwitch="0"/>
+  <Compressor4 PatchFormat="1"/>
+  <CompShaper4 PatchFormat="1"/>
+  <DualTwoPoleFilter4 PatchFormat="1"/>
+  <Flanger4 PatchFormat="1">
+    <ControllerMapping>
+      <CycleLength MidiCC="-1" Min="0.25" Max="1"/>
+    </ControllerMapping>
+  </Flanger4>
+  <FrequencyShifter4 PatchFormat="1"/>
+  <Phaser4 PatchFormat="1">
+    <ControllerMapping>
+      <CycleLength MidiCC="-1" Min="0.25" Max="1"/>
+    </ControllerMapping>
+  </Phaser4>
+  <PingPongEcho4 PatchFormat="1"/>
+  <Reverb4 PatchFormat="1"/>
+  <SineOscillator4 PatchFormat="1"/>
+  <StereoWidth4 PatchFormat="1"/>
+  <Tremolo4 PatchFormat="1"/>
+  <TwoPoleFilter4 PatchFormat="1"/>
+  <Vibrato4 PatchFormat="1"/>
+  <WahWah4 PatchFormat="1">
+    <ControllerMapping>
+      <CycleLength MidiCC="-1" Min="0.25" Max="1"/>
+    </ControllerMapping>
+  </WahWah4>
+  <WaveShaper4 PatchFormat="1"/>
+</Quadrifex>

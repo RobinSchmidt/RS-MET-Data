@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FourOscSectionState>
+  <Osc1 AudioFileRelativePath="Samples\SingleCycle\Classic\SawRC_k04.flac"
+        Mute="0" Level="-4.89" LevelByKey="0" LevelByVel="0" Pan="0"
+        MidSideRatio="0.5" StartPhase="73" StartPhaseByKey="0" StartPhaseByVel="0"
+        TimeReverse="0" PolarityInvert="0" FullWavePhaseWarp="0" HalfWavePhaseWarp="0"
+        Tune="0" DetuneHz="0" StereoDetuneSemitones="-0.33" StereoDetuneHz="0"
+        SpectralContrast="1" SpectralSlope="0" HighestHarmonicToKeep="1024"
+        LowestHarmonicToKeep="1" EvenOddRatio="0.25" EvenOddPhaseShift="-90"
+        StereoPhaseShift="90" EvenOddStereoPhaseShift="0"/>
+  <Osc2 AudioFileRelativePath="Samples\SingleCycle\Classic\SawRC_k04.flac"
+        Mute="0" Level="-6.02" LevelByKey="0" LevelByVel="0" Pan="0"
+        MidSideRatio="0.5" StartPhase="167" StartPhaseByKey="0" StartPhaseByVel="0"
+        TimeReverse="0" PolarityInvert="0" FullWavePhaseWarp="0" HalfWavePhaseWarp="0"
+        Tune="0" DetuneHz="0.5" StereoDetuneSemitones="0.25" StereoDetuneHz="0"
+        SpectralContrast="1" SpectralSlope="0" HighestHarmonicToKeep="1024"
+        LowestHarmonicToKeep="1" EvenOddRatio="0.25" EvenOddPhaseShift="-90"
+        StereoPhaseShift="90" EvenOddStereoPhaseShift="0"/>
+  <Osc3 AudioFileRelativePath="Samples\SingleCycle\Classic\SawRC_k04.flac"
+        Mute="0" Level="-0.44" LevelByKey="0" LevelByVel="0" Pan="0"
+        MidSideRatio="0.5" StartPhase="98" StartPhaseByKey="0" StartPhaseByVel="0"
+        TimeReverse="0" PolarityInvert="0" FullWavePhaseWarp="0" HalfWavePhaseWarp="0"
+        Tune="-12.3" DetuneHz="0" StereoDetuneSemitones="-0.19" StereoDetuneHz="-0.11"
+        SpectralContrast="1" SpectralSlope="0" HighestHarmonicToKeep="1024"
+        LowestHarmonicToKeep="1" EvenOddRatio="0.25" EvenOddPhaseShift="-90"
+        StereoPhaseShift="90" EvenOddStereoPhaseShift="0"/>
+  <Osc4 AudioFileRelativePath="Samples\SingleCycle\Classic\SawRC_k04.flac"
+        Mute="0" Level="-3.56" LevelByKey="0" LevelByVel="0" Pan="0"
+        MidSideRatio="0.5" StartPhase="272" StartPhaseByKey="0" StartPhaseByVel="0"
+        TimeReverse="0" PolarityInvert="0" FullWavePhaseWarp="0" HalfWavePhaseWarp="0"
+        Tune="0.3" DetuneHz="0.22" StereoDetuneSemitones="0.17" StereoDetuneHz="0"
+        SpectralContrast="1" SpectralSlope="0" HighestHarmonicToKeep="1024"
+        LowestHarmonicToKeep="1" EvenOddRatio="0.25" EvenOddPhaseShift="100"
+        StereoPhaseShift="90" EvenOddStereoPhaseShift="0"/>
+</FourOscSectionState>

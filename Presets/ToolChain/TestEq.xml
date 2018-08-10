@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="1">
+  <Slot Type="Equalizer">
+    <Slot1-Equalizer PatchFormat="2">
+      <Band Mode="Peak/Dip" Frequency="1414.2135623730951011" Gain="8.1000000000000014211"
+            Bandwidth="1.9000000000000001332"/>
+    </Slot1-Equalizer>
+  </Slot>
+  <Slot Type="BreakpointModulator">
+    <Slot2-BreakpointModulator PatchFormat="1" GridX="1" GridY="1" ScaleFactor="1" Offset="0"
+                               TimeScale="1" TimeScaleByKey="0" TimeScaleByVel="0" Depth="1"
+                               DepthByKey="0" DepthByVel="0" SyncMode="0" LoopStartIndex="2"
+                               LoopEndIndex="3" LoopMode="Forward">
+      <Breakpoint Time="0" Level="0" Shape="Analog" ShapeAmount="1"/>
+      <Breakpoint Time="0.5" Level="1" Shape="Analog" ShapeAmount="1"/>
+      <Breakpoint Time="1" Level="0.5" Shape="Analog" ShapeAmount="1"/>
+      <Breakpoint Time="2" Level="0.5" Shape="Analog" ShapeAmount="1"/>
+      <Breakpoint Time="3" Level="0" Shape="Analog" ShapeAmount="1"/>
+    </Slot2-BreakpointModulator>
+  </Slot>
+  <Slot Type="None">
+    <Slot3-None PatchFormat="1"/>
+  </Slot>
+</ToolChain>

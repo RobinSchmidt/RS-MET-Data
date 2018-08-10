@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StraightlinerOscSectionState>
+  <Osc1 AudioFileRelativePath="Samples\SingleCycle\OctavesOfPrimeMultiples\TriOPM_h11.flac"
+        Level="-6" Pan="-0.25" Tune="-0.1" DetuneHz="-0.1" MidSideRatio="0.5"
+        StereoPhaseShift="45" EvenOddRatio="0.5" HighestHarmonicToKeep="1024"
+        LowestHarmonicToKeep="1" SpectralSlope="0" Mute="0"/>
+  <Osc2 AudioFileRelativePath="Samples\SingleCycle\OctavesOfPrimeMultiples\TriOPM_h11.flac"
+        Level="-6" Pan="0.25" Tune="0.1" DetuneHz="0.1" MidSideRatio="0.5"
+        StereoPhaseShift="-45" EvenOddRatio="0.5" HighestHarmonicToKeep="1024"
+        LowestHarmonicToKeep="1" SpectralSlope="0" Mute="0"/>
+  <Osc3 AudioFileRelativePath="Samples\SingleCycle\Classic\Saw.flac"
+        Level="0" Pan="0" Tune="0" DetuneHz="0" MidSideRatio="0.5" StereoPhaseShift="0"
+        EvenOddRatio="0.5" HighestHarmonicToKeep="1024" LowestHarmonicToKeep="1"
+        SpectralSlope="0" Mute="1"/>
+  <Osc4 AudioFileRelativePath="Samples\SingleCycle\Classic\Saw.flac"
+        Level="0" Pan="0" Tune="0" DetuneHz="0" MidSideRatio="0.5" StereoPhaseShift="0"
+        EvenOddRatio="0.5" HighestHarmonicToKeep="1024" LowestHarmonicToKeep="1"
+        SpectralSlope="0" Mute="1"/>
+</StraightlinerOscSectionState>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OscSection PatchFormat="1">
+  <Osc1 PatchFormat="1" Level="-4.89" StereoDetune="-0.33" StartPhase="73"
+        SpectralContrast="1.16" SpectralSlope="-1" StereoPhaseShift="90"
+        AudioFileRelativePath="Samples\SingleCycle\Randomish\RandomishSeed005.flac"
+        Mute="0" LevelByKey="0" LevelByVel="0" Pan="0" MidSideRatio="0.5"
+        StartPhaseByKey="0" StartPhaseByVel="0" TimeReverse="0" PolarityInvert="0"
+        FullWavePhaseWarp="0" HalfWavePhaseWarp="0" CombHarmonic="1"
+        CombAmount="0" Tune="0" DetuneHz="0" StereoDetuneSemitones="-0.33"
+        StereoDetuneHz="0" PitchModulationDepth="0" HighestHarmonicToKeep="1024"
+        LowestHarmonicToKeep="1" PhaseScale="1" PhaseShift="0" EvenOddRatio="0.5"
+        EvenOddPhaseShift="0" EvenOddStereoPhaseShift="0"/>
+  <Osc2 PatchFormat="1" Level="-6.02" DetuneHz="0.5" StereoDetune="0.25"
+        StartPhase="167" SpectralContrast="1.17" SpectralSlope="-0.87"
+        StereoPhaseShift="90" AudioFileRelativePath="Samples\SingleCycle\Randomish\RandomishSeed011.flac"
+        Mute="0" LevelByKey="0" LevelByVel="0" Pan="0" MidSideRatio="0.5"
+        StartPhaseByKey="0" StartPhaseByVel="0" TimeReverse="0" PolarityInvert="0"
+        FullWavePhaseWarp="0" HalfWavePhaseWarp="0" CombHarmonic="1"
+        CombAmount="0" Tune="0" StereoDetuneSemitones="0.25" StereoDetuneHz="0"
+        PitchModulationDepth="0" HighestHarmonicToKeep="1024" LowestHarmonicToKeep="1"
+        PhaseScale="1" PhaseShift="0" EvenOddRatio="0.5" EvenOddPhaseShift="0"
+        EvenOddStereoPhaseShift="0"/>
+  <Osc3 PatchFormat="1" Level="-0.44" StereoDetune="-0.19" StereoDetuneHz="-0.11"
+        StartPhase="98" SpectralContrast="1.24" StereoPhaseShift="90"
+        AudioFileRelativePath="Samples\SingleCycle\Randomish\RandomishSeed015.flac"
+        Mute="0" LevelByKey="0" LevelByVel="0" Pan="0" MidSideRatio="0.5"
+        StartPhaseByKey="0" StartPhaseByVel="0" TimeReverse="0" PolarityInvert="0"
+        FullWavePhaseWarp="0" HalfWavePhaseWarp="0" CombHarmonic="1"
+        CombAmount="0" Tune="0" DetuneHz="0" StereoDetuneSemitones="-0.19"
+        PitchModulationDepth="0" SpectralSlope="0" HighestHarmonicToKeep="1024"
+        LowestHarmonicToKeep="1" PhaseScale="1" PhaseShift="0" EvenOddRatio="0.5"
+        EvenOddPhaseShift="0" EvenOddStereoPhaseShift="0"/>
+  <Osc4 PatchFormat="1" Level="-6.22" Tune="-12" DetuneHz="0.22" StereoDetune="0.17"
+        StartPhase="272" SpectralContrast="0.99" SpectralSlope="-0.31"
+        StereoPhaseShift="90" AudioFileRelativePath="Samples\SingleCycle\Randomish\RandomishSeed015.flac"
+        Mute="0" LevelByKey="0" LevelByVel="0" Pan="0" MidSideRatio="0.5"
+        StartPhaseByKey="0" StartPhaseByVel="0" TimeReverse="0" PolarityInvert="0"
+        FullWavePhaseWarp="0" HalfWavePhaseWarp="0" CombHarmonic="1"
+        CombAmount="0" StereoDetuneSemitones="0.17" StereoDetuneHz="0"
+        PitchModulationDepth="0" HighestHarmonicToKeep="1024" LowestHarmonicToKeep="1"
+        PhaseScale="1" PhaseShift="0" EvenOddRatio="0.5" EvenOddPhaseShift="0"
+        EvenOddStereoPhaseShift="0"/>
+</OscSection>

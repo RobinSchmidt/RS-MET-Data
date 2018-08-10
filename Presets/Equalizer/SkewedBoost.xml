@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Equalizer PatchFormat="1">
+  <Band Frequency="810.244132" Gain="-12.8659794" Bandwidth="1.22767857"/>
+  <Band Frequency="960.571084" Gain="21.2783505" Bandwidth="1"/>
+</Equalizer>

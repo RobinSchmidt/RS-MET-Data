@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Quadrifex PatchFormat="1" DryWet="1" Routing="1&gt;2&gt;3&gt;4" Slot1="Tremolo"
+           Slot2="Vibrato" Slot3="Bypass" Slot4="Bypass">
+  <Tremolo1 PatchFormat="1" CycleLength="0.5" StereoPhase="90" Depth="10"/>
+  <Vibrato2 PatchFormat="1" CycleLength="0.5" StereoPhase="90" Depth="0.2"/>
+  <AudioModule PatchFormat="1"/>
+  <AudioModule PatchFormat="1"/>
+</Quadrifex>

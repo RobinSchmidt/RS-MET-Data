@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BreakpointModulatorState ScaleFactor="1" Offset="0" TimeScale="1.51330328" TimeScaleByKey="0"
+                          TimeScaleByVel="0" Depth="2.21" DepthByKey="0" DepthByVel="0"
+                          SyncMode="1" LoopStartIndex="0" LoopEndIndex="4" LoopMode="Forward">
+  <Breakpoint Time="0" Level="1.25" Shape="Analog" ShapeAmount="1"/>
+  <Breakpoint Time="0.0625" Level="0.375" Shape="Analog" ShapeAmount="1"/>
+  <Breakpoint Time="0.125" Level="1.25" Shape="Analog" ShapeAmount="1"/>
+  <Breakpoint Time="0.375" Level="0.75" Shape="Analog" ShapeAmount="1"/>
+  <Breakpoint Time="0.5" Level="1.25" Shape="Analog" ShapeAmount="1"/>
+  <Breakpoint Time="1.140625" Level="0.5" Shape="Analog" ShapeAmount="1"/>
+</BreakpointModulatorState>

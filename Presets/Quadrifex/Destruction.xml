@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Quadrifex PatchFormat="1" Routing="1&gt;2&gt;3&gt;4" Slot1="CombStereoizer" Slot2="MidSideMixer"
+           Slot3="LoFi" Slot4="Bypass">
+  <LoFi1 PatchFormat="1" Decimation="29" Quantization="0.0006"/>
+  <MidSideMixer1 PatchFormat="1" GlobalGain="-0.4"/>
+  <CombStereoizer1 PatchFormat="1" DryWet="31.0344828" DelayInMilliseconds="10.1600665"
+                   WetLowpass="5268.8963" WetHighpass="187.691147" ChannelSwitch="0"/>
+  <LoFi2 PatchFormat="1"/>
+  <MidSideMixer2 PatchFormat="1" SideGain="3.62"/>
+  <CombStereoizer2 PatchFormat="1" ChannelSwitch="0"/>
+  <LoFi3 PatchFormat="1" Decimation="29" Quantization="0.0049"/>
+  <MidSideMixer3 PatchFormat="1"/>
+  <CombStereoizer3 PatchFormat="1" ChannelSwitch="0"/>
+  <LoFi4 PatchFormat="1"/>
+  <MidSideMixer4 PatchFormat="1"/>
+  <CombStereoizer4 PatchFormat="1" ChannelSwitch="0"/>
+</Quadrifex>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StereoDelayState DelayScaleL="0.98" DelayScaleR="1.02" DiffusorTimeL="10" DiffusorTimeR="13.67"
+                  DiffusorAmountL="0" DiffusorAmountR="0" LowpassCutoffL="7535.585"
+                  LowpassCutoffR="8433.93" HighpassCutoffL="100.489" HighpassCutoffR="104.333"
+                  CutoffScale="1" FeedbackLeftToLeft="57.6" FeedbackRightToRight="53.3" FeedbackLeftToRight="52.2"
+                  FeedbackRightToLeft="-13" DryWet="50" DelayInBeatsL="0.5" DelayInBeatsR="0.5">
+  <ControllerMapping>
+    <CutoffScale MidiCC="74" Min="0.0625" Max="16"/>
+  </ControllerMapping>
+</StereoDelayState>

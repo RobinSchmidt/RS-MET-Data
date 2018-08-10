@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Straightliner PatchFormat="1" MasterLevel="-18.8" VoiceLevelByKey="-13" NumVoices="8"
+               VoiceLevelByVel="0" MasterLevelByVoices="0" MidSideRatio="0.5"
+               MasterTuneA4="440" PitchWheelRange="12" GlideIsOn="0" GlideTime="50">
+  <OscSection PatchFormat="1">
+    <Osc1 PatchFormat="1" MidSide="0.51" StartPhase="0" SpectralSlope="-2.53"
+          AudioFileRelativePath="Samples\SingleCycle\Classic\Square.flac"
+          Mute="0" Level="0" LevelByKey="0" LevelByVel="0" Pan="0" MidSideRatio="0.51"
+          StartPhaseByKey="0" StartPhaseByVel="0" TimeReverse="0" PolarityInvert="0"
+          FullWavePhaseWarp="0" HalfWavePhaseWarp="0" CombHarmonic="1"
+          CombAmount="0" Tune="0" DetuneHz="0" StereoDetuneSemitones="0"
+          StereoDetuneHz="0" PitchModulationDepth="0" SpectralContrast="1"
+          HighestHarmonicToKeep="1024" LowestHarmonicToKeep="1" PhaseScale="1"
+          PhaseShift="0" EvenOddRatio="0.5" EvenOddPhaseShift="0" StereoPhaseShift="0"
+          EvenOddStereoPhaseShift="0"/>
+    <Osc2 PatchFormat="1" Pan="-0.3" Tune="12.03" DetuneHz="0.05" StartPhase="0"
+          SpectralSlope="-0.47" AudioFileRelativePath="Samples\SingleCycle\Synthetic\Randomish007_Ste.flac"
+          Mute="0" Level="0" LevelByKey="0" LevelByVel="0" MidSideRatio="0.5"
+          StartPhaseByKey="0" StartPhaseByVel="0" TimeReverse="0" PolarityInvert="0"
+          FullWavePhaseWarp="0" HalfWavePhaseWarp="0" CombHarmonic="1"
+          CombAmount="0" StereoDetuneSemitones="0" StereoDetuneHz="0" PitchModulationDepth="0"
+          SpectralContrast="1" HighestHarmonicToKeep="1024" LowestHarmonicToKeep="1"
+          PhaseScale="1" PhaseShift="0" EvenOddRatio="0.5" EvenOddPhaseShift="0"
+          StereoPhaseShift="0" EvenOddStereoPhaseShift="0"/>
+    <Osc3 PatchFormat="1" Level="-5.02" LevelByKey="24" Tune="-12" StartPhase="0"
+          HighestHarmonic="1" AudioFileRelativePath="Samples\SingleCycle\Classic\Saw.flac"
+          Mute="0" LevelByVel="0" Pan="0" MidSideRatio="0.5" StartPhaseByKey="0"
+          StartPhaseByVel="0" TimeReverse="0" PolarityInvert="0" FullWavePhaseWarp="0"
+          HalfWavePhaseWarp="0" CombHarmonic="1" CombAmount="0" DetuneHz="0"
+          StereoDetuneSemitones="0" StereoDetuneHz="0" PitchModulationDepth="0"
+          SpectralContrast="1" SpectralSlope="0" HighestHarmonicToKeep="1"
+          LowestHarmonicToKeep="1" PhaseScale="1" PhaseShift="0" EvenOddRatio="0.5"
+          EvenOddPhaseShift="0" StereoPhaseShift="0" EvenOddStereoPhaseShift="0"/>
+    <Osc4 PatchFormat="1" Pan="0.3" Tune="11.97" DetuneHz="-0.05" StartPhase="0"
+          AudioFileRelativePath="Samples\SingleCycle\Synthetic\Sawish006_Ste.flac"
+          Mute="0" Level="0" LevelByKey="0" LevelByVel="0" MidSideRatio="0.5"
+          StartPhaseByKey="0" StartPhaseByVel="0" TimeReverse="0" PolarityInvert="0"
+          FullWavePhaseWarp="0" HalfWavePhaseWarp="0" CombHarmonic="1"
+          CombAmount="0" StereoDetuneSemitones="0" StereoDetuneHz="0" PitchModulationDepth="0"
+          SpectralContrast="1" SpectralSlope="0" HighestHarmonicToKeep="1024"
+          LowestHarmonicToKeep="1" PhaseScale="1" PhaseShift="0" EvenOddRatio="0.5"
+          EvenOddPhaseShift="0" StereoPhaseShift="0" EvenOddStereoPhaseShift="0"/>
+  </OscSection>
+  <Filter PatchFormat="1" Frequency="241.920807" FrequencyByKey="28.1"
+          Resonance="13.207874" Q="1.98333101" MakeUp="100" Drive="5.36"
+          Order="3" Mode="Moogish Lowpass" FrequencyByVel="0" PreAllpass="20000">
+    <ControllerMapping>
+      <Frequency MidiCC="74" Min="156.052732" Max="4127.48181"/>
+      <Resonance MidiCC="71" Min="4.8" Max="32.9"/>
+    </ControllerMapping>
+  </Filter>
+  <PitchEnvelope PatchFormat="1" TimeScale="0.2095628" TimeScaleByKey="-56" Depth="0.965340909"
+                 DepthByVel="71" ScaleFactor="1" Offset="0" TimeScaleByVel="0"
+                 DepthByKey="0" SyncMode="0" LoopStartIndex="0" LoopEndIndex="1"
+                 LoopMode="Off">
+    <Breakpoint Time="0" Level="1" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="1" Level="1" Shape="Analog" ShapeAmount="1"/>
+  </PitchEnvelope>
+  <FilterEnvelope PatchFormat="1" TimeScale="1.2866649" TimeScaleByVel="-38" Depth="3"
+                  DepthByVel="80" ScaleFactor="1" Offset="0" TimeScaleByKey="0"
+                  DepthByKey="0" SyncMode="0" LoopStartIndex="1" LoopEndIndex="2"
+                  LoopMode="Forward">
+    <Breakpoint Time="0" Level="2" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.4" Level="1" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="1" Level="1" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="1.67414854" Level="0.75" Shape="Analog" ShapeAmount="1"/>
+  </FilterEnvelope>
+  <AmpEnvelope PatchFormat="1" TimeScale="0.602856427" TimeScaleByKey="-30"
+               ScaleFactor="1" Offset="0" TimeScaleByVel="0" Depth="1" DepthByKey="0"
+               DepthByVel="0" SyncMode="0" LoopStartIndex="3" LoopEndIndex="5"
+               LoopMode="Off">
+    <Breakpoint Time="0" Level="0" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.0150155689" Level="1" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.288355103" Level="0.5" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="1" Level="0.04" Shape="Smooth" ShapeAmount="1"/>
+    <Breakpoint Time="2.46748745" Level="-0" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="2.7900252" Level="0" Shape="Analog" ShapeAmount="1"/>
+  </AmpEnvelope>
+</Straightliner>

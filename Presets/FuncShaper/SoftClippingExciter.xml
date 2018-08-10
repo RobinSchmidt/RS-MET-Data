@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ModulatorState FunctionString="softClip(x,-1,1,a,b);   # a, b adjust the transition regions"
+                a="0.2" aMin="0" aMax="1" b="0.2" bMin="0" bMax="1" c="0" cMin="0"
+                cMax="1" d="0" dMin="0" dMax="1" InputFilterUsed="1" InputLowpass="6947.77915"
+                InputHighpass="252.970008" Drive="21.8900013" DC="0.157999992"
+                Oversampling="4" OutputFilterUsed="1" OutputLowpass="20000" OutputHighpass="134.140011"
+                OutLevel="-9.26000118" DryWet="38.6000007"/>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AciDevil PatchFormat="1" MasterLevel="-11.9" Accent="53.9" SlideTime="30.3"
+          Cutoff="393.858081" Resonance="75.8" FilterMode="Lowpass 18"
+          EnvMod="22" NormalDecay="243.3" AccentDecay="270.2" NormalAttack="19.7"
+          AmpSustain="0" DistortionDrive="20.7">
+  <ControllerMapping>
+    <Cutoff MidiCC="74" Min="200" Max="10000"/>
+  </ControllerMapping>
+  <Sequencer PatchFormat="1"/>
+</AciDevil>

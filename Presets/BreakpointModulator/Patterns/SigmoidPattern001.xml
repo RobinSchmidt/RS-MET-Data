@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FilterEnvelope ScaleFactor="1" Offset="0" TimeScale="1" TimeScaleByKey="0" TimeScaleByVel="0"
+                Depth="1" DepthByKey="0" DepthByVel="0" SyncMode="0" LoopStartIndex="0"
+                LoopEndIndex="5" LoopMode="Forward">
+  <Breakpoint Time="-0" Level="1" Shape="Sigmoid" ShapeAmount="2.848"/>
+  <Breakpoint Time="0.25" Level="0.375" Shape="Sigmoid" ShapeAmount="2.848"/>
+  <Breakpoint Time="0.5" Level="0.625" Shape="Sigmoid" ShapeAmount="2.848"/>
+  <Breakpoint Time="0.75" Level="0.875" Shape="Sigmoid" ShapeAmount="2.848"/>
+  <Breakpoint Time="0.875" Level="0.25" Shape="Sigmoid" ShapeAmount="2.848"/>
+  <Breakpoint Time="1" Level="1" Shape="Sigmoid" ShapeAmount="2.848"/>
+  <Breakpoint Time="1.2" Level="0" Shape="Sigmoid" ShapeAmount="2.848"/>
+</FilterEnvelope>

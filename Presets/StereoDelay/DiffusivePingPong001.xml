@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StereoDelayState DelayScaleL="1" DelayScaleR="1.5" DiffusorTimeL="10" DiffusorTimeR="13.96"
+                  DiffusorAmountL="-14.1" DiffusorAmountR="16.3" LowpassCutoffL="7535.585"
+                  LowpassCutoffR="4802.471" HighpassCutoffL="83.29" HighpassCutoffR="59.41"
+                  CutoffScale="1" FeedbackLeftToLeft="64.1" FeedbackRightToRight="52.2" FeedbackLeftToRight="-13"
+                  FeedbackRightToLeft="13" DryWet="35.4" DelayInBeatsL="0.5" DelayInBeatsR="0.5"/>

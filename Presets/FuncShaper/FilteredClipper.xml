@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FuncShaper PatchFormat="1" InputFilterUsed="1" InputLowpass="1876.08373"
+            Drive="23.1111111" OutputFilterUsed="1" OutputHighpass="632.455532"
+            DryWet="55.5555556" a="-0.691" b="0.712" c="0" d="0" aMin="-0.99"
+            aMax="0" bMax="0.99" FunctionString="clip(x,-1,1);   "/>

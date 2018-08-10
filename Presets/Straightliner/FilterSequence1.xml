@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StraightlinerState MasterLevel="-12.44" VoiceLevelByVel="0" MasterLevelByVoices="100"
+                    GlideSwitch="0" GlideTime="50" MasterTuneA4="440" PitchWheelRange="12"
+                    NumVoices="8" GlideIsOn="1">
+  <Osc1 AudioFileRelativePath="Samples\SingleCycle\Classic\Saw.flac"
+        Level="0" Tune="0.1" DetuneHz="0" SpectralSlope="1.14" Pan="-0.4"
+        MidSideRatio="0.5" Mute="0"/>
+  <Osc2 AudioFileRelativePath="Samples\SingleCycle\Classic\Square.flac"
+        Level="-4.04" Tune="-12" DetuneHz="0" SpectralSlope="-3.41" Pan="0"
+        MidSideRatio="0.5" Mute="0"/>
+  <Osc3 AudioFileRelativePath="Samples\SingleCycle\Classic\Saw.flac"
+        Level="0" Tune="-0.1" DetuneHz="0" SpectralSlope="1.14" Pan="0.4"
+        MidSideRatio="0.5" Mute="0"/>
+  <Osc4 AudioFileRelativePath="Samples\SingleCycle\Classic\Saw.flac"
+        Level="0" Tune="0" DetuneHz="0" SpectralSlope="0" Pan="0" MidSideRatio="0.5"
+        Mute="1"/>
+  <Filter Mode="Moogish Lowpass" Frequency="2270.63907" FrequencyByKey="0"
+          FrequencyByVel="0" Resonance="27.6" Drive="0" Order="4" PreAllpass="20000"
+          MakeUp="100"/>
+  <FilterEnvelope ScaleFactor="1" Offset="0" TimeScale="2" TimeScaleByKey="0" TimeScaleByVel="0"
+                  Depth="2.33" DepthByKey="0" DepthByVel="0" SyncMode="1" LoopStartIndex="0"
+                  LoopEndIndex="6" LoopMode="Forward">
+    <Breakpoint Time="0" Level="1" Shape="Analog" ShapeAmount="2.918"/>
+    <Breakpoint Time="0.125" Level="0.5" Shape="Analog" ShapeAmount="2.918"/>
+    <Breakpoint Time="0.25" Level="0.875" Shape="Analog" ShapeAmount="2.918"/>
+    <Breakpoint Time="0.5" Level="0.625" Shape="Analog" ShapeAmount="2.918"/>
+    <Breakpoint Time="0.625" Level="0.75" Shape="Analog" ShapeAmount="2.918"/>
+    <Breakpoint Time="0.875" Level="0.625" Shape="Analog" ShapeAmount="2.918"/>
+    <Breakpoint Time="1" Level="1" Shape="Analog" ShapeAmount="2.918"/>
+    <Breakpoint Time="2" Level="0.125" Shape="Analog" ShapeAmount="2.918"/>
+  </FilterEnvelope>
+  <AmpEnvelope ScaleFactor="1" Offset="0" TimeScale="1" TimeScaleByKey="0" TimeScaleByVel="0"
+               Depth="1" DepthByKey="0" DepthByVel="0" SyncMode="1" LoopStartIndex="0"
+               LoopEndIndex="11" LoopMode="Forward">
+    <Breakpoint Time="0" Level="0" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.015625" Level="1" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.0625" Level="0.25" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.125" Level="0.5" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.25" Level="0.25" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.375" Level="0.875" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.5" Level="0.25" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.625" Level="1" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.75" Level="1" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.8125" Level="0.625" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.875" Level="1" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="1" Level="-0" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="1.28633567" Level="0" Shape="Analog" ShapeAmount="1"/>
+  </AmpEnvelope>
+</StraightlinerState>

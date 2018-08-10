@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Straightliner PatchFormat="1" MasterLevel="-27.13" VoiceLevelByKey="-8.54659091"
+               VoiceLevelByVel="1.4765625" NumVoices="8" MasterLevelByVoices="0"
+               MidSideRatio="0.5" MasterTuneA4="440" PitchWheelRange="12" GlideIsOn="0"
+               GlideTime="50">
+  <OscSection PatchFormat="1">
+    <Osc1 PatchFormat="1" Level="-5.51351351" MidSide="0.298273983" StereoDetune="0.099781977"
+          StereoDetuneHz="0.984375" PitchModulationDepth="1" StartPhase="0"
+          StereoPhaseShift="-60" EvenOddStereoPhaseShift="60" AudioFileRelativePath="Samples\SingleCycle\Classic\Saw.flac"
+          Mute="0" LevelByKey="0" LevelByVel="0" Pan="0" MidSideRatio="0.298273983"
+          StartPhaseByKey="0" StartPhaseByVel="0" TimeReverse="0" PolarityInvert="0"
+          FullWavePhaseWarp="0" HalfWavePhaseWarp="0" CombHarmonic="1"
+          CombAmount="0" Tune="0" DetuneHz="0" StereoDetuneSemitones="0.099781977"
+          SpectralContrast="1" SpectralSlope="0" HighestHarmonicToKeep="1024"
+          LowestHarmonicToKeep="1" PhaseScale="1" PhaseShift="0" EvenOddRatio="0.5"
+          EvenOddPhaseShift="0"/>
+    <Osc2 PatchFormat="1" Level="-0.324324324" Tune="-12" StereoDetune="-0.0984375"
+          StereoDetuneHz="-0.703125" PitchModulationDepth="-1" StartPhase="0"
+          EvenOddRatio="0.85" StereoPhaseShift="49" EvenOddStereoPhaseShift="-29"
+          AudioFileRelativePath="Samples\SingleCycle\Classic\Saw.flac"
+          Mute="0" LevelByKey="0" LevelByVel="0" Pan="0" MidSideRatio="0.5"
+          StartPhaseByKey="0" StartPhaseByVel="0" TimeReverse="0" PolarityInvert="0"
+          FullWavePhaseWarp="0" HalfWavePhaseWarp="0" CombHarmonic="1"
+          CombAmount="0" DetuneHz="0" StereoDetuneSemitones="-0.0984375"
+          SpectralContrast="1" SpectralSlope="0" HighestHarmonicToKeep="1024"
+          LowestHarmonicToKeep="1" PhaseScale="1" PhaseShift="0" EvenOddPhaseShift="0"/>
+    <Osc3 PatchFormat="1" StartPhase="0" AudioFileRelativePath="Samples\SingleCycle\Classic\Saw.flac"
+          Mute="1" Level="0" LevelByKey="0" LevelByVel="0" Pan="0" MidSideRatio="0.5"
+          StartPhaseByKey="0" StartPhaseByVel="0" TimeReverse="0" PolarityInvert="0"
+          FullWavePhaseWarp="0" HalfWavePhaseWarp="0" CombHarmonic="1"
+          CombAmount="0" Tune="0" DetuneHz="0" StereoDetuneSemitones="0"
+          StereoDetuneHz="0" PitchModulationDepth="0" SpectralContrast="1"
+          SpectralSlope="0" HighestHarmonicToKeep="1024" LowestHarmonicToKeep="1"
+          PhaseScale="1" PhaseShift="0" EvenOddRatio="0.5" EvenOddPhaseShift="0"
+          StereoPhaseShift="0" EvenOddStereoPhaseShift="0"/>
+    <Osc4 PatchFormat="1" StartPhase="0" AudioFileRelativePath="Samples\SingleCycle\Classic\Saw.flac"
+          Mute="1" Level="0" LevelByKey="0" LevelByVel="0" Pan="0" MidSideRatio="0.5"
+          StartPhaseByKey="0" StartPhaseByVel="0" TimeReverse="0" PolarityInvert="0"
+          FullWavePhaseWarp="0" HalfWavePhaseWarp="0" CombHarmonic="1"
+          CombAmount="0" Tune="0" DetuneHz="0" StereoDetuneSemitones="0"
+          StereoDetuneHz="0" PitchModulationDepth="0" SpectralContrast="1"
+          SpectralSlope="0" HighestHarmonicToKeep="1024" LowestHarmonicToKeep="1"
+          PhaseScale="1" PhaseShift="0" EvenOddRatio="0.5" EvenOddPhaseShift="0"
+          StereoPhaseShift="0" EvenOddStereoPhaseShift="0"/>
+  </OscSection>
+  <Filter PatchFormat="1" Frequency="257.790089" FrequencyByKey="24.5202851"
+          FrequencyByVel="101.754386" Resonance="18.8596491" MakeUp="100"
+          Drive="13.0526316" Order="3" Mode="Moogish Lowpass" PreAllpass="20000"/>
+  <PitchEnvelope PatchFormat="1" TimeScale="0.298239955" TimeScaleByKey="-33"
+                 TimeScaleByVel="31" DepthByKey="-37" ScaleFactor="1" Offset="0"
+                 Depth="1" DepthByVel="0" SyncMode="0" LoopStartIndex="0" LoopEndIndex="35"
+                 LoopMode="Off">
+    <Breakpoint Time="0" Level="1" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.0078125" Level="1.5" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.015625" Level="0.5" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.0234375" Level="1.46875" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.03125" Level="0.53125" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.0390625" Level="1.4375" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.046875" Level="0.5625" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.0546875" Level="1.40625" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.0625" Level="0.59375" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.0703125" Level="1.375" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.078125" Level="0.625" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.0859375" Level="1.34375" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.09375" Level="0.65625" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.1015625" Level="1.3125" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.109375" Level="0.6875" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.1171875" Level="1.28125" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.125" Level="0.71875" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.1328125" Level="1.25" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.140625" Level="0.75" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.1484375" Level="1.21875" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.15625" Level="0.78125" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.1640625" Level="1.1875" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.171875" Level="0.8125" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.1796875" Level="1.15625" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.1875" Level="0.84375" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.1953125" Level="1.125" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.203125" Level="0.875" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.2109375" Level="1.09375" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.21875" Level="0.90625" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.2265625" Level="1.0625" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.234375" Level="0.9375" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.2421875" Level="1.03125" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.25" Level="0.96875" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.2578125" Level="1" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="0.65625" Level="1" Shape="Stairstep" ShapeAmount="1"/>
+    <Breakpoint Time="1" Level="1" Shape="Stairstep" ShapeAmount="1"/>
+  </PitchEnvelope>
+  <FilterEnvelope PatchFormat="1" TimeScaleByVel="-59" Depth="1.74545455" DepthByVel="88"
+                  ScaleFactor="1" Offset="0" TimeScale="1" TimeScaleByKey="0" DepthByKey="0"
+                  SyncMode="0" LoopStartIndex="1" LoopEndIndex="2" LoopMode="Forward">
+    <Breakpoint Time="0" Level="4" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.4" Level="1" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="1" Level="1" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="1.79682711" Level="0.52" Shape="Analog" ShapeAmount="1"/>
+  </FilterEnvelope>
+  <AmpEnvelope PatchFormat="1" TimeScale="0.574349177" TimeScaleByKey="-33"
+               TimeScaleByVel="31" ScaleFactor="1" Offset="0" Depth="1" DepthByKey="0"
+               DepthByVel="0" SyncMode="0" LoopStartIndex="34" LoopEndIndex="35"
+               LoopMode="Forward">
+    <Breakpoint Time="0" Level="1" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.0078125" Level="1.5" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.015625" Level="0.5" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.0234375" Level="1.46875" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.03125" Level="0.53125" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.0390625" Level="1.4375" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.046875" Level="0.5625" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.0546875" Level="1.40625" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.0625" Level="0.59375" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.0703125" Level="1.375" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.078125" Level="0.625" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.0859375" Level="1.34375" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.09375" Level="0.65625" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.1015625" Level="1.3125" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.109375" Level="0.6875" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.1171875" Level="1.28125" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.125" Level="0.71875" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.1328125" Level="1.25" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.140625" Level="0.75" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.1484375" Level="1.21875" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.15625" Level="0.78125" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.1640625" Level="1.1875" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.171875" Level="0.8125" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.1796875" Level="1.15625" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.1875" Level="0.84375" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.1953125" Level="1.125" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.203125" Level="0.875" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.2109375" Level="1.09375" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.21875" Level="0.90625" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.2265625" Level="1.0625" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.234375" Level="0.9375" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.2421875" Level="1.03125" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.25" Level="0.96875" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.2578125" Level="1" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.65625" Level="1" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.921875" Level="1" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="1.00143885" Level="0.52" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="2.25821852" Level="0" Shape="Analog" ShapeAmount="1"/>
+  </AmpEnvelope>
+</Straightliner>

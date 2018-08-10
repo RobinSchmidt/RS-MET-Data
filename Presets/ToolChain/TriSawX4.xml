@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="5">
+  <Slot Type="TriSawOscillator">
+    <Slot1-TriSawOscillator PatchFormat="1" AttackSigmoid="1" DecaySigmoid="1"/>
+  </Slot>
+  <Slot Type="None">
+    <Slot2-None PatchFormat="1"/>
+  </Slot>
+  <Slot Type="TriSawModulator">
+    <Slot3-TriSawModulator PatchFormat="1" TimeScale="0.369982" Attack="316.228" Decay="2.43424"
+                           Floor="-2" Ceiling="-2" AttackBending="-0.1875" DecayBending="0.528409"
+                           AttackSigmoid="1" DecaySigmoid="0.676136"/>
+  </Slot>
+  <Slot Type="TriSawModulator">
+    <Slot4-TriSawModulator PatchFormat="1" TimeScale="3.42051" Attack="26.3302" Decay="160.157"
+                           Floor="0" AttackSigmoid="1" DecaySigmoid="1"/>
+  </Slot>
+  <Slot Type="TriSawModulator">
+    <Slot5-TriSawModulator PatchFormat="1" TimeScale="21.9235" Attack="100" Floor="0" Ceiling="0.988636"
+                           AttackBending="-0.772727" DecayBending="0.948864" AttackSigmoid="1"
+                           DecaySigmoid="1"/>
+  </Slot>
+  <Slot Type="None">
+    <Slot6-None PatchFormat="1"/>
+  </Slot>
+  <Modulations>
+    <Connection Source="Slot3-TriSawModulator" Target="Slot1-TriSawOscillator.Asymmetry"
+                Depth="0.5" DepthMin="-1" DepthMax="1" Mode="Absolute"/>
+    <Connection Source="Slot4-TriSawModulator" Target="Slot3-TriSawModulator.Ceiling"
+                Depth="1" DepthMin="-1" DepthMax="1" Mode="Absolute"/>
+    <Connection Source="Slot5-TriSawModulator" Target="Slot1-TriSawOscillator.Asymmetry"
+                Depth="1" DepthMin="-1" DepthMax="1" Mode="Absolute"/>
+    <RangeLimits>
+      <Slot1-TriSawOscillator.Asymmetry Min="-2" Max="inf"/>
+      <Slot3-TriSawModulator.Ceiling Min="-inf" Max="inf"/>
+    </RangeLimits>
+  </Modulations>
+</ToolChain>

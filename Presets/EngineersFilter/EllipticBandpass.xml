@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<EngineersFilter PatchFormat="1" Mode="Bandpass" Method="Elliptic" Order="6" Bandwidth="4"
+                 Ripple="5.9975436" Rejection="84"/>

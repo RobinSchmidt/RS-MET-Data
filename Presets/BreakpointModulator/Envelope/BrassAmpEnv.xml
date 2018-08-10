@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AmpEnvelope ScaleFactor="1" Offset="0" TimeScale="1" TimeScaleByKey="-50"
+             TimeScaleByVel="0" Depth="1" DepthByKey="0" DepthByVel="0" SyncMode="0"
+             LoopStartIndex="3" LoopEndIndex="4" LoopMode="Forward">
+  <Breakpoint Time="0" Level="0" Shape="Sigmoid" ShapeAmount="0.658"/>
+  <Breakpoint Time="0.008951088" Level="0.875" Shape="Sigmoid" ShapeAmount="0.658"/>
+  <Breakpoint Time="0.0226212694" Level="0.5" Shape="Sigmoid" ShapeAmount="0.658"/>
+  <Breakpoint Time="0.0327762613" Level="1" Shape="Sigmoid" ShapeAmount="0.658"/>
+  <Breakpoint Time="1" Level="1" Shape="Sigmoid" ShapeAmount="0.658"/>
+  <Breakpoint Time="1.06700826" Level="0" Shape="Sigmoid" ShapeAmount="0.658"/>
+</AmpEnvelope>

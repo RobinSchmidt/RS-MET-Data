@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Equalizer PatchFormat="2" StereoMode="Mid/Side" GlobalGain="-2.98125">
+  <Channel>
+    <Band Mode="Low Shelving" Frequency="150" Gain="5.9625" Bandwidth="1.89996863"/>
+  </Channel>
+  <Channel>
+    <Band Mode="High Shelving" Frequency="150" Gain="5.9625" Bandwidth="1.89996863"/>
+  </Channel>
+</Equalizer>

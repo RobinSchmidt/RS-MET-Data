@@ -1,0 +1,23 @@
+The samples in this folder are released under the creative commons license (see http://creativecommons.org/by/3.0/). They were created or collected (and possibly modified) by Robin Schmidt (www.rs-met.com). Those of them, which were not originally created by Robin Schmidt were previously released by other authors under creative commons license and originate from:
+
+
+filename                 	original filename		original source/author
+
+BamboonaphoneA3[...]     	bamboo_a3_1.wav       		The Berklee Sampling Archive Volume 1
+BassString1[...]          	bass_string1.wav       		The Berklee Sampling Archive Volume 2
+Harpsichord1[...]		harpsichord-octave0.wav		The Open Path Music Collection V4
+Kalimba1[...]             	kalimba1.wav           		The Berklee Sampling Archive Volume 1
+KhaenHonk1[...]           	khaen_honk_1.wav       		The Berklee Sampling Archive Volume 1
+Mintone[...]	         	mintone_!.wav          		The Berklee Sampling Archive Volume 1
+MouthHarp2[...]           	mouth_harp2.wav        		The Berklee Sampling Archive Volume 1
+MouthHarp4[...]           	mouth_harp4.wav        		The Berklee Sampling Archive Volume 1
+MouthPiece1[...]          	mouthpiece1.wav        		The Berklee Sampling Archive Volume 1
+Piano1[...] 			piano_low.wav 			The Berklee Sampling Archive Volume 1PianoC2[...]			piano_C2.wav    		The Berklee Sampling Archive Volume 1	
+
+
+
+...much thanks to the authors of the original material
+
+
+
+

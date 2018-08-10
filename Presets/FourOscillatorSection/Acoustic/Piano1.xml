@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OscSection PatchFormat="1">
+  <Osc1 PatchFormat="1" Level="-4.89" LevelByVel="5.56" StereoDetune="0.1"
+        StartPhase="0" SpectralContrast="1.22" StereoPhaseShift="90"
+        AudioFileRelativePath="Samples\SingleCycle\AcousticInstruments\PianoLow_Cyc.flac"
+        Mute="0" LevelByKey="0" Pan="0" MidSideRatio="0.5" StartPhaseByKey="0"
+        StartPhaseByVel="0" TimeReverse="0" PolarityInvert="0" FullWavePhaseWarp="0"
+        HalfWavePhaseWarp="0" CombHarmonic="1" CombAmount="0" Tune="0"
+        DetuneHz="0" StereoDetuneSemitones="0.1" StereoDetuneHz="0" PitchModulationDepth="0"
+        SpectralSlope="0" HighestHarmonicToKeep="1024" LowestHarmonicToKeep="1"
+        PhaseScale="1" PhaseShift="0" EvenOddRatio="0.5" EvenOddPhaseShift="0"
+        EvenOddStereoPhaseShift="0"/>
+  <Osc2 PatchFormat="1" Level="-12" LevelByKey="-14.05" Pan="0.297" Tune="-12"
+        StereoDetuneHz="-0.2" StartPhase="0" SpectralContrast="1.97"
+        StereoPhaseShift="90" AudioFileRelativePath="Samples\SingleCycle\AcousticInstruments\PianoLow_Cyc.flac"
+        Mute="1" LevelByVel="0" MidSideRatio="0.5" StartPhaseByKey="0"
+        StartPhaseByVel="0" TimeReverse="0" PolarityInvert="0" FullWavePhaseWarp="0"
+        HalfWavePhaseWarp="0" CombHarmonic="1" CombAmount="0" DetuneHz="0"
+        StereoDetuneSemitones="0" PitchModulationDepth="0" SpectralSlope="0"
+        HighestHarmonicToKeep="1024" LowestHarmonicToKeep="1" PhaseScale="1"
+        PhaseShift="0" EvenOddRatio="0.5" EvenOddPhaseShift="0" EvenOddStereoPhaseShift="0"/>
+  <Osc3 PatchFormat="1" Level="-8.44" MidSide="0.25" Tune="12" StereoDetuneHz="0.5"
+        StartPhase="0" SpectralContrast="0.89" LowestHarmonic="4" StereoPhaseShift="46"
+        AudioFileRelativePath="Samples\SingleCycle\AcousticInstruments\PianoC2_Cyc.flac"
+        Mute="0" LevelByKey="0" LevelByVel="0" Pan="0" MidSideRatio="0.25"
+        StartPhaseByKey="0" StartPhaseByVel="0" TimeReverse="0" PolarityInvert="0"
+        FullWavePhaseWarp="0" HalfWavePhaseWarp="0" CombHarmonic="1"
+        CombAmount="0" DetuneHz="0" StereoDetuneSemitones="0" PitchModulationDepth="0"
+        SpectralSlope="0" HighestHarmonicToKeep="1024" LowestHarmonicToKeep="4"
+        PhaseScale="1" PhaseShift="0" EvenOddRatio="0.5" EvenOddPhaseShift="0"
+        EvenOddStereoPhaseShift="0"/>
+  <Osc4 PatchFormat="1" Level="2.67" MidSide="0.25" StartPhase="0" EvenOddRatio="0.76"
+        StereoPhaseShift="-90" AudioFileRelativePath="Samples\SingleCycle\OctavesOfPrimeMultiples\SinOPM_h03.flac"
+        Mute="0" LevelByKey="0" LevelByVel="0" Pan="0" MidSideRatio="0.25"
+        StartPhaseByKey="0" StartPhaseByVel="0" TimeReverse="0" PolarityInvert="0"
+        FullWavePhaseWarp="0" HalfWavePhaseWarp="0" CombHarmonic="1"
+        CombAmount="0" Tune="0" DetuneHz="0" StereoDetuneSemitones="0"
+        StereoDetuneHz="0" PitchModulationDepth="0" SpectralContrast="1"
+        SpectralSlope="0" HighestHarmonicToKeep="1024" LowestHarmonicToKeep="1"
+        PhaseScale="1" PhaseShift="0" EvenOddPhaseShift="0" EvenOddStereoPhaseShift="0"/>
+</OscSection>

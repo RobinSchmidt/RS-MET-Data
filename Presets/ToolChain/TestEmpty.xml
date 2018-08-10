@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="1">
+  <Slot Type="None">
+    <Slot1-None PatchFormat="1"/>
+  </Slot>
+</ToolChain>

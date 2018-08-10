@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PitchEnvelope PatchFormat="1" ScaleFactor="1" Offset="0" TimeScale="0.329876978"
+               TimeScaleByKey="-40" TimeScaleByVel="0" Depth="1.70909091" DepthByKey="0"
+               DepthByVel="0" SyncMode="0" LoopStartIndex="0" LoopEndIndex="35"
+               LoopMode="Off">
+  <Breakpoint Time="0" Level="1" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.0078125" Level="1.5" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.015625" Level="0.5" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.0234375" Level="1.46875" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.03125" Level="0.53125" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.0390625" Level="1.4375" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.046875" Level="0.5625" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.0546875" Level="1.40625" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.0625" Level="0.59375" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.0703125" Level="1.375" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.078125" Level="0.625" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.0859375" Level="1.34375" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.09375" Level="0.65625" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.1015625" Level="1.3125" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.109375" Level="0.6875" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.1171875" Level="1.28125" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.125" Level="0.71875" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.1328125" Level="1.25" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.140625" Level="0.75" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.1484375" Level="1.21875" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.15625" Level="0.78125" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.1640625" Level="1.1875" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.171875" Level="0.8125" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.1796875" Level="1.15625" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.1875" Level="0.84375" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.1953125" Level="1.125" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.203125" Level="0.875" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.2109375" Level="1.09375" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.21875" Level="0.90625" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.2265625" Level="1.0625" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.234375" Level="0.9375" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.2421875" Level="1.03125" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.25" Level="0.96875" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.2578125" Level="1" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="0.65625" Level="1" Shape="Stairstep" ShapeAmount="1"/>
+  <Breakpoint Time="1" Level="1" Shape="Stairstep" ShapeAmount="1"/>
+</PitchEnvelope>

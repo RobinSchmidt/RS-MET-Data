@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AmpEnvelope PatchFormat="1" TimeScaleByKey="-25" Depth="2.71" ScaleFactor="1"
+             Offset="0" TimeScale="1" TimeScaleByVel="0" DepthByKey="0" DepthByVel="0"
+             SyncMode="0" LoopStartIndex="2" LoopEndIndex="3" LoopMode="Forward">
+  <Breakpoint Time="0" Level="2" Shape="Analog" ShapeAmount="1"/>
+  <Breakpoint Time="0.0568610072" Level="0.75" Shape="Analog" ShapeAmount="1"/>
+  <Breakpoint Time="0.4" Level="1" Shape="Analog" ShapeAmount="1"/>
+  <Breakpoint Time="0.431654676" Level="1" Shape="Analog" ShapeAmount="1"/>
+  <Breakpoint Time="1.2" Level="0" Shape="Analog" ShapeAmount="1"/>
+</AmpEnvelope>

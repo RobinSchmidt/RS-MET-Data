@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Equalizer GlobalGain="0">
+  <Band Frequency="121.71159" Gain="-2.4" Bandwidth="4.47252747" Mode="Highpass 12 dB/oct"/>
+  <Band Frequency="4960.34189" Gain="-6.3" Bandwidth="1.89996863" Mode="Lowpass 12 dB/oct"/>
+</Equalizer>

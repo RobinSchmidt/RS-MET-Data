@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Quadrifex PatchFormat="1" DryWet="0.6" Routing="1&gt;2&gt;3&gt;4" Slot1="FrequencyShifter"
+           Slot2="Bypass" Slot3="WaveShaper" Slot4="Bypass">
+  <FrequencyShifter1 PatchFormat="1" FrequencyShift="-46.6" StereoOffset="6"/>
+  <AudioModule PatchFormat="1"/>
+  <AudioModule PatchFormat="1"/>
+  <WaveShaper3 PatchFormat="1" CurveType="Quintic" Drive="6.2" DC="0.09" InterceptY="0.04"
+               Slope="0.21"/>
+</Quadrifex>

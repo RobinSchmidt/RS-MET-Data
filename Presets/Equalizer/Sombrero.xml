@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Equalizer PatchFormat="1" GlobalGain="0">
+  <Band Frequency="780.376035" Gain="-6.68041237" Bandwidth="0.25" Mode="Low Shelving"/>
+  <Band Frequency="1287.68288" Gain="-6.68041237" Bandwidth="0.25" Mode="High Shelving"/>
+</Equalizer>

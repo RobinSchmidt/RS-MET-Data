@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="1">
+  <MetaParameterValues M0="0.34499999880790710449" M1="0.37395831942558288574"/>
+  <Slot Type="DebugAudioModule">
+    <Slot1-DebugAudioModule PatchFormat="1" Left="-0.31" Right="0.53">
+      <MetaMapping>
+        <Left MetaIndex="0"/>
+      </MetaMapping>
+      <Equalizer PatchFormat="2"/>
+    </Slot1-DebugAudioModule>
+  </Slot>
+  <Slot Type="None">
+    <Slot2-None PatchFormat="1"/>
+  </Slot>
+</ToolChain>

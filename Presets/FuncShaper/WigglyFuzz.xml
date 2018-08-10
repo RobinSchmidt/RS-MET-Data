@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ModulatorState FunctionString="x+a*sin(2*PI*b*x);" a="0.115" aMin="0" aMax="1"
+                b="3.021" bMin="0" bMax="10" c="0" cMin="0" cMax="1" d="0" dMin="0"
+                dMax="1" InputFilterUsed="1" InputLowpass="20000" InputHighpass="20"
+                Drive="0" DC="0" Oversampling="4" OutputFilterUsed="1" OutputLowpass="20000"
+                OutputHighpass="20" OutLevel="0" DryWet="100"/>

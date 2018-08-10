@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StraightlinerOscSectionState>
+  <Osc1 AudioFileRelativePath="Samples\SingleCycle\PhaseModulation\SineCarrierSineModulator\SinSinPM_c2m1i3.flac"
+        Mute="0" Level="-6.22" Pan="0" MidSideRatio="0" StartPhase="0" Tune="0"
+        DetuneHz="0" StereoDetuneSemitones="0" StereoDetuneHz="0" SpectralSlope="0"
+        HighestHarmonicToKeep="1024" LowestHarmonicToKeep="1" EvenOddRatio="0.5"
+        StereoPhaseShift="0"/>
+  <Osc2 AudioFileRelativePath="Samples\SingleCycle\PhaseModulation\SineCarrierSineModulator\SinSinPM_c1m1i3.flac"
+        Mute="0" Level="-8" Pan="-0.3" MidSideRatio="0.5" StartPhase="0" Tune="12.05"
+        DetuneHz="2" StereoDetuneSemitones="0" StereoDetuneHz="0" SpectralSlope="0"
+        HighestHarmonicToKeep="1024" LowestHarmonicToKeep="1" EvenOddRatio="0.5"
+        StereoPhaseShift="0"/>
+  <Osc3 AudioFileRelativePath="Samples\SingleCycle\PhaseModulation\SineCarrierSineModulator\SinSinPM_c1m3i1.flac"
+        Mute="0" Level="0" Pan="0" MidSideRatio="0.5" StartPhase="0" Tune="-12"
+        DetuneHz="0" StereoDetuneSemitones="0" StereoDetuneHz="0" SpectralSlope="0"
+        HighestHarmonicToKeep="1024" LowestHarmonicToKeep="1" EvenOddRatio="0.5"
+        StereoPhaseShift="0"/>
+  <Osc4 AudioFileRelativePath="Samples\SingleCycle\PhaseModulation\SineCarrierSineModulator\SinSinPM_c1m1i3.flac"
+        Mute="0" Level="-8" Pan="0.3" MidSideRatio="0.5" StartPhase="0" Tune="11.95"
+        DetuneHz="-2" StereoDetuneSemitones="0" StereoDetuneHz="0" SpectralSlope="0"
+        HighestHarmonicToKeep="1024" LowestHarmonicToKeep="1" EvenOddRatio="0.5"
+        StereoPhaseShift="0"/>
+</StraightlinerOscSectionState>

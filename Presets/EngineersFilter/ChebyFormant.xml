@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<EngineersFilter PatchFormat="1" Mode="Bandpass" Method="Chebychev" Frequency="934.567035"
+                 Order="2" Ripple="8.39495682">
+  <ControllerMapping>
+    <Frequency MidiCC="74" Min="20" Max="20000"/>
+  </ControllerMapping>
+</EngineersFilter>

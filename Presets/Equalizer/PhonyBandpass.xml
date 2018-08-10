@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Equalizer PatchFormat="1">
+  <Band Frequency="4170.85983" Gain="-3.21649485" Bandwidth="0.940897437"
+        Mode="Lowpass 12 dB/oct"/>
+  <Band Frequency="250" Gain="-2.72164948" Bandwidth="1" Mode="Highpass 12 dB/oct"/>
+</Equalizer>

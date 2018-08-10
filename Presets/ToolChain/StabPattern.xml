@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="2">
+  <MetaParameterValues M1="0.59809416532516479492"/>
+  <Slot Type="Straightliner">
+    <Slot1-Straightliner PatchFormat="1" MasterLevel="-7.2" VoiceLevelByKey="-13" VoiceLevelByVel="3">
+      <OscSection PatchFormat="1">
+        <Osc1 PatchFormat="1" Level="-8.44" Tune="-12" StereoDetune="0.16"
+              StereoDetuneHz="1.98" StartPhase="167" EvenOddPhaseShift="-65"
+              EvenOddStereoPhaseShift="94" AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
+        <Osc2 PatchFormat="1" Level="-10" StereoDetune="-0.17" StereoDetuneHz="-1.28"
+              StartPhase="245" EvenOddPhaseShift="-23" StereoPhaseShift="-36"
+              EvenOddStereoPhaseShift="-117" AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
+        <Osc3 PatchFormat="1" Level="-10" StereoDetune="0.23" StereoDetuneHz="0.47"
+              StartPhase="71" StereoPhaseShift="-38" EvenOddStereoPhaseShift="46"
+              AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
+        <Osc4 PatchFormat="1" Level="-10.22" Tune="12" StereoDetune="-0.13"
+              StereoDetuneHz="-1.11" StartPhase="255" StereoPhaseShift="-69"
+              EvenOddStereoPhaseShift="52" AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
+      </OscSection>
+      <Filter PatchFormat="1" Mode="Lowpass 12 dB/oct" Frequency="8572.77"
+              FrequencyByKey="38.6" FrequencyByVel="108.8" Resonance="0" Q="0.926"
+              MakeUp="100"/>
+      <PitchEnvelope PatchFormat="1" TimeScale="0.5" Depth="0.070000000000000006661"
+                     GridX="1" GridY="1" ScaleFactor="1" Offset="0" TimeScaleByKey="0"
+                     TimeScaleByVel="0" DepthByKey="0" DepthByVel="0" SyncMode="1"
+                     LoopStartIndex="0" LoopEndIndex="1" LoopMode="Off">
+        <Breakpoint Time="0" Level="1" Shape="Analog" ShapeAmount="1"/>
+        <Breakpoint Time="1" Level="1" Shape="Analog" ShapeAmount="1"/>
+      </PitchEnvelope>
+      <FilterEnvelope PatchFormat="1" DepthByVel="40" GridX="1" GridY="1" ScaleFactor="1"
+                      Offset="0" TimeScale="1" TimeScaleByKey="0" TimeScaleByVel="0"
+                      Depth="1" DepthByKey="0" SyncMode="1" LoopStartIndex="1" LoopEndIndex="2"
+                      LoopMode="Forward">
+        <Breakpoint Time="0" Level="1" Shape="Analog" ShapeAmount="1"/>
+        <Breakpoint Time="0.25" Level="0.25" Shape="Analog" ShapeAmount="1"/>
+        <Breakpoint Time="1.25" Level="0.25" Shape="Smooth" ShapeAmount="1"/>
+        <Breakpoint Time="1.75" Level="0.125" Shape="Analog" ShapeAmount="1"/>
+      </FilterEnvelope>
+      <AmpEnvelope PatchFormat="1" Depth="1.1999999999999999556" GridX="1" GridY="1"
+                   ScaleFactor="1" Offset="0" TimeScale="1" TimeScaleByKey="0" TimeScaleByVel="0"
+                   DepthByKey="0" DepthByVel="0" SyncMode="0" LoopStartIndex="2"
+                   LoopEndIndex="3" LoopMode="Forward">
+        <Breakpoint Time="0" Level="0" Shape="Analog" ShapeAmount="1"/>
+        <Breakpoint Time="0.03006778179999999856" Level="1" Shape="Analog" ShapeAmount="1"/>
+        <Breakpoint Time="0.75" Level="0.25" Shape="Analog" ShapeAmount="1"/>
+        <Breakpoint Time="1" Level="0.25" Shape="Analog" ShapeAmount="1"/>
+        <Breakpoint Time="1" Level="0.25" Shape="Linear" ShapeAmount="1"/>
+        <Breakpoint Time="2.8221448900000001281" Level="0" Shape="Analog" ShapeAmount="1.9699999999999999734"/>
+      </AmpEnvelope>
+    </Slot1-Straightliner>
+  </Slot>
+  <Slot Type="EchoLab">
+    <Slot2-EchoLab PatchFormat="1" DryWet="0.37" Sync="1">
+      <DelayLine PatchFormat="1" DelayTime="0.5" Amplitude="0.629" Feedback="48.7"
+                 Pan="0.3">
+        <InputFilter PatchFormat="2"/>
+        <FeedbackFilter PatchFormat="2">
+          <Band Mode="High Shelving" Frequency="1325.5521300000000338" Gain="-6.2999999999999971578"
+                Bandwidth="4.4699999999999997513"/>
+        </FeedbackFilter>
+      </DelayLine>
+      <DelayLine PatchFormat="1" DelayTime="1.25" Amplitude="0.629" Pan="-0.3">
+        <InputFilter PatchFormat="2"/>
+        <FeedbackFilter PatchFormat="2">
+          <Band Mode="Peak/Dip" Frequency="275.49726299999997536" Gain="8.7000000000000028422"
+                Bandwidth="1.9000000000000001332"/>
+        </FeedbackFilter>
+      </DelayLine>
+      <DelayLine PatchFormat="1" DelayTime="1.75" Amplitude="0.629" Pan="0.3">
+        <InputFilter PatchFormat="2"/>
+        <FeedbackFilter PatchFormat="2">
+          <Band Mode="Peak/Dip" Frequency="1325.5521300000000338" Gain="8.7000000000000028422"
+                Bandwidth="1.9000000000000001332"/>
+        </FeedbackFilter>
+      </DelayLine>
+      <DelayLine PatchFormat="1" DelayTime="2.5" Amplitude="0.657">
+        <InputFilter PatchFormat="2">
+          <Band Mode="Peak/Dip" Frequency="960.94697799999994459" Gain="8.6000000000000014211"
+                Bandwidth="1.9000000000000001332"/>
+        </InputFilter>
+        <FeedbackFilter PatchFormat="2"/>
+      </DelayLine>
+      <DelayLine PatchFormat="1" DelayTime="2" Amplitude="-0.332">
+        <InputFilter PatchFormat="2"/>
+        <FeedbackFilter PatchFormat="2"/>
+      </DelayLine>
+      <DelayLine PatchFormat="1" DelayTime="0.75" Amplitude="0.304" Feedback="35.7"
+                 Pan="-0.3">
+        <InputFilter PatchFormat="2"/>
+        <FeedbackFilter PatchFormat="2">
+          <Band Mode="Low Shelving" Frequency="436.76981299999999919" Gain="-7.5"
+                Bandwidth="5.2599999999999997868"/>
+        </FeedbackFilter>
+      </DelayLine>
+    </Slot2-EchoLab>
+  </Slot>
+  <Slot Type="None">
+    <Slot3-None PatchFormat="1"/>
+  </Slot>
+</ToolChain>

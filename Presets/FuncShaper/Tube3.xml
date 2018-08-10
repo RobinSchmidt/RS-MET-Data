@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FuncShaperState FunctionString="softClip(0.5*(x+1.41)&#94;2-1,-1,1,0.2,0.2);" a="-0.722"
+                 aMin="-0.99" aMax="0" b="0.712" bMin="0" bMax="0.99" c="0" cMin="0"
+                 cMax="1" d="0" dMin="0" dMax="1" InputFilterUsed="1" InputLowpass="3774.784"
+                 InputHighpass="112.468" Drive="32.28" DC="0" Oversampling="4"
+                 OutputFilterUsed="0" OutputLowpass="20000" OutputHighpass="20"
+                 OutLevel="-13.66" DryWet="50"/>

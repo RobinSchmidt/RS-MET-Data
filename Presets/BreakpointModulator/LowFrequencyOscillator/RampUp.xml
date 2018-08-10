@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Slot3-BreakpointModulator PatchFormat="1" GridX="1" GridY="1" SnapX="1" SnapY="1" ScaleFactor="1"
+                           Offset="0" TimeScale="1" TimeScaleByKey="0" TimeScaleByVel="0"
+                           Depth="1" DepthByKey="0" DepthByVel="0" SyncMode="0" LoopStartIndex="0"
+                           LoopEndIndex="1" LoopMode="Forward">
+  <Breakpoint Time="0" Level="0" Shape="Sine 1" ShapeAmount="1"/>
+  <Breakpoint Time="1" Level="1" Shape="Linear" ShapeAmount="1"/>
+  <Breakpoint Time="1.25" Level="1" Shape="Sine 1" ShapeAmount="1"/>
+</Slot3-BreakpointModulator>

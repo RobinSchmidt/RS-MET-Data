@@ -1,0 +1,16 @@
+The samples in this folder are released under the creative commons license (see http://creativecommons.org/by/3.0/). They were created or collected (and possibly modified) by Robin Schmidt (www.rs-met.com). Those of them, which were not originally created by Robin Schmidt were previously released by other authors under creative commons license and originate from:
+
+
+filename                   	original filename     	original source/author
+
+PipeThump1[...].flac        	pipe_thump1.wav        	The Berklee Sampling Archive Volume 1
+PluckedReed1[...].flac         	plucked_reed_1.wav     	The Berklee Sampling Archive Volume 1
+PluckedReed2[...].flac         	plucked_reed_2.wav     	The Berklee Sampling Archive Volume 1
+Pvc1[...].flac                 	pvc_1.wav              	The Berklee Sampling Archive Volume 1
+RubberBand1[...].flac          	rubber_band1.wav     	The Berklee Sampling Archive Volume 1
+
+
+...much thanks to the authors of the original material
+
+
+

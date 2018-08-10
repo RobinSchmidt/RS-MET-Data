@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StereoDelayState DelayScaleL="1" DelayScaleR="1" LeftInToLeftDelay="100" RightInToLeftDelay="0"
+                  LeftInToRightDelay="0" RightInToRightDelay="100" DiffusorTimeL="10"
+                  DiffusorTimeR="12.57" DiffusorAmountL="0" DiffusorAmountR="0"
+                  LowpassCutoffL="20000" LowpassCutoffR="20000" HighpassCutoffL="20"
+                  HighpassCutoffR="20" CutoffScale="1" FeedbackLeftToLeft="50"
+                  FeedbackRightToRight="50" FeedbackLeftToRight="-10" FeedbackRightToLeft="-10"
+                  LeftDelayToLeftOut="100" LeftDelayToRightOut="10" RightDelayToLeftOut="10"
+                  RightDelayToRightOut="100" WetDelayInBeatsL="0" WetDelayInBeatsR="0.25"
+                  DryWet="50" DelayInBeatsL="0.5" DelayInBeatsR="0.5"/>

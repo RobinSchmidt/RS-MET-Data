@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Quadrifex PatchFormat="1" DryWet="0.2" Routing="1&gt;2&gt;3&gt;4" Slot1="Vibrato"
+           Slot2="PingPongEcho" Slot3="Phaser" Slot4="Bypass">
+  <Vibrato1 PatchFormat="1" StereoPhase="90" Depth="0.4"/>
+  <PingPongEcho2 PatchFormat="1" DryWetRatio="1" Pan="-0.3" HighDamp="1433.15497"
+                 LowDamp="305.661347"/>
+  <AudioModule PatchFormat="1"/>
+  <Phaser3 PatchFormat="1" CycleLength="2" StereoPhase="90" Feedback="27.9"
+           NumStages="10">
+    <ControllerMapping>
+      <CycleLength MidiCC="-1" Min="0.25" Max="1"/>
+    </ControllerMapping>
+  </Phaser3>
+</Quadrifex>

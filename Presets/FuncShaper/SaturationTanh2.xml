@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FuncShaperState FunctionString="tanh(a*x);" a="2" aMin="0" aMax="3" b="0" bMin="0"
+                 bMax="1" c="0" cMin="0" cMax="1" d="0" dMin="0" dMax="1" InputFilterUsed="1"
+                 InputLowpass="1373.30001" InputHighpass="134.140011" Drive="21.8900013"
+                 DC="0" Oversampling="4" OutputFilterUsed="0" OutputLowpass="14059.4608"
+                 OutputHighpass="219.710013" OutLevel="0" DryWet="100"/>

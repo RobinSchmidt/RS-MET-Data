@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<EngineersFilter PatchFormat="1" Mode="Peak/Dip" Method="Elliptic" Order="20"
+                 Bandwidth="2" Gain="-36" Ripple="0.1" Rejection="120">
+  <ControllerMapping>
+    <Method MidiCC="-1" Min="0" Max="4"/>
+  </ControllerMapping>
+</EngineersFilter>

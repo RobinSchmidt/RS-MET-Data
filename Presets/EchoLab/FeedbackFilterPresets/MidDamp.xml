@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Equalizer GlobalGain="0">
+  <Band Frequency="1980.18083" Gain="-14.0377358" Bandwidth="1.95977011"
+        Mode="Peak/Dip"/>
+</Equalizer>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ModulatorState FunctionString="z=x+a*sin(2*PI*b*x);tanh(c*z);" a="0.044" aMin="0"
+                aMax="0.2" b="1.042" bMin="0" bMax="3" c="1.563" cMin="0" cMax="3"
+                d="0" dMin="0" dMax="1" InputFilterUsed="1" InputLowpass="20000"
+                InputHighpass="335.370003" Drive="12.6299973" DC="0.174999952"
+                Oversampling="4" OutputFilterUsed="1" OutputLowpass="20000" OutputHighpass="20"
+                OutLevel="0" DryWet="50"/>

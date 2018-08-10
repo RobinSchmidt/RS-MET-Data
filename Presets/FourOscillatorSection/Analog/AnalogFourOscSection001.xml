@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StraightlinerOscSectionState>
+  <Osc1 AudioFileRelativePath="Samples\SingleCycle\Classic\Saw.flac"
+        Level="-3" Tune="-0.1" SpectralSlope="0" Pan="-0.3" MidSideRatio="0.5"
+        Mute="0"/>
+  <Osc2 AudioFileRelativePath="Samples\SingleCycle\Classic\Saw.flac"
+        Level="-3" Tune="0.1" SpectralSlope="0" Pan="0.3" MidSideRatio="0.5" Mute="0"/>
+  <Osc3 AudioFileRelativePath="Samples\SingleCycle\Classic\Square_Ste.flac"
+        Level="4.11" Tune="0" SpectralSlope="0" Pan="0" MidSideRatio="0.5" Mute="0"/>
+  <Osc4 AudioFileRelativePath="Samples\SingleCycle\Classic\Square.flac"
+        Level="-3.7" Tune="-12" SpectralSlope="0" Pan="0" MidSideRatio="0.5" Mute="0"/>
+</StraightlinerOscSectionState>

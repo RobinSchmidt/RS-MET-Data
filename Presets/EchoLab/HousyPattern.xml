@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DelayDesigner PatchFormat="1" DryWet="0.2" SyncDelayTimes="1" Solo="-1">
+  <DelayLine DelayTime="0.5" Amplitude="0.9" Feedback="49.82" Pan="-0.75"
+             PingPong="1" Mute="0">
+    <FeedbackFilter GlobalGain="0">
+      <Band Frequency="1980.18083" Gain="-7.30434783" Bandwidth="4.48850575"
+            Mode="High Shelving"/>
+    </FeedbackFilter>
+  </DelayLine>
+  <DelayLine DelayTime="1.25" Amplitude="0.39021164" Feedback="0" Pan="-0.3"
+             PingPong="0" Mute="0">
+    <InputFilter GlobalGain="0">
+      <Band Frequency="1003.99155" Gain="10.8819876" Bandwidth="2.65517241"
+            Mode="Peak/Dip"/>
+    </InputFilter>
+  </DelayLine>
+  <DelayLine DelayTime="1.75" Amplitude="0.416666667" Feedback="0" Pan="0.3"
+             PingPong="0" Mute="0">
+    <InputFilter GlobalGain="0">
+      <Band Frequency="3002.58876" Gain="8.79503106" Bandwidth="1.89996863"
+            Mode="Peak/Dip"/>
+    </InputFilter>
+  </DelayLine>
+  <DelayLine DelayTime="2.5" Amplitude="0.456349206" Feedback="0" Pan="-0.3"
+             PingPong="0" Mute="0">
+    <InputFilter GlobalGain="0">
+      <Band Frequency="1980.18083" Gain="9.98757764" Bandwidth="1.89996863"
+            Mode="Peak/Dip"/>
+    </InputFilter>
+  </DelayLine>
+  <DelayLine DelayTime="3" Amplitude="0.443121693" Feedback="0" Pan="0.3"
+             PingPong="0" Mute="0">
+    <InputFilter GlobalGain="0">
+      <Band Frequency="509.04393" Gain="7.60248447" Bandwidth="1.89996863"
+            Mode="Peak/Dip"/>
+    </InputFilter>
+  </DelayLine>
+  <DelayLine DelayTime="0.75" Amplitude="0.231481481" Feedback="53.04" Pan="0.65"
+             PingPong="1" Mute="0">
+    <FeedbackFilter GlobalGain="0">
+      <Band Frequency="1026.23158" Gain="-13.2670807" Bandwidth="1.89996863"
+            Mode="Peak/Dip"/>
+    </FeedbackFilter>
+  </DelayLine>
+</DelayDesigner>

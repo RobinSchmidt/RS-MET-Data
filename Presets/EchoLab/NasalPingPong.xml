@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DelayDesigner PatchFormat="1" SyncDelayTimes="1" DryWet="0.5" Solo="-1">
+  <DelayLine DelayTime="0.5" Amplitude="0.5" Feedback="56.8" Pan="-0.6" PingPong="1"
+             Mute="0">
+    <FeedbackFilter GlobalGain="0">
+      <Band Frequency="6903.63563" Gain="-7.30434783" Bandwidth="3.38461538"
+            Mode="High Shelving"/>
+      <Band Frequency="555.669458" Gain="1.04347826" Bandwidth="1.89996863"
+            Mode="Highpass 12 dB/oct"/>
+    </FeedbackFilter>
+    <InputFilter GlobalGain="0">
+      <Band Frequency="1305.91181" Gain="13.2670807" Bandwidth="4.1091954"
+            Mode="Low Shelving"/>
+    </InputFilter>
+  </DelayLine>
+</DelayDesigner>

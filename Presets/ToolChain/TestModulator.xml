@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="2">
+  <Slot Type="BreakpointModulator">
+    <Slot1-BreakpointModulator PatchFormat="1" GridX="1" GridY="1" ScaleFactor="1" Offset="0"
+                               TimeScale="1" TimeScaleByKey="0" TimeScaleByVel="0" Depth="1"
+                               DepthByKey="0" DepthByVel="0" SyncMode="0" LoopStartIndex="2"
+                               LoopEndIndex="3" LoopMode="Forward">
+      <Breakpoint Time="0" Level="0" Shape="Analog" ShapeAmount="1"/>
+      <Breakpoint Time="0.5" Level="1" Shape="Analog" ShapeAmount="1"/>
+      <Breakpoint Time="1" Level="0.5" Shape="Analog" ShapeAmount="1"/>
+      <Breakpoint Time="2" Level="0.5" Shape="Analog" ShapeAmount="1"/>
+      <Breakpoint Time="3" Level="0" Shape="Analog" ShapeAmount="1"/>
+    </Slot1-BreakpointModulator>
+  </Slot>
+  <Slot Type="None">
+    <Slot2-None PatchFormat="1"/>
+  </Slot>
+</ToolChain>

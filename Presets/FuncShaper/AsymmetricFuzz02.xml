@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ModulatorState FunctionString="softClip(select(x, -abs(x)&#94;a, x&#94;b));" a="0.573"
+                aMin="0" aMax="5" b="0.26" bMin="0" bMax="5" c="0" cMin="0" cMax="1"
+                d="0" dMin="0" dMax="1" InputFilterUsed="0" InputLowpass="20000"
+                InputHighpass="20" Drive="0" DC="0" Oversampling="4" OutputFilterUsed="0"
+                OutputLowpass="20000" OutputHighpass="20" OutLevel="0" DryWet="100"/>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StraightlinerState MasterLevel="-16.8" GlideTime="91.64" NumVoices="10" VoiceLevelByKey="-6"
+                 VoiceLevelByVel="0" MasterLevelByVoices="0" MidSideRatio="0.5"
+                 MasterTuneA4="440" PitchWheelRange="12" GlideIsOn="0">
+  <Osc1 AudioFileRelativePath="Samples\SingleCycle\OctavesOfPrimeMultiples\SinOPM_h01.flac"
+        Mute="0" Level="-6" LevelByKey="0" LevelByVel="0" Pan="-0.5"
+        MidSideRatio="0.5" StartPhase="0" StartPhaseByKey="0" StartPhaseByVel="0"
+        TimeReverse="0" PolarityInvert="0" FullWavePhaseWarp="0" HalfWavePhaseWarp="0"
+        Tune="0" DetuneHz="0" StereoDetuneSemitones="-0.02" StereoDetuneHz="-0.5"
+        SpectralContrast="1" SpectralSlope="0" HighestHarmonicToKeep="1024"
+        LowestHarmonicToKeep="2" EvenOddRatio="0.5" EvenOddPhaseShift="0"
+        StereoPhaseShift="65" EvenOddStereoPhaseShift="0"/>
+  <Osc2 AudioFileRelativePath="Samples\SingleCycle\OctavesOfPrimeMultiples\SinOPM_h01.flac"
+        Mute="0" Level="-6" LevelByKey="0" LevelByVel="0" Pan="0.5" MidSideRatio="0.5"
+        StartPhase="0" StartPhaseByKey="0" StartPhaseByVel="0" TimeReverse="0"
+        PolarityInvert="0" FullWavePhaseWarp="0" HalfWavePhaseWarp="0"
+        Tune="0" DetuneHz="0" StereoDetuneSemitones="0.02" StereoDetuneHz="0.5"
+        SpectralContrast="1" SpectralSlope="0" HighestHarmonicToKeep="1024"
+        LowestHarmonicToKeep="2" EvenOddRatio="0.5" EvenOddPhaseShift="0"
+        StereoPhaseShift="-65" EvenOddStereoPhaseShift="0"/>
+  <Osc3 AudioFileRelativePath="Samples\SingleCycle\OctavesOfPrimeMultiples\SinOPM_h05.flac"
+        Mute="0" Level="0" LevelByKey="0" LevelByVel="0" Pan="0" MidSideRatio="0.5"
+        StartPhase="0" StartPhaseByKey="0" StartPhaseByVel="0" TimeReverse="0"
+        PolarityInvert="0" FullWavePhaseWarp="0" HalfWavePhaseWarp="0"
+        Tune="-12" DetuneHz="0" StereoDetuneSemitones="0" StereoDetuneHz="0"
+        SpectralContrast="1" SpectralSlope="0" HighestHarmonicToKeep="1024"
+        LowestHarmonicToKeep="1" EvenOddRatio="0.5" EvenOddPhaseShift="0"
+        StereoPhaseShift="-48" EvenOddStereoPhaseShift="0"/>
+  <Osc4 AudioFileRelativePath="Samples\SingleCycle\Synthetic\Organ_Ste.flac"
+        Mute="0" Level="-9.33" LevelByKey="0" LevelByVel="0" Pan="0"
+        MidSideRatio="0.5" StartPhase="0" StartPhaseByKey="0" StartPhaseByVel="0"
+        TimeReverse="0" PolarityInvert="0" FullWavePhaseWarp="0" HalfWavePhaseWarp="0"
+        Tune="7.02" DetuneHz="0" StereoDetuneSemitones="0" StereoDetuneHz="2.67"
+        SpectralContrast="1" SpectralSlope="0" HighestHarmonicToKeep="1024"
+        LowestHarmonicToKeep="1" EvenOddRatio="0.5" EvenOddPhaseShift="0"
+        StereoPhaseShift="0" EvenOddStereoPhaseShift="0"/>
+  <Filter Mode="Peak/Dip" Frequency="3052.33602" FrequencyByKey="100" FrequencyByVel="0"
+          Gain="10.8333333" Q="0.754" TwoStages="0"/>
+  <FilterEnvelope ScaleFactor="1" Offset="0" TimeScale="1" TimeScaleByKey="0" TimeScaleByVel="0"
+                  Depth="1.41" DepthByKey="0" DepthByVel="0" SyncMode="0" LoopStartIndex="1"
+                  LoopEndIndex="2" LoopMode="Forward">
+    <Breakpoint Time="0" Level="1.5" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.375" Level="1" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="1" Level="1" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="1.5" Level="1" Shape="Analog" ShapeAmount="1"/>
+  </FilterEnvelope>
+  <AmpEnvelope ScaleFactor="1" Offset="0" TimeScale="1" TimeScaleByKey="0" TimeScaleByVel="0"
+               Depth="1" DepthByKey="0" DepthByVel="0" SyncMode="0" LoopStartIndex="1"
+               LoopEndIndex="2" LoopMode="Forward">
+    <Breakpoint Time="0" Level="0" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="0.0625" Level="1" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="1" Level="1" Shape="Analog" ShapeAmount="1"/>
+    <Breakpoint Time="1.1875" Level="0.125" Shape="Analog" ShapeAmount="1.874"/>
+    <Breakpoint Time="5" Level="0" Shape="Analog" ShapeAmount="1.974"/>
+  </AmpEnvelope>
+</StraightlinerState>

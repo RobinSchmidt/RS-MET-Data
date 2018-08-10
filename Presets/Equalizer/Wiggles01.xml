@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Equalizer PatchFormat="1">
+  <Band Frequency="30.8655831" Gain="12.371134" Bandwidth="1"/>
+  <Band Frequency="60.9717901" Gain="-12.1237113" Bandwidth="1"/>
+  <Band Frequency="124.613797" Gain="12.1237113" Bandwidth="1"/>
+  <Band Frequency="250.3871" Gain="-11.8762887" Bandwidth="1"/>
+  <Band Frequency="494.614007" Gain="11.8762887" Bandwidth="1"/>
+  <Band Frequency="977.059183" Gain="-11.8762887" Bandwidth="1"/>
+  <Band Frequency="2031.18469" Gain="11.8762887" Bandwidth="1"/>
+  <Band Frequency="3944.68668" Gain="-12.1237113" Bandwidth="1"/>
+  <Band Frequency="7926.07788" Gain="12.1237113" Bandwidth="1"/>
+</Equalizer>

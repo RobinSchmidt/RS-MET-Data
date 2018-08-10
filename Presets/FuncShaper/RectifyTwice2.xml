@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FuncShaperState InputHighpass="20" InputLowpass="20000" Drive="0" DC="0" OutputHighpass="20"
+                 OutputLowpass="20000" OutLevel="0" DryWet="100" FunctionString="x1=a*select(x, -x, 0, x)-0.5*a; y=select(x1, -x1, 0, x1)-0.25*a; y=clip(y,-1,1);"
+                 a="1.814" aMin="1" aMax="25" b="0" bMin="0" bMax="1" c="0" cMin="0"
+                 cMax="1" d="0" dMin="0" dMax="1" InputFilterUsed="0" Oversampling="4"
+                 OutputFilterUsed="0"/>

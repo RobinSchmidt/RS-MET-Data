@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DelayDesigner PatchFormat="1" DryWet="0.4" SyncDelayTimes="1">
+  <DelayLine DelayTime="0.25" Amplitude="0.416666667" Feedback="29.21" Pan="-0.3">
+    <FeedbackFilter GlobalGain="0">
+      <Band Frequency="988.63952" Gain="6.3" Bandwidth="1.89996863" Mode="Peak/Dip"/>
+    </FeedbackFilter>
+  </DelayLine>
+  <DelayLine DelayTime="0.75" Amplitude="0.755649718" Feedback="11.36" Pan="0.3">
+    <FeedbackFilter GlobalGain="0">
+      <Band Frequency="1471.9129" Gain="6.9" Bandwidth="1.89996863" Mode="Peak/Dip"/>
+    </FeedbackFilter>
+  </DelayLine>
+  <DelayLine DelayTime="0.5" Amplitude="-0.303672316" Feedback="42.2" Pan="0"/>
+</DelayDesigner>

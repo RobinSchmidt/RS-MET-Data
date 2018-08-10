@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="4">
+  <MetaParameterValues M1="0.37395831942558288574"/>
+  <Slot Type="EllipseOscillator">
+    <Slot1-EllipseOscillator PatchFormat="1" Amplitude="0" LowHigh="0.102273" InOut="0.886363"
+                             Phase="-95.1136"/>
+  </Slot>
+  <Slot Type="BreakpointModulator">
+    <Slot2-BreakpointModulator PatchFormat="1" TimeScaleByKey="-40.000000000000014211" GridX="1"
+                               GridY="1/4" SnapY="1" ScaleFactor="1" Offset="0" TimeScale="1"
+                               TimeScaleByVel="0" Depth="1" DepthByKey="0" DepthByVel="0" SyncMode="0"
+                               LoopStartIndex="2" LoopEndIndex="3" LoopMode="Forward">
+      <Breakpoint Time="0" Level="0" Shape="Analog" ShapeAmount="1"/>
+      <Breakpoint Time="0.049837306884897403236" Level="1" Shape="Sigmoid" ShapeAmount="0.63730573419489788822"/>
+      <Breakpoint Time="0.49402873204166952714" Level="0.75" Shape="Sigmoid" ShapeAmount="1"/>
+      <Breakpoint Time="1.8900583103271617613" Level="0.75" Shape="Analog" ShapeAmount="1"/>
+      <Breakpoint Time="2.1351017183667462263" Level="0.1560000000000001108" Shape="Sigmoid"
+                  ShapeAmount="1"/>
+      <Breakpoint Time="3.0916636779381900801" Level="-0" Shape="Analog" ShapeAmount="1"/>
+    </Slot2-BreakpointModulator>
+  </Slot>
+  <Slot Type="BreakpointModulator">
+    <Slot3-BreakpointModulator PatchFormat="1" TimeScale="1.8447631281789520497" GridX="1" GridY="1"
+                               SnapX="1" SnapY="1" ScaleFactor="1" Offset="0" TimeScaleByKey="0"
+                               TimeScaleByVel="0" Depth="1" DepthByKey="0" DepthByVel="0" SyncMode="0"
+                               LoopStartIndex="0" LoopEndIndex="1" LoopMode="Forward">
+      <Breakpoint Time="0" Level="-1" Shape="Sine 1" ShapeAmount="1"/>
+      <Breakpoint Time="1" Level="1" Shape="Linear" ShapeAmount="0.60618989934975864298"/>
+      <Breakpoint Time="1.25" Level="0" Shape="Sine 1" ShapeAmount="1"/>
+    </Slot3-BreakpointModulator>
+  </Slot>
+  <Slot Type="StereoDelay">
+    <Slot4-StereoDelay PatchFormat="1" DelayScaleL="0.9899" DelayScaleR="1.5113" DiffusorTimeR="13.96"
+                       DiffusorAmountL="-14.1" DiffusorAmountR="16.3" LowpassCutoffL="2221.41"
+                       LowpassCutoffR="1606.4" HighpassCutoffL="83.29" HighpassCutoffR="59.41"
+                       CutoffScale="0.392608" FeedbackLeftToLeft="53.0488" FeedbackRightToRight="49.8049"
+                       FeedbackLeftToRight="-17.4" FeedbackRightToLeft="13" DryWet="8.1577"
+                       DelayInBeatsL="0.5" DelayInBeatsR="0.5"/>
+  </Slot>
+  <Slot Type="None">
+    <Slot5-None PatchFormat="1"/>
+  </Slot>
+  <Modulations>
+    <Connection Source="Slot2-BreakpointModulator" Target="Slot1-EllipseOscillator.LowHigh"
+                Depth="0.86138392857142864756" DepthMin="-1" DepthMax="1" Mode="Absolute"/>
+    <Connection Source="Slot2-BreakpointModulator" Target="Slot1-EllipseOscillator.Amplitude"
+                Depth="1" DepthMin="-1" DepthMax="1" Mode="Absolute"/>
+    <Connection Source="Slot3-BreakpointModulator" Target="Slot1-EllipseOscillator.Phase"
+                Depth="180" DepthMin="-180" DepthMax="180" Mode="Absolute"/>
+  </Modulations>
+</ToolChain>
