@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ColorScheme EditorAppearance="BrightOnDark" WidgetAppearance="BrightOnDark"
-             PlotAppearance="BrightOnDark" CentralHue="0.0900000036" Saturation="0.400000006"/>
+             PlotAppearance="BrightOnDark" CentralHue="0.090000003576278686523"
+             Saturation="0.40000000596046447754" Gamma="1" HueOffset1="0.019999999552965164185"
+             HueOffset2="0.97000002861022949219"/>

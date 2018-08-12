@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Slot1-Liberty PatchFormat="1">
+  <TopLevelModule Name="Instrument" X="0" Y="0" Poly="0">
+    <AudioInput Name="AudioIn1" X="2" Y="2" Poly="0"/>
+    <AudioInput Name="AudioIn2" X="2" Y="6" Poly="0"/>
+    <Container Name="PolyBlipStereo" X="23" Y="4" Poly="0">
+      <Container Name="TestBlip" X="3" Y="4" Poly="1">
+        <NoteFrequency Name="NoteFrequency" X="0" Y="9" Poly="1"/>
+        <Constant Name="500" X="1" Y="13" Poly="1"/>
+        <BiquadDesigner Name="Designer" X="14" Y="10" Poly="1" Mode="Bandpass, const. skirt, BLT"
+                        IncomingConnections="A_0_0_0, A_1_0_1"/>
+        <Container Name="Impulse" X="15" Y="4" Poly="1">
+          <NoteGate Name="NoteGate" X="1" Y="4" Poly="1"/>
+          <Container Name="Differencer" X="10" Y="4" Poly="1" IncomingConnections="A_0_0_0">
+            <AudioInput Name="In1" X="1" Y="4" Poly="1"/>
+            <Constant Name="-1" X="3" Y="8" Poly="1"/>
+            <Constant Name="1" X="4" Y="6" Poly="1"/>
+            <FirstOrderFilter Name="FirstOrderFilter" X="8" Y="4" Poly="1" IncomingConnections="A_0_0_0, A_2_0_1, A_1_0_2"/>
+            <AudioOutput Name="Out2" X="17" Y="4" Poly="1" IncomingConnections="A_3_0_0"/>
+          </Container>
+          <Constant Name="0" X="16" Y="7" Poly="1"/>
+          <Constant Name="1" X="16" Y="10" Poly="1"/>
+          <Clipper Name="Clipper" X="21" Y="4" Poly="1" IncomingConnections="A_1_0_0, A_2_0_1, A_3_0_2"/>
+          <AudioOutput Name="Out" X="28" Y="4" Poly="1" IncomingConnections="A_4_0_0"/>
+        </Container>
+        <Biquad Name="Biquad" X="24" Y="9" Poly="1" IncomingConnections="A_3_0_0, A_2_0_1, A_2_1_2, A_2_2_3, A_2_3_4, A_2_4_5"/>
+        <AudioOutput Name="Out1" X="33" Y="9" Poly="1" IncomingConnections="A_4_0_0"/>
+      </Container>
+      <Container Name="In1Out2" X="13" Y="4" Poly="1" IncomingConnections="A_0_0_0">
+        <AudioInput Name="In1" X="2" Y="4" Poly="1"/>
+        <AudioOutput Name="Out1" X="11" Y="2" Poly="1" IncomingConnections="A_0_0_0"/>
+        <AudioOutput Name="Out2" X="11" Y="6" Poly="1" IncomingConnections="A_0_0_0"/>
+      </Container>
+      <Container Name="VoiceKill" X="14" Y="12" Poly="1" IncomingConnections="A_0_0_0">
+        <AudioInput Name="In1" X="2" Y="2" Poly="1"/>
+        <Constant Name="0.001" X="2" Y="5" Poly="1"/>
+        <Constant Name="0.01" X="2" Y="8" Poly="1"/>
+        <VoiceKiller Name="VoiceKiller" X="12" Y="4" Poly="1" Threshold="-100.0" TimeOut="0.01"
+                     IncomingConnections="A_0_0_0"/>
+      </Container>
+      <VoiceCombiner Name="}" X="22" Y="3" Poly="0" IncomingConnections="A_1_0_0"/>
+      <VoiceCombiner Name="}" X="22" Y="6" Poly="0" IncomingConnections="A_1_1_0"/>
+      <AudioOutput Name="Out1" X="27" Y="3" Poly="0" IncomingConnections="A_3_0_0"/>
+      <AudioOutput Name="Out2" X="27" Y="6" Poly="0" IncomingConnections="A_4_0_0"/>
+    </Container>
+    <AudioOutput Name="AudioOut1" X="40" Y="2" Poly="0" IncomingConnections="A_2_0_0"/>
+    <AudioOutput Name="AudioOut2" X="40" Y="6" Poly="0" IncomingConnections="A_2_1_0"/>
+  </TopLevelModule>
+</Slot1-Liberty>

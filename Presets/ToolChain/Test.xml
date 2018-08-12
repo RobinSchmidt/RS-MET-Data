@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ToolChain PatchFormat="1" ActiveSlot="1">
-  <MetaParameterValues M0="0.63499999046325683594" M1="0.37395831942558288574"/>
-  <Slot Type="DebugAudioModule">
-    <Slot1-DebugAudioModule PatchFormat="1" Left="-0.36">
-      <MetaMapping>
-        <Left MetaIndex="0"/>
-      </MetaMapping>
-      <LeftParameterMap>
-        <Node X="0" Y="0"/>
-        <Node X="0.22489959839357429039" Y="0.63128491620111726323"/>
-        <Node X="0.65863453815261041591" Y="0.3016759776536312998"/>
-        <Node X="1" Y="1"/>
-      </LeftParameterMap>
-      <Equalizer PatchFormat="2"/>
-    </Slot1-DebugAudioModule>
+  <Slot Type="Equalizer">
+    <Slot1-Equalizer PatchFormat="2"/>
   </Slot>
   <Slot Type="None">
     <Slot2-None PatchFormat="1"/>
