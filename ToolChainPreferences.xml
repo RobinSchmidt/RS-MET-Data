@@ -3,6 +3,6 @@
 <ToolChainPreferences>
   <ColorScheme EditorAppearance="BrightOnDark" WidgetAppearance="BrightOnDark"
                PlotAppearance="BrightOnDark" CentralHue="0.63999998569488525391"
-               Saturation="0.36465752124786376953" Gamma="1.1404275894165039063"
-               HueOffset1="0.10000000149011611938" HueOffset2="0.93000000715255737305"/>
+               Saturation="0.5" Gamma="1" HueOffset1="0.93000000715255737305"
+               HueOffset2="0.070000000298023223877"/>
 </ToolChainPreferences>
