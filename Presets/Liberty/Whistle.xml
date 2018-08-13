@@ -20,7 +20,7 @@
         <AudioInput Name="In1" X="16" Y="4" Poly="1"/>
         <AudioInput Name="In2" X="16" Y="25" Poly="1"/>
         <NoteFrequency Name="NoteFreq" X="2" Y="14" Poly="1"/>
-        <Parameter Name="Parameter" X="2" Y="18" Poly="1" Value="42.7355" MinValue="5"
+        <Parameter Name="FilterQ" X="2" Y="18" Poly="1" Value="27.6128" MinValue="5"
                    MaxValue="100" DefaultValue="20" Scaling="Exponential" Quantization="0.0"
                    Controller="0" ControlRangeMin="0.0" ControlRangeMax="0.0" Smoothing="0.0"
                    HelpText="Filter Q"/>
