@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Slot1-Equalizer PatchFormat="2">
+  <Band Mode="Low Shelving" Frequency="250" Gain="12" Bandwidth="3"/>
+  <Band Mode="High Shelving" Frequency="4000" Gain="-12" Bandwidth="3"/>
+</Slot1-Equalizer>

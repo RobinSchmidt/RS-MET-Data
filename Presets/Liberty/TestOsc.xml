@@ -5,16 +5,18 @@
     <AudioInput Name="AudioIn1" X="2" Y="2" Poly="0"/>
     <AudioInput Name="AudioIn2" X="2" Y="6" Poly="0"/>
     <Container Name="TestOsc" X="22" Y="5" Poly="0">
-      <NoteFrequency Name="NoteFrequency" X="1" Y="6" Poly="0"/>
-      <Phasor Name="Phasor" X="14" Y="6" Poly="0" IncomingConnections="A_0_0_0"/>
-      <NoteGate Name="NoteGate" X="19" Y="2" Poly="0"/>
-      <SinCos Name="SinCos" X="21" Y="6" Poly="0" IncomingConnections="A_1_0_0"/>
-      <Multiplier Name="*" X="29" Y="5" Poly="0" IncomingConnections="A_2_0_0, A_3_0_1"/>
-      <VoiceKiller Name="VoiceKiller" X="35" Y="10" Poly="0" Threshold="-100.0"
-                   TimeOut="0.01" IncomingConnections="A_4_0_0"/>
-      <AudioOutput Name="Out1" X="35" Y="5" Poly="0" IncomingConnections="A_4_0_0"/>
+      <NoteFrequency Name="NoteFrequency" X="2" Y="4" Poly="0"/>
+      <Phasor Name="Phasor" X="15" Y="4" Poly="0" IncomingConnections="A_0_0_0"/>
+      <NoteGate Name="NoteGate" X="20" Y="11" Poly="0"/>
+      <SinCos Name="SinCos" X="22" Y="4" Poly="0" IncomingConnections="A_1_0_0"/>
+      <Multiplier Name="*" X="30" Y="4" Poly="0" IncomingConnections="A_3_0_0, A_2_0_1"/>
+      <Multiplier Name="*" X="30" Y="10" Poly="0" IncomingConnections="A_3_1_0, A_2_0_1"/>
+      <VoiceKiller Name="VoiceKiller" X="35" Y="15" Poly="0" Threshold="-100.0"
+                   TimeOut="0.01" IncomingConnections="A_5_0_0"/>
+      <AudioOutput Name="Out1" X="35" Y="4" Poly="0" IncomingConnections="A_4_0_0"/>
+      <AudioOutput Name="Out2" X="35" Y="10" Poly="0" IncomingConnections="A_5_0_0"/>
     </Container>
     <AudioOutput Name="AudioOut1" X="40" Y="2" Poly="0" IncomingConnections="A_2_0_0"/>
-    <AudioOutput Name="AudioOut2" X="40" Y="6" Poly="0" IncomingConnections="A_2_0_0"/>
+    <AudioOutput Name="AudioOut2" X="40" Y="6" Poly="0" IncomingConnections="A_2_1_0"/>
   </TopLevelModule>
 </Slot1-Liberty>
