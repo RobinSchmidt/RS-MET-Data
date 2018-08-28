@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="2">
+  <MetaParameterValues M1="0.54052126407623291016"/>
+  <Slot Type="WaveOscillator">
+    <Slot1-WaveOscillator PatchFormat="1" Level="-2.13" HighestHarmonic="1" StereoPhaseShift="90"
+                          AudioFileRelativePath="Samples\SingleCycle\Classic\Saw.flac"/>
+  </Slot>
+  <Slot Type="Scope">
+    <Slot2-Scope PatchFormat="1" Sync="1">
+      <ColorMap ff000000="0" ffffffff="1"/>
+    </Slot2-Scope>
+  </Slot>
+  <Slot Type="None">
+    <Slot3-None PatchFormat="1"/>
+  </Slot>
+</ToolChain>

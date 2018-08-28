@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="2">
+  <Slot Type="Liberty">
+    <Slot1-Liberty PatchFormat="1">
+      <TopLevelModule Name="Instrument" X="0" Y="0" Poly="0">
+        <AudioInput Name="AudioIn1" X="2" Y="2" Poly="0"/>
+        <AudioInput Name="AudioIn2" X="2" Y="6" Poly="0"/>
+        <NoteOnTrigger Name="NoteOnTrigger" X="19" Y="4" Poly="0"/>
+        <AudioOutput Name="AudioOut1" X="40" Y="2" Poly="0" IncomingConnections="A_2_0_0"/>
+        <AudioOutput Name="AudioOut2" X="40" Y="6" Poly="0" IncomingConnections="A_2_0_0"/>
+      </TopLevelModule>
+    </Slot1-Liberty>
+  </Slot>
+  <Slot Type="EngineersFilter">
+    <Slot2-EngineersFilter PatchFormat="1" Mode="Bandpass" Method="Bessel" Frequency="150.344"
+                           Order="8" Bandwidth="2.74"/>
+  </Slot>
+  <Slot Type="FuncShaper">
+    <Slot3-FuncShaper PatchFormat="1" Drive="48" OutLevel="-7.71429" Oversampling="1"
+                      a="0.112621" b="0.189688" c="0" d="0" aMin="0" bMin="0" cMin="0"
+                      dMin="0" aMax="5" bMax="5" FunctionString="softClip(select(x, -abs(x)&#94;a, x&#94;b));"/>
+  </Slot>
+  <Slot Type="EchoLab">
+    <Slot4-EchoLab PatchFormat="1" Sync="1">
+      <DelayLine PatchFormat="1" DelayTime="0.25" Amplitude="0.488">
+        <InputFilter PatchFormat="2"/>
+        <FeedbackFilter PatchFormat="2"/>
+      </DelayLine>
+      <DelayLine PatchFormat="1" DelayTime="0.5" Amplitude="0.587" Feedback="35.4"
+                 Pan="0.49" PingPong="1">
+        <InputFilter PatchFormat="2">
+          <Band Mode="Peak/Dip" Frequency="2519.8420999999998457" Gain="6.2000000000000028422"
+                Bandwidth="1.9000000000000001332"/>
+        </InputFilter>
+        <FeedbackFilter PatchFormat="2">
+          <Band Mode="Peak/Dip" Frequency="1145.0434099999999944" Gain="-9" Bandwidth="1.9000000000000001332"/>
+          <Band Mode="Peak/Dip" Frequency="211.90569300000001363" Gain="4" Bandwidth="1.9000000000000001332"/>
+        </FeedbackFilter>
+      </DelayLine>
+      <DelayLine PatchFormat="1" Amplitude="0.75" PingPong="1">
+        <InputFilter PatchFormat="2">
+          <Band Mode="Peak/Dip" Frequency="531.84599700000001121" Gain="6.8000000000000042633"
+                Bandwidth="1.9000000000000001332"/>
+        </InputFilter>
+        <FeedbackFilter PatchFormat="2"/>
+      </DelayLine>
+      <DelayLine PatchFormat="1" DelayTime="1.5" Amplitude="0.55">
+        <InputFilter PatchFormat="2"/>
+        <FeedbackFilter PatchFormat="2"/>
+      </DelayLine>
+      <DelayLine PatchFormat="1" DelayTime="1.75" Amplitude="0.45">
+        <InputFilter PatchFormat="2"/>
+        <FeedbackFilter PatchFormat="2"/>
+      </DelayLine>
+      <DelayLine PatchFormat="1" DelayTime="2" Amplitude="0.6">
+        <InputFilter PatchFormat="2">
+          <Band Mode="Peak/Dip" Frequency="1026.2315799999998944" Gain="8.2000000000000028422"
+                Bandwidth="3.1000000000000000888"/>
+        </InputFilter>
+        <FeedbackFilter PatchFormat="2"/>
+      </DelayLine>
+      <DelayLine PatchFormat="1" DelayTime="2.25" Amplitude="0.575">
+        <InputFilter PatchFormat="2"/>
+        <FeedbackFilter PatchFormat="2"/>
+      </DelayLine>
+      <DelayLine PatchFormat="1" DelayTime="2.5" Amplitude="0.425">
+        <InputFilter PatchFormat="2"/>
+        <FeedbackFilter PatchFormat="2"/>
+      </DelayLine>
+      <DelayLine PatchFormat="1" DelayTime="3" Amplitude="0.563">
+        <InputFilter PatchFormat="2">
+          <Band Mode="Peak/Dip" Frequency="133.75837699999999586" Gain="6.8000000000000042633"
+                Bandwidth="1.9000000000000001332"/>
+        </InputFilter>
+        <FeedbackFilter PatchFormat="2"/>
+      </DelayLine>
+    </Slot4-EchoLab>
+  </Slot>
+  <Slot Type="None">
+    <Slot5-None PatchFormat="1"/>
+  </Slot>
+</ToolChain>
