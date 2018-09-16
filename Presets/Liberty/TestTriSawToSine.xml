@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Slot1-Liberty PatchFormat="1">
+  <TopLevelModule Name="Instrument" X="0" Y="0" Poly="0">
+    <AudioInput Name="AudioIn1" X="2" Y="2" Poly="0"/>
+    <AudioInput Name="AudioIn2" X="2" Y="6" Poly="0"/>
+    <Container Name="TriSaw" X="22" Y="5" Poly="1">
+      <NoteFrequency Name="NoteFrequency" X="2" Y="4" Poly="1"/>
+      <Parameter Name="AttackSigmoid" X="8" Y="13" Poly="1" Value="0" MinValue="-2"
+                 MaxValue="1" DefaultValue="0" Scaling="Linear" Quantization="0.0"
+                 Controller="0" ControlRangeMin="0.0" ControlRangeMax="0.0" Smoothing="0.0"
+                 HelpText="Parameter"/>
+      <Parameter Name="DecaySigmoid" X="8" Y="17" Poly="1" Value="0" MinValue="-2"
+                 MaxValue="1" DefaultValue="0" Scaling="Linear" Quantization="0.0"
+                 Controller="0" ControlRangeMin="0.0" ControlRangeMax="0.0" Smoothing="0.0"
+                 HelpText="Parameter"/>
+      <Parameter Name="Asymmetry" X="10" Y="9" Poly="1" Value="0" MinValue="-1"
+                 MaxValue="1" DefaultValue="0" Scaling="Linear" Quantization="0.0"
+                 Controller="0" ControlRangeMin="0.0" ControlRangeMax="0.0" Smoothing="0.0"
+                 HelpText="Parameter"/>
+      <Parameter Name="AttackBend" X="10" Y="11" Poly="1" Value="0" MinValue="-1"
+                 MaxValue="1" DefaultValue="0" Scaling="Linear" Quantization="0.0"
+                 Controller="0" ControlRangeMin="0.0" ControlRangeMax="0.0" Smoothing="0.0"
+                 HelpText="Parameter"/>
+      <Parameter Name="DecayBend" X="10" Y="15" Poly="1" Value="0" MinValue="-1"
+                 MaxValue="1" DefaultValue="0" Scaling="Linear" Quantization="0.0"
+                 Controller="0" ControlRangeMin="0.0" ControlRangeMax="0.0" Smoothing="0.0"
+                 HelpText="Parameter"/>
+      <Phasor Name="Phasor" X="15" Y="4" Poly="1" IncomingConnections="A_0_0_0"/>
+      <NoteGate Name="NoteGate" X="23" Y="3" Poly="1"/>
+      <TriSaw Name="TriSaw" X="25" Y="8" Poly="1" IncomingConnections="A_6_0_0, A_3_0_1, A_4_0_2, A_1_0_3, A_5_0_4, A_2_0_5"/>
+      <Clipper Name="Clip" X="33" Y="8" Poly="1" IncomingConnections="A_8_0_0"/>
+      <Multiplier Name="*" X="47" Y="7" Poly="1" IncomingConnections="A_7_0_0, A_9_0_1"/>
+      <VoiceKiller Name="VoiceKiller" X="51" Y="14" Poly="1" Threshold="-100.0"
+                   TimeOut="0.01" IncomingConnections="A_10_0_0"/>
+      <AudioOutput Name="Out1" X="56" Y="7" Poly="1" IncomingConnections="A_10_0_0"/>
+    </Container>
+    <VoiceCombiner Name="}" X="31" Y="5" Poly="0" IncomingConnections="A_2_0_0"/>
+    <AudioOutput Name="AudioOut1" X="40" Y="2" Poly="0" IncomingConnections="A_3_0_0"/>
+    <AudioOutput Name="AudioOut2" X="40" Y="6" Poly="0" IncomingConnections="A_3_0_0"/>
+  </TopLevelModule>
+</Slot1-Liberty>
