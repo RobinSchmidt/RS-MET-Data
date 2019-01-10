@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Slot1-ModalSynth PatchFormat="1" Level="-0.394679" LevelByKey="-9.6" LowestMode="2"
+                  RatiosTopLeft="Rod Free/Free" RatiosTopRight="Rod Free/Clamped"
+                  RatiosBottomRight="Pseudo Harmonic 12-TET" FreqRatiosX="-0.55"
+                  FreqRatiosY="-0.45" AmpSlope="-2.42" AmpSlopeByKey="3.28" Attack="0"
+                  AttackByRatio="-36.99" AttackByKey="-45.21" Decay="79.5905" DecayByRatio="-86.31"
+                  DecayByKey="-57.54"/>
