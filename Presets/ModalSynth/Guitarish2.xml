@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Slot1-ModalSynth PatchFormat="1" Level="-10.2631" LevelByKey="-4.8" LevelByVel="4.8"
+                  AmpSlope="-0.11" AmpSlopeByKey="7.24" AmpSlopeByVel="3.29" Attack="3.01724"
+                  AttackByRatio="-12.33" AttackByKey="-94.53" AttackByVel="-65.76"
+                  Decay="153.23" DecayByRatio="-94.53" DecayByKey="-102.74" DecayByVel="12.33"/>
