@@ -2,7 +2,7 @@
 
 <ToolChainPreferences>
   <ColorScheme EditorAppearance="BrightOnDark" WidgetAppearance="BrightOnDark"
-               PlotAppearance="BrightOnDark" CentralHue="0.63999998569488525391"
-               Saturation="0.5" Gamma="1" HueOffset1="0.93000000715255737305"
-               HueOffset2="0.070000000298023223877"/>
+               PlotAppearance="BrightOnDark" CentralHue="0.6399999856948853"
+               Saturation="0.5" Gamma="1.0" HueOffset1="0.9300000071525574"
+               HueOffset2="0.07000000029802322"/>
 </ToolChainPreferences>
