@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Slot1-AcidDevil PatchFormat="1" MasterLevel="-14.5" Accent="100" SlideTime="8.4"
+                 SubOscWaveform="0.46" Cutoff="407.318" Resonance="49.9" FilterMode="Lowpass 12"
+                 EnvMod="20.2" NormalDecay="432.7" AccentDecay="69" NormalAttack="20"
+                 AccentAttack="33" AmpDecay="1230" AmpRelease="1.5" DistortionDrive="9.8">
+  <Sequencer PatchFormat="1" StepLength="0.8">
+    <Pattern0 StepLength="0.8">
+      <Step0 Gate="1" Accent="1" Slide="1" Key="0" Octave="1"/>
+      <Step1 Gate="1" Accent="0" Slide="0" Key="0" Octave="-1"/>
+      <Step2 Gate="1" Accent="0" Slide="1" Key="0" Octave="0"/>
+      <Step3 Gate="1" Accent="0" Slide="0" Key="0" Octave="0"/>
+      <Step4 Gate="1" Accent="1" Slide="0" Key="10" Octave="-1"/>
+      <Step5 Gate="1" Accent="1" Slide="1" Key="0" Octave="0"/>
+      <Step6 Gate="1" Accent="0" Slide="0" Key="0" Octave="0"/>
+      <Step7 Gate="1" Accent="0" Slide="0" Key="0" Octave="-1"/>
+      <Step8 Gate="1" Accent="1" Slide="1" Key="0" Octave="0"/>
+      <Step9 Gate="1" Accent="0" Slide="0" Key="0" Octave="-1"/>
+      <Step10 Gate="1" Accent="1" Slide="0" Key="0" Octave="0"/>
+      <Step11 Gate="1" Accent="0" Slide="1" Key="7" Octave="0"/>
+      <Step12 Gate="1" Accent="0" Slide="1" Key="0" Octave="-1"/>
+      <Step13 Gate="1" Accent="0" Slide="0" Key="0" Octave="1"/>
+      <Step14 Gate="1" Accent="1" Slide="1" Key="0" Octave="1"/>
+      <Step15 Gate="1" Accent="1" Slide="1" Key="3" Octave="0"/>
+    </Pattern0>
+  </Sequencer>
+</Slot1-AcidDevil>
