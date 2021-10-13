@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Slot1-BlepOscArray PatchFormat="1" Density="32" Detune="9.65913" StereoSpread="0.505682"
+                    Distribution="Range Split Even" DistParam="0.5625" InitialPhaseCoherence="0.497159"
+                    InitialPhaseRandomness="0.397727"/>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="1">
+  <Slot Type="WaveOscillator">
+    <Slot1-WaveOscillator PatchFormat="1" AudioFileRelativePath=""/>
+  </Slot>
+  <Slot Type="None">
+    <Slot2-None PatchFormat="1"/>
+  </Slot>
+</ToolChain>

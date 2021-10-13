@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="1">
+  <MetaParameterValues M1="1"/>
+  <Slot Type="TriSawOscillator">
+    <Slot1-TriSawOscillator PatchFormat="1" AttackSigmoid="1" DecaySigmoid="1">
+      <MetaMapping>
+        <AttackBending MetaIndex="1"/>
+        <DecayBending MetaIndex="1"/>
+      </MetaMapping>
+      <AttackBendingParameterMap>
+        <Node X="0" Y="0.5"/>
+        <Node X="1" Y="1" Shape="Rational" ShapeParameter="0.69999999999999995559"/>
+      </AttackBendingParameterMap>
+      <DecayBendingParameterMap>
+        <Node X="0" Y="0.5"/>
+        <Node X="1" Y="1" Shape="Rational" ShapeParameter="0.69999999999999995559"/>
+      </DecayBendingParameterMap>
+    </Slot1-TriSawOscillator>
+  </Slot>
+  <Slot Type="None">
+    <Slot2-None PatchFormat="1"/>
+  </Slot>
+</ToolChain>

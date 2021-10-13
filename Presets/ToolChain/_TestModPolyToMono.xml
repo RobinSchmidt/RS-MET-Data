@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="2">
+  <Slot Type="SineOscillator">
+    <Slot1-SineOscillator PatchFormat="1"/>
+  </Slot>
+  <Slot Type="EnvelopeAD">
+    <Slot2-EnvelopeAD PatchFormat="1" Attack="10" Decay="500"/>
+  </Slot>
+  <Slot Type="None">
+    <Slot3-None PatchFormat="1"/>
+  </Slot>
+  <Modulations>
+    <Connection Source="Slot2-EnvelopeAD" Target="Slot1-SineOscillator.Amplitude"
+                Depth="1.0" DepthMin="-1.0" DepthMax="1.0" Mode="Multiplicative"/>
+  </Modulations>
+</ToolChain>

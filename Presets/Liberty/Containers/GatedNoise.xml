@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Container Name="GatedNoise" X="2" Y="4" Poly="1">
+  <Constant Name="0" X="2" Y="4" Poly="1"/>
+  <Constant Name="1" X="2" Y="14" Poly="1"/>
+  <WhiteNoise Name="WhiteNoise" X="6" Y="4" Poly="1" Seed="0"/>
+  <NoteGate Name="NoteGate" X="6" Y="8" Poly="1"/>
+  <WhiteNoise Name="WhiteNoise" X="6" Y="14" Poly="1" Seed="1"/>
+  <Multiplier Name="*" X="18" Y="4" Poly="1" IncomingConnections="A_2_0_0, A_3_0_1"/>
+  <Multiplier Name="*" X="18" Y="13" Poly="1" IncomingConnections="A_3_0_0, A_4_0_1"/>
+  <AudioOutput Name="Out1" X="23" Y="4" Poly="1" IncomingConnections="A_5_0_0"/>
+  <AudioOutput Name="Out2" X="23" Y="13" Poly="1" IncomingConnections="A_6_0_0"/>
+</Container>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Slot1-Liberty PatchFormat="1">
+  <TopLevelModule Name="Instrument" Poly="0" X="0" Y="0">
+    <AudioInput Name="AudioIn1" Poly="0" X="2" Y="2"/>
+    <AudioInput Name="AudioIn2" Poly="0" X="2" Y="6"/>
+    <NoteFrequency Name="NoteFreq" Poly="1" X="14" Y="4"/>
+    <Parameter Name="Param" Poly="0" X="16" Y="8" Value="0.382883" MinValue="0"
+               MaxValue="1.0" DefaultValue="0.5" Scaling="Linear" Quantization="0.0"
+               Controller="0" ControlRangeMin="0.0" ControlRangeMax="0.0" Smoothing="0.0"
+               HelpText="Parameter"/>
+    <SineOscillator Name="SinOsc" Poly="1" X="29" Y="6" IncomingConnections="A_2_0_0, A_3_0_1"/>
+    <AudioOutput Name="AudioOut1" Poly="0" X="53" Y="2" IncomingConnections="A_4_0_0"/>
+    <AudioOutput Name="AudioOut2" Poly="0" X="53" Y="6" IncomingConnections="A_4_0_0"/>
+  </TopLevelModule>
+</Slot1-Liberty>

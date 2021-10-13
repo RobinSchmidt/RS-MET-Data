@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="1">
+  <Slot Type="SineOscillatorPoly">
+    <Slot1-SineOscillatorPoly PatchFormat="1" Frequency="1000"/>
+  </Slot>
+  <Slot Type="None">
+    <Slot2-None PatchFormat="1"/>
+  </Slot>
+  <Modulations>
+    <Connection Source="NoteFrequency" Target="Slot1-SineOscillatorPoly.Frequency"
+                Depth="1.0" DepthMin="-1.0" DepthMax="1.0" Mode="Absolute"/>
+    <Connection Source="ConstantOne" Target="Slot1-SineOscillatorPoly.Frequency"
+                Depth="-1000.0" DepthMin="-1000.0" DepthMax="1.0" Mode="Absolute"/>
+  </Modulations>
+</ToolChain>

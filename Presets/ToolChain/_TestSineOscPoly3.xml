@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="3">
+  <Slot Type="SineOscillatorPoly">
+    <Slot1-SineOscillatorPoly PatchFormat="1" Frequency="1000" Amplitude="0"/>
+  </Slot>
+  <Slot Type="Limiter">
+    <Slot2-Limiter PatchFormat="1" Release="100" InLevel="-12"/>
+  </Slot>
+  <Slot Type="EnvelopeAD">
+    <Slot3-EnvelopeAD PatchFormat="1" Attack="0.721032" Decay="76.9775"/>
+  </Slot>
+  <Slot Type="None">
+    <Slot4-None PatchFormat="1"/>
+  </Slot>
+  <Modulations>
+    <Connection Source="ConstantOne" Target="Slot1-SineOscillatorPoly.Frequency"
+                Depth="-1000.0" DepthMin="-1000.0" DepthMax="1.0" Mode="Absolute"/>
+    <Connection Source="NoteFrequency" Target="Slot1-SineOscillatorPoly.Frequency"
+                Depth="1.0" DepthMin="-1.0" DepthMax="1.0" Mode="Absolute"/>
+    <Connection Source="Slot3-EnvelopeAD" Target="Slot1-SineOscillatorPoly.Amplitude"
+                Depth="1.0" DepthMin="-1.0" DepthMax="1.0" Mode="Absolute"/>
+    <Connection Source="ConstantOne" Target="Slot3-EnvelopeAD.Decay" Depth="0.0"
+                DepthMin="-1.0" DepthMax="1.0" Mode="Absolute"/>
+    <Connection Source="ConstantOne" Target="Slot3-EnvelopeAD.Attack" Depth="0.0"
+                DepthMin="-1.0" DepthMax="1.0" Mode="Absolute"/>
+  </Modulations>
+</ToolChain>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Slot1-Liberty PatchFormat="1">
+  <TopLevelModule Name="Instrument" X="0" Y="0" Poly="0">
+    <AudioInput Name="AudioIn1" X="2" Y="2" Poly="0"/>
+    <AudioInput Name="AudioIn2" X="2" Y="6" Poly="0"/>
+    <ADSR-Envelope Name="ADSR" X="23" Y="4" Poly="1"/>
+    <VoiceCombiner Name="}" X="30" Y="4" Poly="0" IncomingConnections="A_2_0_0"/>
+    <VoiceKiller Name="VoiceKill" X="30" Y="10" Poly="0" Threshold="-100.0" TimeOut="0.01"
+                 IncomingConnections="A_2_0_0"/>
+    <AudioOutput Name="AudioOut1" X="40" Y="2" Poly="0" IncomingConnections="A_3_0_0"/>
+    <AudioOutput Name="AudioOut2" X="40" Y="6" Poly="0" IncomingConnections="A_3_0_0"/>
+  </TopLevelModule>
+</Slot1-Liberty>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Slot1-Snowflake PatchFormat="1" Iterations="6" TurningAngle="19.4396" Rotation="90"
+                 Axiom="F" Rules="F = F[A][B]F;&#10;A = +FFF;&#10;B = -FFF"/>

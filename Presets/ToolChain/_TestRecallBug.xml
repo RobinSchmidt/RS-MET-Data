@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="1">
+  <Slot Type="TriSawOscillator">
+    <Slot1-TriSawOscillator PatchFormat="1" Asymmetry="0.306739">
+      <AsymmetryParameterMap>
+        <Node X="0" Y="0"/>
+        <Node X="1" Y="1" Shape="Exponential" ShapeParameter="0.30673877640844993131"/>
+      </AsymmetryParameterMap>
+    </Slot1-TriSawOscillator>
+  </Slot>
+  <Slot Type="None">
+    <Slot2-None PatchFormat="1"/>
+  </Slot>
+</ToolChain>

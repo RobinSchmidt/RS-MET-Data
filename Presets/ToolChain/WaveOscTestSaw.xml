@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="1">
+  <Slot Type="WaveOscillator">
+    <Slot1-WaveOscillator PatchFormat="1" Level="-9.18" MidSide="0.7" StereoDetune="0.05"
+                          StereoDetuneHz="0.23" AudioFileRelativePath="Samples\SingleCycle\Classic\Saw.flac"/>
+  </Slot>
+  <Slot Type="None">
+    <Slot2-None PatchFormat="1"/>
+  </Slot>
+</ToolChain>

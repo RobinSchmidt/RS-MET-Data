@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="1">
+  <Slot Type="AttackDecayEnvelope">
+    <Slot1-AttackDecayEnvelope PatchFormat="1" Attack="2.00049" Decay="219.234"/>
+  </Slot>
+  <Slot Type="TriSawOscillator">
+    <Slot2-TriSawOscillator PatchFormat="1" Amplitude="0"/>
+  </Slot>
+  <Slot Type="None">
+    <Slot3-None PatchFormat="1"/>
+  </Slot>
+  <Modulations>
+    <Connection Source="Slot1-AttackDecayEnvelope" Target="Slot2-TriSawOscillator.Amplitude"
+                Depth="1.0" DepthMin="-1.0" DepthMax="1.0" Mode="Absolute"/>
+  </Modulations>
+</ToolChain>

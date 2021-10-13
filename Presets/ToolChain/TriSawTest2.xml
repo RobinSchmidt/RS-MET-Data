@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="2">
+  <Slot Type="TriSawOscillator">
+    <Slot1-TriSawOscillator PatchFormat="1"/>
+  </Slot>
+  <Slot Type="Limiter">
+    <Slot2-Limiter PatchFormat="1" InLevel="-8"/>
+  </Slot>
+  <Slot Type="None">
+    <Slot3-None PatchFormat="1"/>
+  </Slot>
+</ToolChain>

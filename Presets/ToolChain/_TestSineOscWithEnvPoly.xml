@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="5">
+  <Slot Type="SineOscillatorPoly">
+    <Slot1-SineOscillatorPoly PatchFormat="1" Frequency="1000" Amplitude="0"/>
+  </Slot>
+  <Slot Type="None">
+    <Slot2-None PatchFormat="1"/>
+  </Slot>
+  <Slot Type="EnvelopeAD">
+    <Slot3-EnvelopeAD PatchFormat="1" Attack="61.2254" Decay="462.139"/>
+  </Slot>
+  <Slot Type="Limiter">
+    <Slot4-Limiter PatchFormat="1" InLevel="-10.8"/>
+  </Slot>
+  <Slot Type="Scope">
+    <Slot5-Scope PatchFormat="1" AfterGlow="0.710007" OneDimensional="1" ScanFrequency="0.290916">
+      <ColorMap ff000000="0" ffffffff="1"/>
+    </Slot5-Scope>
+  </Slot>
+  <Slot Type="None">
+    <Slot6-None PatchFormat="1"/>
+  </Slot>
+  <Modulations>
+    <Connection Source="NoteFrequency" Target="Slot1-SineOscillatorPoly.Frequency"
+                Depth="1.0" DepthMin="-1.0" DepthMax="1.0" Mode="Absolute"/>
+    <Connection Source="ConstantOne" Target="Slot1-SineOscillatorPoly.Frequency"
+                Depth="-1000.0" DepthMin="-1000.0" DepthMax="1.0" Mode="Absolute"/>
+    <Connection Source="Slot3-EnvelopeAD" Target="Slot1-SineOscillatorPoly.Amplitude"
+                Depth="1.0" DepthMin="-1.0" DepthMax="1.0" Mode="Absolute"/>
+    <Connection Source="ConstantOne" Target="Slot3-EnvelopeAD.Decay" Depth="0.0"
+                DepthMin="-1.0" DepthMax="1.0" Mode="Absolute"/>
+    <Connection Source="ConstantOne" Target="Slot3-EnvelopeAD.Attack" Depth="0.0"
+                DepthMin="-1.0" DepthMax="1.0" Mode="Absolute"/>
+  </Modulations>
+</ToolChain>

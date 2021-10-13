@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="1">
+  <Slot Type="SineOscillatorPoly">
+    <Slot1-SineOscillatorPoly PatchFormat="1"/>
+  </Slot>
+  <Slot Type="EnvelopeAD">
+    <Slot2-EnvelopeAD PatchFormat="1"/>
+  </Slot>
+  <Slot Type="None">
+    <Slot3-None PatchFormat="1"/>
+  </Slot>
+</ToolChain>

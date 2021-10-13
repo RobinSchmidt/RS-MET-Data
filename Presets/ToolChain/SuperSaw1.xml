@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="1">
+  <Slot Type="BlepOscArray">
+    <Slot1-BlepOscArray PatchFormat="1" Density="3" Detune="100" DistParam="0.514702"/>
+  </Slot>
+  <Slot Type="Limiter">
+    <Slot2-Limiter PatchFormat="1" InLevel="-16.9"/>
+  </Slot>
+  <Slot Type="None">
+    <Slot3-None PatchFormat="1"/>
+  </Slot>
+</ToolChain>

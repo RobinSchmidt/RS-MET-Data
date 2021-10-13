@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="1">
+  <Slot Type="Liberty">
+    <Slot1-Liberty PatchFormat="1">
+      <TopLevelModule Name="Instrument" Poly="0" X="0" Y="0">
+        <AudioInput Name="AudioIn1" Poly="0" X="2" Y="2"/>
+        <AudioInput Name="AudioIn2" Poly="0" X="2" Y="6"/>
+        <Constant Name="0.5" Poly="0" X="16" Y="5"/>
+        <Formula_1_1 Formula="y=0.5*x" Name="Formula" Poly="0" X="24" Y="5" IncomingConnections="A_2_0_0"/>
+        <Formula_N_M Formula="y=x" Inputs="a,b,c,d" Name="Formula" Outputs="x,y,z&#13;"
+                     Poly="0" X="28" Y="9"/>
+        <AudioOutput Name="AudioOut1" Poly="0" X="41" Y="2" IncomingConnections="A_3_0_0"/>
+        <AudioOutput Name="AudioOut2" Poly="0" X="41" Y="7" IncomingConnections="A_3_0_0"/>
+      </TopLevelModule>
+    </Slot1-Liberty>
+  </Slot>
+  <Slot Type="TrackMeter">
+    <Slot2-TrackMeter PatchFormat="1"/>
+  </Slot>
+  <Slot Type="Limiter">
+    <Slot3-Limiter PatchFormat="1" Release="100" InLevel="-24" OutLevel="-24" Limit="-48"/>
+  </Slot>
+  <Slot Type="None">
+    <Slot4-None PatchFormat="1"/>
+  </Slot>
+</ToolChain>

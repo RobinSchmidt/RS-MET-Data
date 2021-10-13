@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="1">
+  <Slot Type="AttackDecayEnvelope">
+    <Slot1-AttackDecayEnvelope PatchFormat="1" Attack="100" Decay="288.553"/>
+  </Slot>
+  <Slot Type="SineOscillator">
+    <Slot2-SineOscillator PatchFormat="1" Amplitude="0"/>
+  </Slot>
+  <Slot Type="Limiter">
+    <Slot3-Limiter PatchFormat="1" Release="100" InLevel="-17.5"/>
+  </Slot>
+  <Slot Type="Scope">
+    <Slot4-Scope PatchFormat="1" AfterGlow="0.0493792" OneDimensional="1" ScanFrequency="0.791682"
+                 NumCycles="5" Sync="1" ScaleX="1" ScaleY="1">
+      <ColorMap ff000000="0" ffffffff="1"/>
+    </Slot4-Scope>
+  </Slot>
+  <Slot Type="None">
+    <Slot5-None PatchFormat="1"/>
+  </Slot>
+  <Modulations>
+    <Connection Source="Slot1-AttackDecayEnvelope" Target="Slot2-SineOscillator.Amplitude"
+                Depth="1.0" DepthMin="-1.0" DepthMax="1.0" Mode="Absolute"/>
+  </Modulations>
+</ToolChain>
