@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="1">
+  <MetaParameterValues M1="0.5980941653251648"/>
+  <Slot Type="Straightliner">
+    <Slot1-Straightliner PatchFormat="1" MasterLevel="-9" VoiceLevelByKey="-10">
+      <OscSection PatchFormat="1">
+        <Osc1 PatchFormat="1" Level="-8.44" Tune="-12" StereoDetuneHz="-0.97"
+              StartPhase="167" SpectralSlope="-1" EvenOddPhaseShift="-65" EvenOddStereoPhaseShift="94"
+              AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
+        <Osc2 PatchFormat="1" Level="-10" StereoDetuneHz="0.73" StartPhase="245"
+              SpectralSlope="-1" EvenOddPhaseShift="-23" StereoPhaseShift="-36"
+              EvenOddStereoPhaseShift="-117" AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
+        <Osc3 PatchFormat="1" Level="-10" StereoDetune="-0.23" StereoDetuneHz="-0.47"
+              StartPhase="71" SpectralSlope="-1" StereoPhaseShift="-38" EvenOddStereoPhaseShift="46"
+              AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
+        <Osc4 PatchFormat="1" Level="-10.22" Tune="12" StereoDetune="0.17"
+              StereoDetuneHz="0.23" StartPhase="255" SpectralSlope="-1" StereoPhaseShift="-69"
+              EvenOddStereoPhaseShift="52" AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
+      </OscSection>
+      <Filter PatchFormat="1" Mode="Moogish Lowpass" Frequency="7303.94" Resonance="10.3"
+              PreAllpass="20000" MakeUp="100"/>
+      <PitchEnvelope PatchFormat="1" TimeScale="0.269637098" TimeScaleByKey="-60.0"
+                     Depth="0.690909091" GridX="1" GridY="1" ScaleFactor="1.0" Offset="0.0"
+                     TimeScaleByVel="0.0" DepthByKey="0.0" DepthByVel="0.0" SyncMode="1"
+                     LoopStartIndex="0" LoopEndIndex="1" LoopMode="Off">
+        <Breakpoint Time="0.0" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="1.0" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+      </PitchEnvelope>
+      <FilterEnvelope PatchFormat="1" TimeScale="1.0" GridX="1" GridY="1" ScaleFactor="1.0"
+                      Offset="0.0" TimeScaleByKey="0.0" TimeScaleByVel="0.0" Depth="1.0"
+                      DepthByKey="0.0" DepthByVel="0.0" SyncMode="0" LoopStartIndex="1"
+                      LoopEndIndex="2" LoopMode="Forward">
+        <Breakpoint Time="0.0" Level="2.0" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="1.0" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="2.0" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="4.125" Level="0.125" Shape="Analog" ShapeAmount="1.233"/>
+      </FilterEnvelope>
+      <AmpEnvelope PatchFormat="1" TimeScale="1.0" GridX="1" GridY="1" ScaleFactor="1.0"
+                   Offset="0.0" TimeScaleByKey="0.0" TimeScaleByVel="0.0" Depth="1.0"
+                   DepthByKey="0.0" DepthByVel="0.0" SyncMode="0" LoopStartIndex="2"
+                   LoopEndIndex="3" LoopMode="Forward">
+        <Breakpoint Time="0.0" Level="0.0" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="0.0300677818" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="0.9375" Level="0.8125" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="1.0" Level="0.8125" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="1.125" Level="0.1875" Shape="Linear" ShapeAmount="1.0"/>
+        <Breakpoint Time="1.455839253996447" Level="0.04000000000000004" Shape="Linear"
+                    ShapeAmount="1.299"/>
+        <Breakpoint Time="2.853796625222024" Level="0.0" Shape="Analog" ShapeAmount="1.299"/>
+      </AmpEnvelope>
+    </Slot1-Straightliner>
+  </Slot>
+  <Slot Type="Quadrifex">
+    <Slot2-Quadrifex PatchFormat="1" DryWet="0.1" Routing="1&gt;2&gt;3&gt;4" Slot1="Equalizer"
+                     Slot2="WaveShaper" Slot3="Bypass" Slot4="Bypass">
+      <RoutingMatrix5x5 PatchFormat="1"/>
+      <Equalizer1 PatchFormat="2">
+        <Band Mode="Lowpass 12 dB/oct" Frequency="2000.0" Gain="18.0" Bandwidth="1.9"/>
+        <Band Mode="Highpass 12 dB/oct" Frequency="500.0" Gain="18.0" Bandwidth="1.9"/>
+      </Equalizer1>
+      <AudioModule PatchFormat="1"/>
+      <AudioModule PatchFormat="1"/>
+      <WaveShaper2 PatchFormat="1" CurveType="Quintic" Drive="35.1" InterceptY="0.16"
+                   Slope="1.46"/>
+    </Slot2-Quadrifex>
+  </Slot>
+  <Slot Type="None">
+    <Slot3-None PatchFormat="1"/>
+  </Slot>
+</ToolChain>
