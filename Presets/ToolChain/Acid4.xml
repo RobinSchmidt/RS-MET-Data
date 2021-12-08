@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="1">
+  <MetaParameterValues M1="0.5980941653251648"/>
+  <Slot Type="AcidDevil">
+    <Slot1-AcidDevil PatchFormat="1" MasterLevel="-14.5" Accent="58.8" SlideTime="38.7"
+                     Waveform="0.56" SubOscLevel="-9.1" SubOscWaveform="0.46" Cutoff="361.784"
+                     Resonance="77.8" FilterMode="Lowpass 12" EnvMod="5.6" NormalDecay="1149.3"
+                     AccentDecay="69" NormalAttack="30.7" AccentAttack="33" AmpDecay="1230"
+                     AmpRelease="1.5" DistortionDrive="15.6">
+      <Sequencer PatchFormat="1" StepLength="0.25">
+        <Pattern0 StepLength="0.25">
+          <Step0 Gate="1" Accent="1" Slide="0" Key="0" Octave="-1"/>
+          <Step1 Gate="1" Accent="0" Slide="0" Key="0" Octave="0"/>
+          <Step2 Gate="1" Accent="1" Slide="0" Key="0" Octave="0"/>
+          <Step3 Gate="1" Accent="0" Slide="1" Key="0" Octave="-1"/>
+          <Step4 Gate="1" Accent="0" Slide="1" Key="7" Octave="1"/>
+          <Step5 Gate="1" Accent="0" Slide="0" Key="0" Octave="2"/>
+          <Step6 Gate="1" Accent="1" Slide="0" Key="0" Octave="0"/>
+          <Step7 Gate="1" Accent="0" Slide="1" Key="0" Octave="0"/>
+          <Step8 Gate="1" Accent="0" Slide="1" Key="0" Octave="-1"/>
+          <Step9 Gate="1" Accent="0" Slide="0" Key="0" Octave="0"/>
+          <Step10 Gate="1" Accent="1" Slide="1" Key="0" Octave="0"/>
+          <Step11 Gate="1" Accent="0" Slide="0" Key="0" Octave="-1"/>
+          <Step12 Gate="1" Accent="0" Slide="0" Key="0" Octave="0"/>
+          <Step13 Gate="1" Accent="1" Slide="1" Key="0" Octave="0"/>
+          <Step14 Gate="1" Accent="0" Slide="0" Key="0" Octave="-1"/>
+          <Step15 Gate="1" Accent="0" Slide="0" Key="0" Octave="0"/>
+        </Pattern0>
+      </Sequencer>
+    </Slot1-AcidDevil>
+  </Slot>
+  <Slot Type="EchoLab">
+    <Slot2-EchoLab PatchFormat="1" DryWet="0.2" Sync="1">
+      <DelayLine PatchFormat="1" DelayTime="0.25" Amplitude="0.589" Feedback="64"
+                 Pan="-0.6" PingPong="1">
+        <InputFilter PatchFormat="2"/>
+        <FeedbackFilter PatchFormat="2">
+          <Band Mode="High Shelving" Frequency="2433.38911" Gain="-7.5" Bandwidth="3.38"/>
+          <Band Mode="Highpass 12 dB/oct" Frequency="135.15037" Gain="-2.399999999999999"
+                Bandwidth="1.9"/>
+        </FeedbackFilter>
+      </DelayLine>
+      <DelayLine PatchFormat="1" DelayTime="0.375" Amplitude="-0.43" Feedback="-35"
+                 Pan="0.6" PingPong="1">
+        <InputFilter PatchFormat="2"/>
+        <FeedbackFilter PatchFormat="2">
+          <Band Mode="Highpass 12 dB/oct" Frequency="121.71159" Gain="-2.399999999999999"
+                Bandwidth="4.47"/>
+          <Band Mode="Lowpass 12 dB/oct" Frequency="4960.34189" Gain="-6.299999999999997"
+                Bandwidth="1.9"/>
+        </FeedbackFilter>
+      </DelayLine>
+    </Slot2-EchoLab>
+  </Slot>
+  <Slot Type="FuncShaper">
+    <Slot3-FuncShaper PatchFormat="1" InputFilterUsed="1" InputHighpass="112.468" InputLowpass="3774.78"
+                      Drive="33.9642" OutputLowpass="20000" OutLevel="-13.66" DryWet="28.5714"
+                      a="-0.722" b="0.712" c="0" d="0" aMin="-0.99" bMin="0" cMin="0"
+                      dMin="0" aMax="0" bMax="0.99" FunctionString="softClip(0.5*(x+1.41)&#94;2-1,-1,1,0.2,0.2);"/>
+  </Slot>
+  <Slot Type="None">
+    <Slot4-None PatchFormat="1"/>
+  </Slot>
+  <Modulations>
+    <Connection Source="NoteVelocity" Target="Slot1-AcidDevil.Cutoff" Depth="1.0"
+                DepthMin="-1.0" DepthMax="1.0" Mode="Relative"/>
+  </Modulations>
+</ToolChain>
