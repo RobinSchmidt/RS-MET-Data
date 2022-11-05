@@ -1,0 +1,51 @@
+-Make a patch that demonstrates routing an LFO to 3 EQ bands configured as notch-peak-notch. Niko 
+ says that this is what the famous Small Stone phaser does. Maybe place the peak at 1 kHz and the
+ notches an octave above and below. Maybe we can somehow create a stereo phaser effect by using a 
+ phase offset between left/right? ...but maybe that would indeed require stereo LFOs. It can be 
+ simulated using hard-panned signal flows for left and right channel separately but that would be
+ a bit inefficient.
+-Demonstrate tremolo and pan LFO. 
+-Demonstrate using the routable DAHDSR envelopes. Maybe let's create a bassdrum sound by using 3
+ decay envelopes and routing them to the pitch ...oh - but that requires the sampler module to be
+ a regular module. Maybe the "sample" opcode could also be optionally indexed: sample1=..., sample2=
+ ...but what should the signal flow be? maybe samples should be mixed in at the exact point where
+ the first opcode appears. We will then also need indexing for the loop, tune, etc. opcodes.
+ -can we use a modulated filter-sweep instead for the time being? ...Try it! Maybe use a waveshaper
+  after the filter. The filter's own exponential decay can perhaps replace one of the amplitude 
+  envelopes. For this to work well, the modulation response of the filter is essential. Maybe try
+  Ladder and ZDF-SVF implementation. Maybe a state-space implementation could be useful as well? Or 
+  maybe the state-vector form could be best suited for this?
+-Try using a fillfo together with freely routable LFOs that are also routed to the filter. The 
+ fillfo should just act in the same way as the free LFOs, i.e. just add its modulation contribution.
+-Demonstrate the envelope shape parameters - maye use an amp-env for this
+ 
+ 
+----------------------------------------------------------------------------------------------------
+ 
+Advanced Distortion:
+
+A patch for experimenting with some dynamic distortion ideas that go beyond mere waveshaping. The
+input signal should be a guitar(ish) (multi)sample. The guitar feeds into a distortion unit on the 
+group level, i.e. the distortion applied to the sum of the layers/regions to enable playing 
+powerchords. The distortion should be a series connection of filters and waveshapers like so:
+
+Filter(s) -> Waveshaper -> Filter(s) -> Waveshaper -> Filter(s)
+
+where the "Filter(s)" could stand for a single filter but also for a chain of filters (like 
+lowpass -> highpass -> peak). It may also include a (to be written) slope-filter. Create some macro
+paramters (i.e. MIDI controllers) and route them to certain filter settings simultaneously. For 
+example, there could be two slope-filters, 1 before the 1st and the other before the 2nd waveshaper 
+and the controller controls the spectral slope into opposite directions. That may give some 
+interesting sort of tone control which would be impossible with simple waveshaping. Another 
+macro parameter could control the drive parameters of both shapers in opposing ways. The patch has 
+the purpose of demonstrating the creation of such macro parameters and also to experiment with such 
+a distortion algo - which later may be hardcoded, if it turns out to be useful.
+
+Maybe instead of the guitar use a sawtooth wave with amp-env and 1st order filter env (on the region
+level) that creates a sort of saw-pluck sound. The decay/release times should depend on the key 
+(shorter for higher keys).
+
+Make a video demonstrating and explaining the patch. That could be the first video entry for the 
+sound design playlist on youtube. Show spectral analysis for the powerchords. Maybe use Signalizer 
+if MultiAnalyzer isn't fast enough.
+
