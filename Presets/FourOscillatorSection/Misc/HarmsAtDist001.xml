@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<OscSection PatchFormat="1">
+  <Osc1 PatchFormat="1" Level="0.71" EvenOddPhaseShift="-36" StereoPhaseShift="35"
+        EvenOddStereoPhaseShift="63" AudioFileRelativePath="Samples\SingleCycle\HarmonicsAtDistance\HAD_d03s01.flac"/>
+  <Osc2 PatchFormat="1" Mute="1" Level="-10.31" LevelByVel="3.49" StereoDetune="0.03"
+        PhaseShift="-82" StereoPhaseShift="46" EvenOddStereoPhaseShift="-17"
+        AudioFileRelativePath="Samples\SingleCycle\HarmonicsAtDistance\HAD_d03s03.flac"/>
+  <Osc3 PatchFormat="1" Mute="1" StereoDetune="-0.01" StereoDetuneHz="-0.43"
+        AudioFileRelativePath="Samples\SingleCycle\HarmonicsAtDistance\HAD_d03s02.flac"/>
+  <Osc4 PatchFormat="1" Mute="1" Level="-6.02" AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
+</OscSection>

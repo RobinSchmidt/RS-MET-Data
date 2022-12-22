@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="2">
+  <MetaParameterValues M1="0.5980941653251648"/>
+  <Slot Type="Sampler">
+    <Slot1-Sampler PatchFormat="1"/>
+  </Slot>
+  <Slot Type="FuncShaper">
+    <Slot2-FuncShaper PatchFormat="1" InputFilterUsed="1" InputHighpass="335.37" InputLowpass="20000"
+                      Drive="12.63" DC="0.175" OutputFilterUsed="1" OutputLowpass="20000"
+                      DryWet="50" a="0.044" b="1.042" c="1.563" d="0" aMin="0" bMin="0"
+                      cMin="0" dMin="0" aMax="0.2" bMax="3" cMax="3" FunctionString="z=x+a*sin(2*PI*b*x);tanh(c*z);"/>
+  </Slot>
+  <Slot Type="Scope">
+    <Slot3-Scope PatchFormat="1" AfterGlow="0.324159">
+      <ColorMap ff000000="0" ffffffff="1"/>
+    </Slot3-Scope>
+  </Slot>
+  <Slot Type="None">
+    <Slot4-None PatchFormat="1"/>
+  </Slot>
+</ToolChain>
