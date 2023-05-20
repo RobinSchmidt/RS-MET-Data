@@ -32,7 +32,9 @@ resonance=5                  / in dB  ->  resonance = 5   dB when cc71 = 0
 /-------------------------------------------------------------------------------
 / Amplifier settings:
 volume=-12                   / in dB         -> volume = -12 dB when cc7 = 0
-pan=0                        / -100%...+100% -> pan = 0% = center when cc10 = 0
+/ pan=0                        / -100%...+100% -> pan = 0% = center when cc10 = 0
+pan=-100                     / experimental, preliminary, not yet sure how to
+                             / handle bipolar parameters properly
 
 /-------------------------------------------------------------------------------
 / Midi controllers:             cc        cc-DSP        Param
@@ -51,3 +53,14 @@ control4_index=10            / cc10  ->  control4  ->  pan1
 control1_cutoff1=4800        / 4800 cent = 4 oct  ->  cutoff = 500...8000 Hz
 control2_resonance1=25       / 25 dB              ->  reso   =   5...30   dB
 control3_volume1=12          / 12 dB              ->  volume = -12...0    dB
+
+
+/ Experimental:
+/control4_pan=100
+control4_pan1=200
+/ This does not yet work correctly. At cc10=0, the pan is centered at at 
+/ cc10=127, it is panned hard-right. This is expected because we assume a 
+/ neutral cc value of zero. We could compensate that by setting the
+/ pan=-100 and control4_pan1=200 - but that would be unelegant. Better would be
+/ to set pan=0, control4_pan=100 and maybe have something like 
+/ control4_neutral=64
