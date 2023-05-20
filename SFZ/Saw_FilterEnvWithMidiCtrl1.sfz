@@ -1,5 +1,10 @@
 / Demonstrates assigning lables to MIDI controllers
 
+/ This currently fails to parse - parser still buggy:
+/<control>
+/label_cc7=Volume
+/set_cc7=100
+
 / Sample player settings:
 <group>
 <region> 
