@@ -1,0 +1,19 @@
+<group>
+
+<region>
+sample=SingleCycle\Saw_K21.wav
+
+loop_start=0 
+loop_end=2048 
+loop_mode=loop_continuous 
+pitch_keycenter=21
+
+ampeg_attack=0.5 
+ampeg_decay=1.0 
+ampeg_sustain=50 
+ampeg_release=2.0
+
+/ Shapes for the EG transition phases. Negative values lead to analog-like behavior:
+ampeg_attack_shape=-5
+ampeg_decay_shape=-5
+ampeg_release_shape=-5

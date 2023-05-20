@@ -1,0 +1,37 @@
+/ This patch demonstrates the ampeg_... and amplfo_... opcodes using a simple sawtooth wave as 
+/ carrier. They always affect the last amplifier in the effect chain in cases where there are 
+/ multiple amplifiers present in a patch (which isn't the case here). Actually, it's even a bit more
+/ compicated than that...tbc...
+<group>
+<region>
+sample=SingleCycle\Saw_K21.wav
+loop_start=0 
+loop_end=2048 
+loop_mode=loop_continuous 
+pitch_keycenter=21
+
+/ The DAHDSR amplitude envelope values. Time values are in seconds, the sustain level is in percent.
+/ This EG always affects the amplifier at the end of the effect chain. If there isn't already an amp
+/ with amplitude zero at the end of the chain, one will be appended:
+ampeg_delay=0.0
+ampeg_attack=0.5
+ampeg_hold=0.0
+ampeg_decay=1.0 
+ampeg_sustain=50 
+ampeg_release=2.0
+
+/ Shapes for the EG transition phases. Negative values lead to analog-like behavior, 0 gives linear
+/ transitions and positive values produce mirror images of the corresponding analog-like shapes. The
+/ default values for attack is zero and for decay and release, it's -10.3616 (an I have no idea where
+/ this strange number comes from - it just is what it is in the sfz spec):
+ampeg_attack_shape=-5
+ampeg_decay_shape=-5
+ampeg_release_shape=-5
+
+/ The LFO for the amplifier. This also affects an amplifier at the end of the effect chain:
+amplfo_freq=7                     / in Hz
+amplfo_depth=6.02                 / in dB
+
+/ ToDo: figure out and document, if the depth is meant as peak-to-peak, i.e. modulating by +-3.01 or
+/ if it's +-6.02. Currently, it's implemented as total range, i.e. 6.02 means +-3.01 but I'm not yet
+/ sure if that's how it's intended in the sfz standard

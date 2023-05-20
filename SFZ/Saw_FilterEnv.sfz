@@ -1,0 +1,21 @@
+/ Demonstrates the filter envelope using the fileg opcodes.
+/ ToDo: use all opcodes, also those for the shapes
+
+/ Sample player settings:
+<group>
+<region> 
+sample=SingleCycle\Saw_K21.wav 
+pitch_keycenter=21 lokey=0 hikey=127 volume=-6.0 
+loop_mode=loop_continuous loop_start=0 loop_end=2048
+
+/ Filter settings:
+fil_type=lpf_2p
+cutoff=1000 
+resonance=10 
+
+/ Filter envelope settings:
+fileg_attack=0.1
+fileg_decay=0.2
+fileg_sustain=50
+fileg_release=500
+fileg_depth=2400

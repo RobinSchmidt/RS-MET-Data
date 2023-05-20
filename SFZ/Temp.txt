@@ -1,0 +1,7 @@
+volume=-40.0 loop_mode=one_shot cutoff=440 resonance=40 fil_type=bpf_2p fil_keytrack=100 fil_keycenter=69 cutoff2=440 resonance2=15 fil2_type=bpf_2p fil2_keycenter=69 fil2_keytrack=100 amp1_keytrack=-0.8
+
+
+
+
+
+cutoff2=40 resonance2=5 fil2_type=lpf_2p 

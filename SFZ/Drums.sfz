@@ -1,0 +1,40 @@
+<group>
+
+<region> sample=Drums\505_CHat_Amp01.wav pitch_keycenter=36 lokey=36 hikey=36 volume=-6.0
+<region> sample=Drums\505_Kick_Amp02.wav pitch_keycenter=37 lokey=37 hikey=37 volume=-6.0
+<region> sample=Drums\505_OHat_Amp01.wav pitch_keycenter=38 lokey=38 hikey=38 volume=-6.0
+<region> sample=Drums\505_Timbale_Amp01.wav pitch_keycenter=39 lokey=39 hikey=39 volume=-6.0
+
+<region> sample=Drums\808_Clave_Drive02.wav pitch_keycenter=40 lokey=40 hikey=40 volume=-6.0
+<region> sample=Drums\808_Kick_Amp04.wav pitch_keycenter=41 lokey=41 hikey=41 volume=-6.0
+<region> sample=Drums\808_Rim_Amp01.wav pitch_keycenter=42 lokey=42 hikey=42 volume=-6.0
+<region> sample=Drums\808_Shaker_Amp01.wav pitch_keycenter=43 lokey=43 hikey=43 volume=-6.0
+<region> sample=Drums\808_Shaker_Drive01.wav pitch_keycenter=44 lokey=44 hikey=44 volume=-6.0
+<region> sample=Drums\808_Snare_Amp04.wav pitch_keycenter=45 lokey=45 hikey=45 volume=-6.0
+
+<region> sample=Drums\DM_SatKick02.wav pitch_keycenter=46 lokey=46 hikey=46 volume=-6.0
+<region> sample=Drums\DM_SatSnare01.wav pitch_keycenter=47 lokey=47 hikey=47 volume=-6.0
+<region> sample=Drums\DM_SatCHat02.wav pitch_keycenter=48 lokey=48 hikey=48 volume=-6.0
+
+<region> sample=Drums\HR16_Conga_Amp01.wav pitch_keycenter=47 lokey=47 hikey=47 volume=-6.0
+<region> sample=Drums\HR16_SatCHat01.wav pitch_keycenter=48 lokey=48 hikey=48 volume=-6.0
+<region> sample=Drums\HR16_SatClap.wav pitch_keycenter=49 lokey=49 hikey=49 volume=-6.0
+<region> sample=Drums\HR16_SatKick01.wav pitch_keycenter=50 lokey=50 hikey=50 volume=-6.0
+<region> sample=Drums\HR16_SatSnare01.wav pitch_keycenter=51 lokey=51 hikey=51 volume=-6.0
+<region> sample=Drums\HR16_Snare_Drive01.wav pitch_keycenter=52 lokey=52 hikey=52 volume=-6.0
+<region> sample=Drums\HR16_Tambourine_Amp01.wav pitch_keycenter=53 lokey=53 hikey=53 volume=-6.0
+<region> sample=Drums\HR16_Triangle_Amp01.wav pitch_keycenter=54 lokey=54 hikey=54 volume=-6.0
+
+<region> sample=Drums\Linn_Sat_CHat.wav pitch_keycenter=55 lokey=55 hikey=55 volume=-6.0
+<region> sample=Drums\Linn_Sat_OHat.wav pitch_keycenter=56 lokey=56 hikey=56 volume=-6.0
+<region> sample=Drums\Linn_SatClap.wav pitch_keycenter=57 lokey=57 hikey=57 volume=-6.0
+<region> sample=Drums\Linn_SatKick.wav pitch_keycenter=58 lokey=58 hikey=58 volume=-6.0
+<region> sample=Drums\Linn_SatSnare.wav pitch_keycenter=59 lokey=59 hikey=59 volume=-6.0
+
+<region> sample=Drums\MPC_SatCHat01.wav pitch_keycenter=60 lokey=60 hikey=60 volume=-6.0
+<region> sample=Drums\MPC_SatClap01.wav pitch_keycenter=61 lokey=61 hikey=61 volume=-6.0
+<region> sample=Drums\MPC_SatKick01.wav pitch_keycenter=62 lokey=62 hikey=62 volume=-6.0
+<region> sample=Drums\MPC_SatSnare01.wav pitch_keycenter=63 lokey=63 hikey=63 volume=-6.0
+
+<region> sample=Drums\MPC_SatKick01.wav key=64 volume=-6.0
+<region> sample=Transients\UnitImpulse2.wav key=64 loop_mode=loop_continuous loop_start=10 loop_end=100 cutoff=39 resonance=23 fil_type=lpf_2p volume=38

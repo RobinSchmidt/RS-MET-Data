@@ -1,0 +1,19 @@
+/ Demonstrates the filter envelope and additionally routes 3 LFOs to the cutoff frequency
+/ ...does not yet work
+
+<group>
+<region> 
+sample=SingleCycle\Saw_K21.wav 
+pitch_keycenter=21 lokey=0 hikey=127 volume=-6.0 
+loop_mode=loop_continuous loop_start=0 loop_end=2048
+eq1_freq=500
+eq1_gain=-40
+eq1_bw=1.0
+eq2_freq=1000
+eq2_gain=30
+eq2_bw=2.0
+eq3_freq=2000
+eq3_gain=-40
+eq3_bw=1.0
+lfo1_freq=2
+lfo1_eq1freq=1200

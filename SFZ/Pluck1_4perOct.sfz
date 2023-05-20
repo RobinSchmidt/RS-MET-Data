@@ -1,0 +1,26 @@
+<group>
+<region> sample=Pluck1\Pluck1K21.wav pitch_keycenter=21 lokey=0  hikey=22  volume=-6.74
+<region> sample=Pluck1\Pluck1K24.wav pitch_keycenter=24 lokey=22 hikey=25  volume=-7.06
+<region> sample=Pluck1\Pluck1K27.wav pitch_keycenter=27 lokey=26 hikey=28  volume=-7.48
+<region> sample=Pluck1\Pluck1K30.wav pitch_keycenter=30 lokey=29 hikey=31  volume=-7.82
+<region> sample=Pluck1\Pluck1K33.wav pitch_keycenter=33 lokey=32 hikey=34  volume=-7.14
+<region> sample=Pluck1\Pluck1K36.wav pitch_keycenter=36 lokey=35 hikey=37  volume=-6.92
+<region> sample=Pluck1\Pluck1K39.wav pitch_keycenter=39 lokey=38 hikey=40  volume=-6.81
+<region> sample=Pluck1\Pluck1K42.wav pitch_keycenter=42 lokey=41 hikey=43  volume=-6.66
+<region> sample=Pluck1\Pluck1K45.wav pitch_keycenter=45 lokey=44 hikey=46  volume=-6.56
+<region> sample=Pluck1\Pluck1K48.wav pitch_keycenter=48 lokey=47 hikey=49  volume=-6.62
+<region> sample=Pluck1\Pluck1K51.wav pitch_keycenter=51 lokey=50 hikey=52  volume=-6.61
+<region> sample=Pluck1\Pluck1K54.wav pitch_keycenter=54 lokey=53 hikey=55  volume=-6.54
+<region> sample=Pluck1\Pluck1K57.wav pitch_keycenter=57 lokey=56 hikey=58  volume=-6.85
+<region> sample=Pluck1\Pluck1K60.wav pitch_keycenter=60 lokey=59 hikey=61  volume=-6.48
+<region> sample=Pluck1\Pluck1K63.wav pitch_keycenter=63 lokey=61 hikey=64  volume=-6.45
+<region> sample=Pluck1\Pluck1K66.wav pitch_keycenter=66 lokey=65 hikey=67  volume=-6.78
+<region> sample=Pluck1\Pluck1K69.wav pitch_keycenter=69 lokey=68 hikey=70  volume=-6.02
+<region> sample=Pluck1\Pluck1K72.wav pitch_keycenter=72 lokey=71 hikey=73  volume=-6.55
+<region> sample=Pluck1\Pluck1K75.wav pitch_keycenter=75 lokey=74 hikey=76  volume=-7.03
+<region> sample=Pluck1\Pluck1K78.wav pitch_keycenter=78 lokey=77 hikey=79  volume=-7.50
+<region> sample=Pluck1\Pluck1K81.wav pitch_keycenter=81 lokey=80 hikey=82  volume=-7.76
+<region> sample=Pluck1\Pluck1K84.wav pitch_keycenter=84 lokey=83 hikey=85  volume=-8.28
+<region> sample=Pluck1\Pluck1K87.wav pitch_keycenter=87 lokey=86 hikey=88  volume=-8.48
+<region> sample=Pluck1\Pluck1K90.wav pitch_keycenter=90 lokey=89 hikey=91  volume=-8.68
+<region> sample=Pluck1\Pluck1K93.wav pitch_keycenter=93 lokey=92 hikey=127 volume=-8.71

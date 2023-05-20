@@ -1,0 +1,21 @@
+/ Demonstrates the filter envelope and additionally routes 3 LFOs to the cutoff frequency
+
+<group>
+<region> 
+sample=SingleCycle\Saw_K21.wav 
+pitch_keycenter=21 lokey=0 hikey=127 volume=-6.0 
+loop_mode=loop_continuous loop_start=0 loop_end=2048
+cutoff=1000 
+resonance=10 
+fil_type=lpf_2p
+fileg_attack=0.1
+fileg_decay=0.2
+fileg_sustain=50
+fileg_release=500
+fileg_depth=2400
+lfo1_freq=5
+lfo1_cutoff=800
+lfo2_freq=7
+lfo2_cutoff=500
+lfo3_freq=3
+lfo3_cutoff=1000

@@ -1,0 +1,36 @@
+/ This patch shows how to use the impulse response of a resonant lowpass filter as a generator for
+/ "blip" sounds. We feed a unit impulse sample into a chain of two resonant lowpasses which both 
+/ use 100% keytracking. To tune them correctly, we use fil_keycenter=69 together with cutoff=440. 
+/ This works because midi note 69 is specified to be A4 at 440 Hz.
+
+<group> 
+lokey=0 
+hikey=127 
+pitch_keytrack=0         / We want the impulse sample to always play as is
+volume=40                / We need quite some volume boost here :-O
+amp1_keytrack=-0.7       / High notes should be a bit attenuated
+
+/ We use an indefinite loop over some silent portion of the sample to keep the layer running until 
+/ the key is released:
+loop_mode=loop_continuous
+loop_start=10
+loop_end=100
+
+/ The first filter has a high resonance of 25 dB. This filter is mainly responsible for the 
+/ exponentially decaying sinusoid:
+cutoff=440 
+resonance=25 
+fil_type=lpf_2p 
+fil_keytrack=100 
+fil_keycenter=69 
+
+/ The second filter has only a moderate resonance of 10 dB. This is mainly responsible for giving
+/ the blip a smoother attack in the time domain:
+cutoff2=440 
+resonance2=10 
+fil2_type=lpf_2p 
+fil2_keytrack=100 
+fil2_keycenter=69 
+
+/ This sample is a single sample of 1 followed by a bunch of 0s which are used for the silent loop:
+<region> sample=Transients\UnitImpulse2.wav

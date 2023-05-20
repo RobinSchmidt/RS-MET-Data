@@ -1,0 +1,6 @@
+<group>
+<region>
+sample=Drums\HR16_SatSnare01.wav
+pitch_keycenter=49 lokey=49 hikey=49 volume=-6.0
+eq1_freq=300  eq1_gain=30 eq1_bw=0.25
+loop_mode=one_shot / blablabla

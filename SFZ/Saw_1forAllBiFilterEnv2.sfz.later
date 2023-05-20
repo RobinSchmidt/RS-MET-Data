@@ -1,0 +1,26 @@
+/ Demonstrates the effect of the filter envelope when there ar two filters....tbc...
+
+<group>
+<region>
+
+/ Waveform:
+sample=SingleCycle\Saw_K21.wav 
+pitch_keycenter=21 lokey=0 hikey=127 volume=-6.0 
+loop_mode=loop_continuous loop_start=0 loop_end=2048
+
+/ Highpass:
+cutoff=250 
+resonance=10 
+fil_type=hpf_2p
+
+/ Lowpass:
+cutoff2=2000
+resonance2=10 
+fil2_type=lpf_2p
+
+/ Envelope:
+fileg_attack=1.0
+fileg_decay=4.0
+fileg_sustain=50
+fileg_release=5.0
+fileg_depth=2400    / Should this affect both filters? Currently it affects only the first

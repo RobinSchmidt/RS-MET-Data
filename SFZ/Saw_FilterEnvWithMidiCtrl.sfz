@@ -1,0 +1,44 @@
+/ Demonstrates assigning lables to MIDI controllers
+
+<control>
+/label_cc7=Volume
+/set_cc7=100
+/label_cc10=Pan
+/set_cc10=64
+/label_cc74=Cutoff
+/set_cc74=80
+/label_cc71=Resonance
+/set_cc71=20
+
+/ Sample player settings:
+<global>
+<group>
+<region> 
+sample=SingleCycle\Saw_K21.wav 
+pitch_keycenter=21 lokey=0 hikey=127 volume=-6.0 
+loop_mode=loop_continuous loop_start=0 loop_end=2048
+
+/ Filter settings:
+fil_type=lpf_2p
+cutoff=1000 
+resonance=10 
+
+/ Filter envelope settings:
+fileg_attack=0.1
+fileg_decay=0.2
+fileg_sustain=50
+fileg_release=500
+fileg_depth=2400
+
+/ Amplifier settings:
+/volume=-12             / in dB
+/ToDo: add pan=
+
+/ Midi controllers:
+/control1_index=7      / for volume
+/control2_index=10     / for pan
+/control3_index=74     / for cutoff
+/control4_index=71     / for resonance
+
+/ Midi controller routings:
+/control1_volume1=12

@@ -1,0 +1,29 @@
+/ Routes 3 LFOs to the cutoff frequencies of 3 filters, one highpass, one bandpass, one lowpass
+
+/ Specify source sample, loop settings etc:
+<group>
+<region> 
+sample=SingleCycle\Saw_K21.wav 
+pitch_keycenter=21 lokey=0 hikey=127 volume=-6.0 
+loop_mode=loop_continuous loop_start=0 loop_end=2048
+
+/ Filter 1:
+fil_type=lpf_2p      / It's a 2-pole lowpass
+cutoff=4000          / cutoff is 4 kHz 
+resonance=10         / with a 10 dB resoance peak
+lfo1_freq=2          / 2 Hz WahWah is applied
+lfo1_cutoff=1200     / with depth of 1200 semitones
+
+/ Filter 2:
+fil2_type=hpf_2p     / It's a 2-pole highpass 
+cutoff2=250          / cutoff is 250 Hz 
+resonance2=10        / with a 10 dB resoance peak
+lfo2_freq=3          / 3 Hz WahWah is applied
+lfo2_cutoff2=1200    / with depth of 1200 semitones
+
+/ Filter 3:
+fil3_type=bpf_2p     / It's a 2-pole bandpass 
+cutoff3=1000         / cutoff is 1 kHz 
+resonance3=10        / with a 10 dB resoance peak
+lfo3_freq=5          / 5 Hz WahWah is applied
+lfo3_cutoff3=1200    / with depth of 1200 semitones

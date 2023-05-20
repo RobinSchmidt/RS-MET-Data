@@ -1,0 +1,7 @@
+<group>
+<region> sample=Pluck1\Pluck1K45.wav pitch_keycenter=32.8 lokey=0 hikey=127 volume=-14.56 pan=-50
+<region> sample=Pluck1\Pluck1K45.wav pitch_keycenter=33.2 lokey=0 hikey=127 volume=-14.56 pan=+50
+
+<region> sample=Pluck1\Pluck1K45.wav pitch_keycenter=45 lokey=0 hikey=127 volume=-6.56
+
+<region> sample=Pluck1\Pluck1K45.wav pitch_keycenter=57 lokey=0 hikey=127 volume=-9.56

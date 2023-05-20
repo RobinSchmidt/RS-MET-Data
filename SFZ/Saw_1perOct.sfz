@@ -1,0 +1,22 @@
+/ This patch is similar to Saw_1forAll.sfz but instead of using the same sample for the whole
+/ keyrange, it demonstrates using a multi-sample to combat aliasing in the higher registers. This 
+/ is achieved by letting each sample have one octave of bandwidth less than the previous one, i.e. 
+/ the higher we go on keyboard, the more bandlimiting is used in the sample (the bandlimiting is 
+/ baked into the sample files). The way we do it here should lead to alias-free synthesis when an 
+/ oversampling factor of 2 is used (which is not yet the case, so it does still alias - but less so
+/ than the Saw_1forAll patch (todo: provide a global opcode for oversampling and use it here!).
+
+<group>
+<region> sample=SingleCycle\Saw_K9.wav pitch_keycenter=9 lokey=0 hikey=20 volume=-6.0 loop_mode=loop_continuous loop_start=0 loop_end=4096
+<region> sample=SingleCycle\Saw_K21.wav pitch_keycenter=21 lokey=21 hikey=32 volume=-6.0 loop_mode=loop_continuous loop_start=0 loop_end=2048
+<region> sample=SingleCycle\Saw_K33.wav pitch_keycenter=21 lokey=33 hikey=44 volume=-6.0 loop_mode=loop_continuous loop_start=0 loop_end=2048
+<region> sample=SingleCycle\Saw_K45.wav pitch_keycenter=21 lokey=45 hikey=56 volume=-6.0 loop_mode=loop_continuous loop_start=0 loop_end=2048
+<region> sample=SingleCycle\Saw_K57.wav pitch_keycenter=21 lokey=57 hikey=68 volume=-6.0 loop_mode=loop_continuous loop_start=0 loop_end=2048
+<region> sample=SingleCycle\Saw_K69.wav pitch_keycenter=21 lokey=69 hikey=80 volume=-6.0 loop_mode=loop_continuous loop_start=0 loop_end=2048
+<region> sample=SingleCycle\Saw_K81.wav pitch_keycenter=21 lokey=81 hikey=92 volume=-6.0 loop_mode=loop_continuous loop_start=0 loop_end=2048
+<region> sample=SingleCycle\Saw_K93.wav pitch_keycenter=21 lokey=93 hikey=104 volume=-6.0 loop_mode=loop_continuous loop_start=0 loop_end=2048
+<region> sample=SingleCycle\Saw_K105.wav pitch_keycenter=21 lokey=105 hikey=116 volume=-6.0 loop_mode=loop_continuous loop_start=0 loop_end=2048
+<region> sample=SingleCycle\Saw_K117.wav pitch_keycenter=21 lokey=117 hikey=127 volume=-6.0 loop_mode=loop_continuous loop_start=0 loop_end=2048
+
+/ ToDo: factor out the common settings into the group, i.e. pitch_keycenter, volume, etc. Only
+/ the K9 sample needs to override the keycenter and the loop_end
