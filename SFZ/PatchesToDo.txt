@@ -59,3 +59,23 @@ patch cables are replaced by our modulation "matrix". We only need a way to - fi
 step - translate the modulation signal to audio. That could simply be done by letting it modulate 
 the amplitude of a DC sample. So: Try to make a patch that demonstrates, how this can be done. Maybe
 do an FM-patch using two LFOs where one modulates the frequency (or phase) of another.
+
+----------------------------------------------------------------------------------------------------
+
+MIDI controller demos:
+
+Most common:
+  1 - Modulation Wheel
+  2 - Breath Control
+  7 - Volume
+ 10 - Pan
+ 11 - Expression
+ 64 - Sustain (on/off)
+ 65 - Portamento (on/off)
+ 71 - Resonance (filter)
+ 74 - Cutoff (filter)
+
+https://professionalcomposers.com/midi-cc-list/
+
+My Roland JX-305 unfortunately does not send 7 and 10 for the Level and Pan knob. Instead, it sends
+36 and 35.
