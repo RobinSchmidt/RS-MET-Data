@@ -5,8 +5,8 @@
 /set_cc7=100
 /label_cc10=Pan
 /set_cc10=64
-/label_cc74=Cutoff
-/set_cc74=80
+label_cc74=Cutoff
+set_cc74=80
 /label_cc71=Resonance
 /set_cc71=20
 
@@ -35,10 +35,11 @@ fileg_depth=2400
 /ToDo: add pan=
 
 / Midi controllers:
-/control1_index=7      / for volume
+control1_index=74     / for cutoff1
 /control2_index=10     / for pan
 /control3_index=74     / for cutoff
 /control4_index=71     / for resonance
 
 / Midi controller routings:
 /control1_volume1=12
+control1_cutoff1=4800

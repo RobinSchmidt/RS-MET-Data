@@ -2,10 +2,11 @@
 
 / This currently fails to parse - parser still buggy:
 /<control>
-/label_cc7=Volume
+label_cc7=Volume
 /set_cc7=100
 
 / Sample player settings:
+<global>   / try to get rid - currently trips up the parser when asbent
 <group>
 <region> 
 sample=SingleCycle\Saw_K21.wav 
