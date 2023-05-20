@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Slot1-AcidDevil PatchFormat="1" SlideTime="60" FilterMode="Lowpass 18" AccentAttack="10"
+                 AmpDecay="1230">
+  <Sequencer PatchFormat="1"/>
+</Slot1-AcidDevil>

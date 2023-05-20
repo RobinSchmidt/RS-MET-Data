@@ -49,3 +49,13 @@ Make a video demonstrating and explaining the patch. That could be the first vid
 sound design playlist on youtube. Show spectral analysis for the powerchords. Maybe use Signalizer 
 if MultiAnalyzer isn't fast enough.
 
+----------------------------------------------------------------------------------------------------
+
+Modular Synthesis
+
+The modulation system with its free routing/patching of modulation signals to parameters of other
+modulators is under the hood actually something not so far away from a modular synthesizer. The 
+patch cables are replaced by our modulation "matrix". We only need a way to - finally, as last 
+step - translate the modulation signal to audio. That could simply be done by letting it modulate 
+the amplitude of a DC sample. So: Try to make a patch that demonstrates, how this can be done. Maybe
+do an FM-patch using two LFOs where one modulates the frequency (or phase) of another.

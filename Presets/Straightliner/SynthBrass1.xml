@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Slot1-Straightliner PatchFormat="1" MasterLevel="-15" VoiceLevelByKey="-5.8">
+  <OscSection PatchFormat="1">
+    <Osc1 PatchFormat="1" StereoDetune="0.06" StereoDetuneHz="0.7" FullWaveWarp="-0.045"
+          HalfWaveWarp="0.069" StereoPhaseShift="42" EvenOddStereoPhaseShift="31"
+          AudioFileRelativePath="Samples\SingleCycle\Classic\Saw.flac"/>
+    <Osc2 PatchFormat="1" Mute="1" AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
+    <Osc3 PatchFormat="1" Mute="1" AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
+    <Osc4 PatchFormat="1" Mute="1" AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
+  </OscSection>
+  <Filter PatchFormat="1" Mode="Moogish Lowpass" Frequency="2204.04" FrequencyByKey="100"
+          Resonance="23.3" PreAllpass="20000" MakeUp="100" Order="3"/>
+  <PitchEnvelope PatchFormat="1" TimeScale="1.0" GridX="1" GridY="1" ScaleFactor="1.0"
+                 Offset="0.0" TimeScaleByKey="0.0" TimeScaleByVel="0.0" Depth="1.0"
+                 DepthByKey="0.0" DepthByVel="0.0" SyncMode="1" LoopStartIndex="0"
+                 LoopEndIndex="1" LoopMode="Off">
+    <Breakpoint Time="0.0" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+    <Breakpoint Time="1.0" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+  </PitchEnvelope>
+  <FilterEnvelope PatchFormat="1" TimeScale="1.0" GridX="1" GridY="1" ScaleFactor="1.0"
+                  Offset="0.0" TimeScaleByKey="0.0" TimeScaleByVel="0.0" Depth="1.0"
+                  DepthByKey="0.0" DepthByVel="0.0" SyncMode="1" LoopStartIndex="0"
+                  LoopEndIndex="1" LoopMode="Forward">
+    <Breakpoint Time="0.0" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+    <Breakpoint Time="1.0" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+    <Breakpoint Time="1.07654676" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+  </FilterEnvelope>
+  <AmpEnvelope PatchFormat="1" TimeScale="0.295833460545785" TimeScaleByKey="-30.0"
+               GridX="1" GridY="1" SnapX="1" SnapY="1" ScaleFactor="1.0" Offset="0.0"
+               TimeScaleByVel="0.0" Depth="1.0" DepthByKey="0.0" DepthByVel="0.0"
+               SyncMode="0" LoopStartIndex="9" LoopEndIndex="10" LoopMode="Forward">
+    <Breakpoint Time="-0.0" Level="-0.0" Shape="Sigmoid" ShapeAmount="1.0"/>
+    <Breakpoint Time="0.03125" Level="1.5" Shape="Sigmoid" ShapeAmount="1.0"/>
+    <Breakpoint Time="0.0625" Level="0.5" Shape="Sigmoid" ShapeAmount="1.0"/>
+    <Breakpoint Time="0.09375" Level="1.375" Shape="Sigmoid" ShapeAmount="1.0"/>
+    <Breakpoint Time="0.125" Level="0.625" Shape="Sigmoid" ShapeAmount="1.0"/>
+    <Breakpoint Time="0.15625" Level="1.25" Shape="Sigmoid" ShapeAmount="1.0"/>
+    <Breakpoint Time="0.1875" Level="0.75" Shape="Sigmoid" ShapeAmount="1.0"/>
+    <Breakpoint Time="0.21875" Level="1.125" Shape="Sigmoid" ShapeAmount="1.0"/>
+    <Breakpoint Time="0.25" Level="0.875" Shape="Sigmoid" ShapeAmount="1.0"/>
+    <Breakpoint Time="0.28125" Level="1.0" Shape="Sigmoid" ShapeAmount="1.0"/>
+    <Breakpoint Time="0.65625" Level="1.0" Shape="Sigmoid" ShapeAmount="1.0"/>
+    <Breakpoint Time="1.0" Level="0.0" Shape="Sigmoid" ShapeAmount="1.0"/>
+  </AmpEnvelope>
+</Slot1-Straightliner>
