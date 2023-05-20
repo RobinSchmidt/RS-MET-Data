@@ -1,14 +1,17 @@
-/ Demonstrates assigning lables to MIDI controllers
+/-------------------------------------------------------------------------------
+/ Demonstrates assigning labels to MIDI controllers, giving them initial values 
+/ and how to route the midi cc messages to parameters via the modulation system.
 
-/ Labels for the controllers and their initial values:
+/ Labels for the controllers and their initial values
 <control>
 label_cc74=Cutoff      set_cc74=80
 label_cc71=Resonance   set_cc71=20
 label_cc7=Volume       set_cc7=100
 label_cc10=Pan         set_cc10=64
+/ The <control> section, if any, must always come first in the sfz file
 
 / Sample player settings:
-<global>
+<global>     / Try to get rid. Should be optional but absence trips up parser.
 <group>
 <region> 
 sample=SingleCycle\Saw_K21.wav 
