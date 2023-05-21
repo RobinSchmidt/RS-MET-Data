@@ -1,0 +1,32 @@
+/-------------------------------------------------------------------------------
+/ Demonstrates...
+
+/-------------------------------------------------------------------------------
+/ Labels for the controllers and their initial values:
+<control>
+label_cc10=Pan 
+set_cc10=64
+
+/-------------------------------------------------------------------------------
+/ Sample player settings:
+<global>     / Try to get rid. Should be optional but absence trips up parser.
+<group>
+<region> 
+sample=SingleCycle\Saw_K21.wav 
+pitch_keycenter=21 lokey=0 hikey=127 volume=-6.0 
+loop_mode=loop_continuous loop_start=0 loop_end=2048
+/ These are our usual settings to produce a simple looped sawtooth wave.
+
+/-------------------------------------------------------------------------------
+/ Amplifier settings:
+
+pan=-100         
+control1_index=10
+control1_pan1=200
+
+/ This does not yet work correctly. At cc10=0, the pan is centered at at 
+/ cc10=127, it is panned hard-right. This is expected because we assume a 
+/ neutral cc value of zero. We could compensate that by setting the
+/ pan=-100 and control4_pan1=200 - but that would be unelegant. Better would be
+/ to set pan=0, control4_pan=100 and maybe have something like 
+/ control4_neutral=64
