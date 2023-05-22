@@ -1,9 +1,10 @@
-/ This patch demonstrates how to use resonant bandpass filters with 100% keytracking with a white
-/ noise as input to synthesize a sort of whistle sound. We use the same white noise sample for left
-/ and right channel but the right channel has a time offset within the sample of half the 
-/ sample-length which makes left and right channel play back different portions of the noise to
-/ make them uncorrelated. This should give the sound a pleasant stereo-width. ToDo: maybe include
-/ a width opcode to make the width adjustable.
+/ This patch demonstrates how to use resonant bandpass filters with 100% 
+/ keytracking with a white noise as input to synthesize a sort of whistle 
+/ sound. We use the same white noise sample for left and right channel but the
+/ right channel has a time offset within the sample of half the sample-length 
+/ which makes left and right channel play back different portions of the noise 
+/ to make them uncorrelated. This should give the sound a pleasant 
+/ stereo-width.
 
 <group> 
 lokey=0 
@@ -29,3 +30,7 @@ fil2_keytrack=100
 
 <region> sample=Noise\UniformWhiteNoise.wav pan=-100
 <region> sample=Noise\UniformWhiteNoise.wav pan=100 offset=110250
+
+/ ToDo:
+/ -Apply an ADSR envelope to the volume
+/ -Include a width opcode to make the width adjustable
