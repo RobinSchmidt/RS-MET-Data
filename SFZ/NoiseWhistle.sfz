@@ -7,23 +7,31 @@
 / stereo-width.
 
 <group> 
+
 lokey=0 
 hikey=127 
-pitch_keytrack=10 
-volume=-30.0 
-amp1_keytrack=-0.8
+pitch_keytrack=0           / why?
+
+volume=-20.0 
+amp1_keytrack=-0.6
+
+ampeg_attack=0.01
+ampeg_decay=0.1
+ampeg_sustain=50
+ampeg_release=0.2
+
 loop_mode=loop_continuous 
 loop_start=0 
 loop_end=220500 
 
 cutoff=440 
-resonance=40 
+resonance=25 
 fil_type=bpf_2p 
 fil_keytrack=100 
 fil_keycenter=69 
 
 cutoff2=440 
-resonance2=15 
+resonance2=25 
 fil2_type=bpf_2p 
 fil2_keycenter=69 
 fil2_keytrack=100 
