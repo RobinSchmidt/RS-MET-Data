@@ -18,7 +18,11 @@
 -Try using a fillfo together with freely routable LFOs that are also routed to the filter. The 
  fillfo should just act in the same way as the free LFOs, i.e. just add its modulation contribution.
 -Demonstrate the envelope shape parameters - maye use an amp-env for this
- 
+-Turn FilterBlip.sfz into a sort of bassdrum sound by applying a freq envelope (or multiple 
+ envelopes). Befor doing so, check out, if we use the SVF. For such thing, the time-varying behavior 
+ is important
+-Maybe create a similar sound with the LFO, routed to the DC of a waveshaper. With that trick, the 
+ LFO modulation signal is turned into an audio signal.
  
 ----------------------------------------------------------------------------------------------------
  
@@ -94,6 +98,17 @@ Key#	Note	Drum Sound				Key#	Note	Drum Sound
 See:
 https://computermusicresource.com/GM.Percussion.KeyMap.html
 https://musescore.org/sites/musescore.org/files/General%20MIDI%20Standard%20Percussion%20Set%20Key%20Map.pdf
+
+Available Drumsets:
+
+https://sfzinstruments.github.io/drums/
+https://smmdrums.wordpress.com/for-sfz-sforzando/
+
+https://sfzinstruments.github.io/drums/sm_drums       public domain
+
+https://wiki.laptop.org/go/Free_sound_samples
+
+Or maybe sample the Casio keyboard drumset
 
 ----------------------------------------------------------------------------------------------------
 
