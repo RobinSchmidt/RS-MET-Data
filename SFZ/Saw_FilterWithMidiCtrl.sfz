@@ -4,6 +4,7 @@
 
 /-------------------------------------------------------------------------------
 / Labels for the controllers and their initial values:
+
 <control>
 label_cc74=Cutoff      set_cc74=80
 label_cc71=Resonance   set_cc71=20
@@ -15,6 +16,7 @@ label_cc10=Pan         set_cc10=64
 
 /-------------------------------------------------------------------------------
 / Sample player settings:
+
 <global>     / Try to get rid. Should be optional but absence trips up parser.
 <group>
 <region> 
@@ -25,17 +27,20 @@ loop_mode=loop_continuous loop_start=0 loop_end=2048
 
 /-------------------------------------------------------------------------------
 / Filter settings:
+
 fil_type=lpf_2p              / 2-pole lowpass
 cutoff=500                   / in Hz  ->  cutoff    = 500 Hz when cc74 = 0
 resonance=5                  / in dB  ->  resonance = 5   dB when cc71 = 0
 
 /-------------------------------------------------------------------------------
 / Amplifier settings:
+
 volume=-12                   / in dB         -> volume = -12 dB when cc7 = 0
 pan=-100                     / -100%...+100% -> pan = 0% = center when cc10=63.5
 
 /-------------------------------------------------------------------------------
-/ Midi controllers:             cc        cc-DSP        Param
+/ Midi controllers:     
+/                               cc        cc-DSP        Param
 control1_index=74            / cc74  ->  control1  ->  cutoff1
 control2_index=71            / cc71  ->  control2  ->  resonance1
 control3_index=7             / cc7   ->  control3  ->  volume1
@@ -48,6 +53,7 @@ control4_index=10            / cc10  ->  control4  ->  pan1
 
 /-------------------------------------------------------------------------------
 / Midi controller routings:
+
 control1_cutoff1=4800        / 4800 cent = 4 oct  ->  cutoff =  500...8000 Hz
 control2_resonance1=25       / 25 dB              ->  reso   =    5...30   dB
 control3_volume1=12          / 12 dB              ->  volume =  -12...0    dB

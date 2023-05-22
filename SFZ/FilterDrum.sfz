@@ -1,0 +1,28 @@
+/------------------------------------------------------------------------------
+/ Derived from FilterBlip.sfz ...tbc...
+
+<group> 
+<region> sample=Transients\UnitImpulse2.wav lokey=0 hikey=127 
+
+
+pitch_keytrack=0         / We want the impulse sample to always play as is
+volume=40                / We need quite some volume boost here :-O
+amp1_keytrack=0       / High notes should be a bit attenuated
+
+/ We use an indefinite loop over some silent portion of the sample to keep the layer running until 
+/ the key is released:
+loop_mode=loop_continuous
+loop_start=50
+loop_end=100
+
+/ The first filter has a high resonance of 25 dB. This filter is mainly responsible for the 
+/ exponentially decaying sinusoid:
+cutoff=440 
+resonance=37 
+fil_type=lpf_2p 
+fil_keytrack=100 
+fil_keycenter=69 
+
+/ BUG:
+/ -using a nonzero value for amp1_keytrack causes weird retrigger behavior
+

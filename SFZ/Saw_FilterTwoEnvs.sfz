@@ -1,5 +1,6 @@
-/ Demonstrates using the regular filter envelope (with the fileg opcodes) and additionally a free
-/ DAHDSR envelope that is also routed to the cutoff and adds to what the fileg produces.
+/ Demonstrates using the regular filter envelope (with the fileg opcodes) and 
+/ additionally a free DAHDSR envelope that is also routed to the cutoff and 
+/ adds to what the fileg produces.
 
 / Sample player settings:
 <group>
