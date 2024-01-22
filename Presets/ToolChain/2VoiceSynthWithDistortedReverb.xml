@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ToolChain PatchFormat="1" ActiveSlot="2">
+<ToolChain PatchFormat="1" ActiveSlot="3">
   <MetaParameterValues M1="0.5980941653251648"/>
   <Slot Type="Straightliner">
-    <Slot1-Straightliner PatchFormat="1" MasterLevel="-15" GlideTime="70.414">
+    <Slot1-Straightliner PatchFormat="1" MasterLevel="-15" GlideTime="103.499">
       <OscSection PatchFormat="1">
         <Osc1 PatchFormat="1" Level="-8.67" StereoDetuneHz="0.83" StartPhase="152.79"
               CombHarmonic="2.2" CombAmount="67.4" SpectralSlope="-0.77" EvenOddRatio="0.65"
@@ -51,13 +51,20 @@
                DepthScaleVoice1="56" AmpScaleVoice1="44" DepthScaleVoice2="-24"
                AmpScaleVoice2="51" DepthScaleVoice3="-43" AmpScaleVoice3="-27"
                DepthScaleVoice4="32" AmpScaleVoice4="-19"/>
-      <Reverb4 PatchFormat="1" DryWetRatio="0.47" FirstEcho="50" PreDelay="1"
+      <Reverb4 PatchFormat="1" DryWetRatio="0.29" FirstEcho="50" PreDelay="1"
                DecayTime="4.86" LowDecayScale="1" HighCrossoverFrequency="4000"
                LowCrossoverFrequency="250" Pinking="0"/>
       <WaveShaper1 PatchFormat="1" Drive="28.2" DC="0.17" OutputLevel="-10.9" Oversampling="2"/>
     </Slot2-Quadrifex>
   </Slot>
+  <Slot Type="StereoDelay">
+    <Slot3-StereoDelay PatchFormat="1" DelayScaleR="1.5" DiffusorTimeR="13.96" DiffusorAmountL="-14.1"
+                       DiffusorAmountR="16.3" LowpassCutoffL="7535.59" LowpassCutoffR="4802.47"
+                       HighpassCutoffL="83.29" HighpassCutoffR="59.41" FeedbackLeftToLeft="64.1"
+                       FeedbackRightToRight="52.2" FeedbackLeftToRight="-13" FeedbackRightToLeft="13"
+                       DryWet="24.4186" DelayInBeatsL="0.5" DelayInBeatsR="0.5"/>
+  </Slot>
   <Slot Type="None">
-    <Slot3-None PatchFormat="1"/>
+    <Slot4-None PatchFormat="1"/>
   </Slot>
 </ToolChain>
