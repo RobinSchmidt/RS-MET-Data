@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="2">
+  <MetaParameterValues M1="0.5980941653251648"/>
+  <Slot Type="Straightliner">
+    <Slot1-Straightliner PatchFormat="1" MasterLevel="-2.2">
+      <OscSection PatchFormat="1">
+        <Osc1 PatchFormat="1" PitchModulationDepth="4" EvenOddPhaseShift="1"
+              StereoPhaseShift="90" EvenOddStereoPhaseShift="1" AudioFileRelativePath="Samples/SingleCycle/Classic/Sine.flac"/>
+        <Osc2 PatchFormat="1" Mute="1" PhaseShift="1" EvenOddPhaseShift="1"
+              StereoPhaseShift="1" EvenOddStereoPhaseShift="1" AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
+        <Osc3 PatchFormat="1" Mute="1" PhaseShift="1" EvenOddPhaseShift="1"
+              StereoPhaseShift="1" EvenOddStereoPhaseShift="1" AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
+        <Osc4 PatchFormat="1" Mute="1" PhaseShift="1" EvenOddPhaseShift="1"
+              StereoPhaseShift="1" EvenOddStereoPhaseShift="1" AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
+      </OscSection>
+      <Filter PatchFormat="1" Frequency="1000" Resonance="0" PreAllpass="20000"
+              MakeUp="1" Order="1"/>
+      <PitchEnvelope PatchFormat="1" TimeScale="0.9999999999999999" TimeScaleByVel="-50.0"
+                     DepthByVel="50.0" GridX="1/8" GridY="1/8" ScaleFactor="1.0" Offset="0.0"
+                     TimeScaleByKey="0.0" Depth="1.0" DepthByKey="0.0" SyncMode="1"
+                     LoopStartIndex="0" LoopEndIndex="3" LoopMode="Off">
+        <Breakpoint Time="0.0" Level="4.0" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="0.02465408345770755" Level="1.981176470588236" Shape="Analog"
+                    ShapeAmount="1.0"/>
+        <Breakpoint Time="0.375" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="1.0" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+      </PitchEnvelope>
+      <FilterEnvelope PatchFormat="1" TimeScale="1.0" GridX="1" GridY="1" ScaleFactor="1.0"
+                      Offset="0.0" TimeScaleByKey="0.0" TimeScaleByVel="0.0" Depth="1.0"
+                      DepthByKey="0.0" DepthByVel="0.0" SyncMode="1" LoopStartIndex="0"
+                      LoopEndIndex="1" LoopMode="Forward">
+        <Breakpoint Time="0.0" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="1.0" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="1.07654676" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+      </FilterEnvelope>
+      <AmpEnvelope PatchFormat="1" TimeScale="1.0" GridX="1/64" GridY="1/8" ScaleFactor="1.0"
+                   Offset="0.0" TimeScaleByKey="0.0" TimeScaleByVel="0.0" Depth="1.0"
+                   DepthByKey="0.0" DepthByVel="0.0" SyncMode="1" LoopStartIndex="2"
+                   LoopEndIndex="3" LoopMode="Forward">
+        <Breakpoint Time="0.0" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="0.03415204170723853" Level="0.3208960000000004" Shape="Analog"
+                    ShapeAmount="1.0"/>
+        <Breakpoint Time="0.125" Level="0.625" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="0.25" Level="0.625" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="0.703125" Level="0.0" Shape="Spikey" ShapeAmount="1.27"/>
+      </AmpEnvelope>
+    </Slot1-Straightliner>
+  </Slot>
+  <Slot Type="FuncShaper">
+    <Slot2-FuncShaper PatchFormat="1" Drive="5.89474" DC="0.315789" OutputFilterUsed="1"
+                      OutputHighpass="173.193" OutputLowpass="20000" OutLevel="3.42857"
+                      DryWet="37.5" a="2" aMax="4" FunctionString="tanh(a*x);"/>
+  </Slot>
+  <Slot Type="None">
+    <Slot3-None PatchFormat="1"/>
+  </Slot>
+</ToolChain>
