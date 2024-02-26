@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="3">
+  <Slot Type="FlatZapper">
+    <Slot1-FlatZapper PatchFormat="1" NumStages="56" FreqLow="1661.42"/>
+  </Slot>
+  <Slot Type="FuncShaper">
+    <Slot2-FuncShaper PatchFormat="1" InputLowpass="20000" Drive="48" OutputLowpass="20000"
+                      OutLevel="-24" DryWet="27.6786" Oversampling="1" a="2" aMax="4"
+                      FunctionString="tanh(a*x);"/>
+  </Slot>
+  <Slot Type="FlatZapper">
+    <Slot3-FlatZapper PatchFormat="1" Level="26.19" Exciter="0" Input="100" NumStages="151"
+                      FreqLow="445.067" FreqShape="3.13"/>
+  </Slot>
+  <Slot Type="None">
+    <Slot4-None PatchFormat="1"/>
+  </Slot>
+</ToolChain>

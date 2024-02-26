@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="1">
+  <Slot Type="FlatZapper">
+    <Slot1-FlatZapper PatchFormat="1" Level="56.04" NumStages="20" FreqLow="2088.27"
+                      FreqHigh="20000"/>
+  </Slot>
+  <Slot Type="FlatZapper">
+    <Slot2-FlatZapper PatchFormat="1" Exciter="0" Input="100" NumStages="40" FreqHigh="500"
+                      FreqShape="-2" QLow="0.256988" QHigh="0.407408"/>
+  </Slot>
+  <Slot Type="Equalizer">
+    <Slot3-Equalizer PatchFormat="2">
+      <Band Mode="Lowpass 6 dB/oct" Frequency="49.59092133203455" Gain="3.700000000000003"
+            Bandwidth="1.9"/>
+      <Band Mode="Peak/Dip" Frequency="40.0" Gain="14.40000000000001" Bandwidth="0.4"/>
+    </Slot3-Equalizer>
+  </Slot>
+  <Slot Type="FuncShaper">
+    <Slot4-FuncShaper PatchFormat="1" InputFilterUsed="1" InputHighpass="393.127" InputLowpass="20000"
+                      Drive="10.1053" DC="0.280702" OutputFilterUsed="1" OutputLowpass="809.418"
+                      DryWet="50.4241" Oversampling="1" a="2" aMax="4" FunctionString="tanh(a*x);"/>
+  </Slot>
+  <Slot Type="Equalizer">
+    <Slot5-Equalizer PatchFormat="2">
+      <Band Mode="Peak/Dip" Frequency="191.1266068949293" Gain="-8.699999999999996"
+            Bandwidth="1.36"/>
+      <Band Mode="Peak/Dip" Frequency="1086.209923737947" Gain="5.800000000000004"
+            Bandwidth="3.3"/>
+      <Band Mode="Peak/Dip" Frequency="57.21963700012666" Gain="6.300000000000004"
+            Bandwidth="1.9"/>
+    </Slot5-Equalizer>
+  </Slot>
+  <Slot Type="None">
+    <Slot6-None PatchFormat="1"/>
+  </Slot>
+</ToolChain>
