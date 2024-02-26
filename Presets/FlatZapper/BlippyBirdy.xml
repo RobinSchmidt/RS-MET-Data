@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Slot1-FlatZapper PatchFormat="1" Level="50.32" NumStages="256" FreqLow="1254.78"
+                  FreqHigh="2163.23" FreqShape="3.18" QLow="2.5431" QHigh="1.15232"
+                  QShape="-0.29"/>
