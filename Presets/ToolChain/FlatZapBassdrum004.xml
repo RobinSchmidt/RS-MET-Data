@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="3">
+  <Slot Type="FlatZapper">
+    <Slot1-FlatZapper PatchFormat="1" Level="46.64" NumStages="30" FreqLow="10" FreqHigh="477.144"/>
+  </Slot>
+  <Slot Type="Equalizer">
+    <Slot2-Equalizer PatchFormat="2">
+      <Band Mode="Lowpass 6 dB/oct" Frequency="70.19734721189458" Gain="-1.299999999999997"
+            Bandwidth="1.9"/>
+      <Band Mode="Peak/Dip" Frequency="55.0" Gain="15.7" Bandwidth="0.5800000000000001"/>
+      <Band Mode="Notch 2*6 dB/oct" Frequency="139.2593095577486" Gain="-10.8"
+            Bandwidth="0.8"/>
+    </Slot2-Equalizer>
+  </Slot>
+  <Slot Type="FuncShaper">
+    <Slot3-FuncShaper PatchFormat="1" InputFilterUsed="1" InputHighpass="366.596" InputLowpass="3000.45"
+                      Drive="12.6316" OutputFilterUsed="1" OutputHighpass="143.937"
+                      OutputLowpass="12210.8" DryWet="17.8571" Oversampling="1" a="2.406"
+                      b="0" c="0" d="0" aMin="1" bMin="0" cMin="0" dMin="0" aMax="10"
+                      FunctionString="sign(x) * (1 - pow(1-abs(clip(x,-1,1)),a));"/>
+  </Slot>
+  <Slot Type="Equalizer">
+    <Slot4-Equalizer PatchFormat="2">
+      <Band Mode="Notch 2*6 dB/oct" Frequency="165.6449607844271" Gain="-7.299999999999997"
+            Bandwidth="1.47"/>
+    </Slot4-Equalizer>
+  </Slot>
+  <Slot Type="None">
+    <Slot5-None PatchFormat="1"/>
+  </Slot>
+</ToolChain>
