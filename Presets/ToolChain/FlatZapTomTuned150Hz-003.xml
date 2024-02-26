@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="3">
+  <Slot Type="FlatZapper">
+    <Slot1-FlatZapper PatchFormat="1" Level="46.64" NumStages="30" FreqLow="10" FreqHigh="477.144"/>
+  </Slot>
+  <Slot Type="Equalizer">
+    <Slot2-Equalizer PatchFormat="2" GainRange="48 dB">
+      <Band Mode="Lowpass 6 dB/oct" Frequency="70.19734721189458" Gain="-1.299999999999997"
+            Bandwidth="1.9"/>
+      <Band Mode="Highpass 12 dB/oct" Frequency="150.0" Gain="22.90000000000001"
+            Bandwidth="0.5800000000000001"/>
+    </Slot2-Equalizer>
+  </Slot>
+  <Slot Type="FuncShaper">
+    <Slot3-FuncShaper PatchFormat="1" InputFilterUsed="1" InputHighpass="240.758" InputLowpass="20000"
+                      Drive="9.26316" DC="0.140351" OutputFilterUsed="1" OutputHighpass="320.913"
+                      OutputLowpass="20000" DryWet="49.1072" Oversampling="1" a="2"
+                      aMax="4" FunctionString="tanh(a*x);"/>
+  </Slot>
+  <Slot Type="None">
+    <Slot4-None PatchFormat="1"/>
+  </Slot>
+</ToolChain>
