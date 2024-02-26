@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="2">
+  <Slot Type="FlatZapper">
+    <Slot1-FlatZapper PatchFormat="1" Level="63" NumStages="20" FreqLow="2088.27" FreqHigh="20000"/>
+  </Slot>
+  <Slot Type="FlatZapper">
+    <Slot2-FlatZapper PatchFormat="1" Exciter="0" Input="100" NumStages="40" FreqHigh="500"/>
+  </Slot>
+  <Slot Type="Equalizer">
+    <Slot3-Equalizer PatchFormat="2">
+      <Band Mode="Lowpass 6 dB/oct" Frequency="49.59092133203455" Gain="3.700000000000003"
+            Bandwidth="1.9"/>
+    </Slot3-Equalizer>
+  </Slot>
+  <Slot Type="None">
+    <Slot4-None PatchFormat="1"/>
+  </Slot>
+</ToolChain>
