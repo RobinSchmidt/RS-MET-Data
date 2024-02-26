@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="1">
+  <Slot Type="Straightliner">
+    <Slot1-Straightliner PatchFormat="1" MasterLevel="-27.5">
+      <OscSection PatchFormat="1">
+        <Osc1 PatchFormat="1" AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
+        <Osc2 PatchFormat="1" Mute="1" AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
+        <Osc3 PatchFormat="1" Mute="1" AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
+        <Osc4 PatchFormat="1" Mute="1" AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
+      </OscSection>
+      <Filter PatchFormat="1" Mode="Moogish Lowpass" Frequency="3957.83" Resonance="0"
+              PreAllpass="20000" MakeUp="100" Order="2"/>
+      <PitchEnvelope PatchFormat="1" TimeScale="1.0" GridX="1" GridY="1" ScaleFactor="1.0"
+                     Offset="0.0" TimeScaleByKey="0.0" TimeScaleByVel="0.0" Depth="1.0"
+                     DepthByKey="0.0" DepthByVel="0.0" SyncMode="1" LoopStartIndex="0"
+                     LoopEndIndex="1" LoopMode="Off">
+        <Breakpoint Time="0.0" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="1.0" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+      </PitchEnvelope>
+      <FilterEnvelope PatchFormat="1" TimeScale="1.0" GridX="1" GridY="1" ScaleFactor="1.0"
+                      Offset="0.0" TimeScaleByKey="0.0" TimeScaleByVel="0.0" Depth="1.0"
+                      DepthByKey="0.0" DepthByVel="0.0" SyncMode="1" LoopStartIndex="0"
+                      LoopEndIndex="1" LoopMode="Forward">
+        <Breakpoint Time="0.0" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="1.0" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="1.07654676" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+      </FilterEnvelope>
+      <AmpEnvelope PatchFormat="1" TimeScale="1.0" GridX="1" GridY="1" ScaleFactor="1.0"
+                   Offset="0.0" TimeScaleByKey="0.0" TimeScaleByVel="0.0" Depth="1.0"
+                   DepthByKey="0.0" DepthByVel="0.0" SyncMode="1" LoopStartIndex="1"
+                   LoopEndIndex="2" LoopMode="Forward">
+        <Breakpoint Time="0.0" Level="0.0" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="0.01" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="1.0" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="1.2" Level="0.0" Shape="Analog" ShapeAmount="1.0"/>
+      </AmpEnvelope>
+    </Slot1-Straightliner>
+  </Slot>
+  <Slot Type="FlatZapper">
+    <Slot2-FlatZapper PatchFormat="1" Exciter="0" Input="100" NumStages="40" FreqLow="93.7148"
+                      FreqHigh="13145.7" FreqShape="-2.33"/>
+  </Slot>
+  <Slot Type="Scope">
+    <Slot3-Scope PatchFormat="1" OneDimensional="1" Sync="1" ScaleX="1" ScaleY="1">
+      <ColorMap ff000000="0" ffffffff="1"/>
+    </Slot3-Scope>
+  </Slot>
+  <Slot Type="FuncShaper">
+    <Slot4-FuncShaper PatchFormat="1" InputLowpass="20000" OutputLowpass="20000" a="0.573"
+                      b="0.26" c="0" d="0" aMin="0" bMin="0" cMin="0" dMin="0" aMax="5"
+                      bMax="5" FunctionString="softClip(select(x, -abs(x)&#94;a, x&#94;b));"/>
+  </Slot>
+  <Slot Type="None">
+    <Slot5-None PatchFormat="1"/>
+  </Slot>
+</ToolChain>

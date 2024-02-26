@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="1">
+  <Slot Type="AcidDevil">
+    <Slot1-AcidDevil PatchFormat="1" MasterLevel="-25.8" Accent="100" SlideTime="90.7"
+                     SubOscWaveform="0.46" Cutoff="372.667" Resonance="79.4" FilterMode="Lowpass 12"
+                     EnvMod="20.2" NormalDecay="432.7" AccentDecay="69" NormalAttack="20"
+                     AccentAttack="33" AmpDecay="1230" AmpRelease="1.5" DistortionDrive="17.2">
+      <Sequencer PatchFormat="1" StepLength="0.67">
+        <Pattern0 StepLength="0.6699999999999999">
+          <Step0 Gate="1" Accent="1" Slide="1" Key="0" Octave="1"/>
+          <Step1 Gate="1" Accent="0" Slide="0" Key="0" Octave="-1"/>
+          <Step2 Gate="1" Accent="0" Slide="1" Key="0" Octave="0"/>
+          <Step3 Gate="1" Accent="0" Slide="0" Key="0" Octave="0"/>
+          <Step4 Gate="1" Accent="1" Slide="0" Key="0" Octave="-1"/>
+          <Step5 Gate="1" Accent="1" Slide="1" Key="0" Octave="0"/>
+          <Step6 Gate="1" Accent="0" Slide="0" Key="0" Octave="0"/>
+          <Step7 Gate="1" Accent="0" Slide="0" Key="0" Octave="-1"/>
+          <Step8 Gate="1" Accent="1" Slide="1" Key="0" Octave="0"/>
+          <Step9 Gate="1" Accent="0" Slide="0" Key="0" Octave="-1"/>
+          <Step10 Gate="1" Accent="1" Slide="0" Key="0" Octave="0"/>
+          <Step11 Gate="1" Accent="0" Slide="1" Key="7" Octave="0"/>
+          <Step12 Gate="1" Accent="0" Slide="1" Key="0" Octave="-1"/>
+          <Step13 Gate="1" Accent="0" Slide="0" Key="0" Octave="1"/>
+          <Step14 Gate="1" Accent="1" Slide="1" Key="0" Octave="1"/>
+          <Step15 Gate="1" Accent="1" Slide="1" Key="3" Octave="0"/>
+        </Pattern0>
+      </Sequencer>
+    </Slot1-AcidDevil>
+  </Slot>
+  <Slot Type="FlatZapper">
+    <Slot2-FlatZapper PatchFormat="1" Level="10.22" Exciter="0" Input="100" NumStages="35"
+                      FreqLow="93.7148" FreqHigh="13145.7" FreqShape="-2.33"/>
+  </Slot>
+  <Slot Type="None">
+    <Slot3-None PatchFormat="1"/>
+  </Slot>
+  <Slot Type="FuncShaper">
+    <Slot4-FuncShaper PatchFormat="1" InputLowpass="20000" Drive="12.6316" OutputLowpass="20000"
+                      OutLevel="-12" DryWet="70.5357" a="0.573" b="0.26" c="0" d="0"
+                      aMin="0" bMin="0" cMin="0" dMin="0" aMax="5" bMax="5" FunctionString="softClip(select(x, -abs(x)&#94;a, x&#94;b));"/>
+  </Slot>
+  <Slot Type="StereoDelay">
+    <Slot5-StereoDelay PatchFormat="1" DiffusorTimeR="12.57" FeedbackLeftToLeft="50"
+                       FeedbackRightToRight="50" FeedbackLeftToRight="-10" FeedbackRightToLeft="-10"
+                       LeftDelayToRightOut="10" RightDelayToLeftOut="10" WetDelayInBeatsR="0.25"
+                       DryWet="5.81395" DelayInBeatsL="0.5" DelayInBeatsR="0.5"/>
+  </Slot>
+  <Slot Type="None">
+    <Slot6-None PatchFormat="1"/>
+  </Slot>
+</ToolChain>
