@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ToolChain PatchFormat="1" ActiveSlot="3">
+<ToolChain PatchFormat="1" ActiveSlot="1">
   <Slot Type="FlatZapper">
-    <Slot1-FlatZapper PatchFormat="1" Level="46.64" NumStages="30" FreqLow="10" FreqHigh="477.144"/>
+    <Slot1-FlatZapper PatchFormat="1" Level="46.64" NumStages="30" FreqLow="16.1332"
+                      FreqHigh="477.144" QLow="0.125"/>
   </Slot>
   <Slot Type="Equalizer">
     <Slot2-Equalizer PatchFormat="2">
