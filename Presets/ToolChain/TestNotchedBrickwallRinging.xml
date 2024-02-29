@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="3">
+  <Slot Type="Straightliner">
+    <Slot1-Straightliner PatchFormat="1" MasterLevel="-15">
+      <OscSection PatchFormat="1">
+        <Osc1 PatchFormat="1" AudioFileRelativePath="Samples\SingleCycle\Classic\Square.flac"/>
+        <Osc2 PatchFormat="1" Mute="1" AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
+        <Osc3 PatchFormat="1" Mute="1" AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
+        <Osc4 PatchFormat="1" Mute="1" AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
+      </OscSection>
+      <Filter PatchFormat="1" Frequency="1000" Resonance="0" PreAllpass="20000"
+              MakeUp="100"/>
+      <PitchEnvelope PatchFormat="1" TimeScale="1.0" GridX="1" GridY="1" ScaleFactor="1.0"
+                     Offset="0.0" TimeScaleByKey="0.0" TimeScaleByVel="0.0" Depth="1.0"
+                     DepthByKey="0.0" DepthByVel="0.0" SyncMode="1" LoopStartIndex="0"
+                     LoopEndIndex="1" LoopMode="Off">
+        <Breakpoint Time="0.0" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="1.0" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+      </PitchEnvelope>
+      <FilterEnvelope PatchFormat="1" TimeScale="1.0" GridX="1" GridY="1" ScaleFactor="1.0"
+                      Offset="0.0" TimeScaleByKey="0.0" TimeScaleByVel="0.0" Depth="1.0"
+                      DepthByKey="0.0" DepthByVel="0.0" SyncMode="1" LoopStartIndex="0"
+                      LoopEndIndex="1" LoopMode="Forward">
+        <Breakpoint Time="0.0" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="1.0" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="1.07654676" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+      </FilterEnvelope>
+      <AmpEnvelope PatchFormat="1" TimeScale="1.0" GridX="1" GridY="1" ScaleFactor="1.0"
+                   Offset="0.0" TimeScaleByKey="0.0" TimeScaleByVel="0.0" Depth="1.0"
+                   DepthByKey="0.0" DepthByVel="0.0" SyncMode="1" LoopStartIndex="1"
+                   LoopEndIndex="2" LoopMode="Forward">
+        <Breakpoint Time="0.0" Level="0.0" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="0.01" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="1.0" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="1.2" Level="0.0" Shape="Analog" ShapeAmount="1.0"/>
+      </AmpEnvelope>
+    </Slot1-Straightliner>
+  </Slot>
+  <Slot Type="EngineersFilter">
+    <Slot2-EngineersFilter PatchFormat="1" Method="Elliptic" Frequency="1000" Order="12"
+                           Ripple="0.1" Rejection="100"/>
+  </Slot>
+  <Slot Type="Equalizer">
+    <Slot3-Equalizer PatchFormat="2">
+      <Band Mode="Notch 2*6 dB/oct" Frequency="1000.0" Gain="-7.899999999999999"
+            Bandwidth="0.4"/>
+    </Slot3-Equalizer>
+  </Slot>
+  <Slot Type="Scope">
+    <Slot4-Scope PatchFormat="1" Brightness="0.495807" OneDimensional="1" Sync="1">
+      <ColorMap ff000000="0" ff004a8a="0.167" ff0093b9="0.333" ff5fb59c="0.5"
+                ffb3dc77="0.667" fff3fa82="0.833" ffffffff="1"/>
+    </Slot4-Scope>
+  </Slot>
+  <Slot Type="None">
+    <Slot5-None PatchFormat="1"/>
+  </Slot>
+</ToolChain>
