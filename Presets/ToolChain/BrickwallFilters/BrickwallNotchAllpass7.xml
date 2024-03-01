@@ -42,11 +42,11 @@
                            Bandwidth="1" Ripple="0.1" Rejection="100"/>
   </Slot>
   <Slot Type="EngineersFilter">
-    <Slot3-EngineersFilter PatchFormat="1" Mode="Bandreject" Method="Halpern" Frequency="1000"
+    <Slot3-EngineersFilter PatchFormat="1" Mode="Bandreject" Method="Halpern" Frequency="1194.93"
                            Bandwidth="0.64" Gain="-48" Ripple="1"/>
   </Slot>
   <Slot Type="FlatZapper">
-    <Slot4-FlatZapper PatchFormat="1" Exciter="0" Input="100" NumStages="10" AllpassMode="OnePole"
+    <Slot4-FlatZapper PatchFormat="1" Exciter="0" Input="100" NumStages="8" AllpassMode="OnePole"
                       FreqLow="1000" FreqHigh="1000"/>
   </Slot>
   <Slot Type="None">

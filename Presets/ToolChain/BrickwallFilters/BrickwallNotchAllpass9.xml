@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ToolChain PatchFormat="1" ActiveSlot="4">
+<ToolChain PatchFormat="1" ActiveSlot="3">
   <Slot Type="Straightliner">
-    <Slot1-Straightliner PatchFormat="1" MasterLevel="-15">
+    <Slot1-Straightliner PatchFormat="1" MasterLevel="-5.3">
       <OscSection PatchFormat="1">
         <Osc1 PatchFormat="1" AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
         <Osc2 PatchFormat="1" Mute="1" AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
@@ -38,15 +38,16 @@
     </Slot1-Straightliner>
   </Slot>
   <Slot Type="EngineersFilter">
-    <Slot2-EngineersFilter PatchFormat="1" Method="Halpern" Frequency="1000" Order="12"
+    <Slot2-EngineersFilter PatchFormat="1" Method="Bessel" Frequency="2092.24" Order="6"
                            Bandwidth="1" Ripple="0.1" Rejection="100"/>
   </Slot>
   <Slot Type="EngineersFilter">
-    <Slot3-EngineersFilter PatchFormat="1" Mode="Bandreject" Method="Halpern" Frequency="1000"
-                           Bandwidth="0.64" Gain="-48" Ripple="1"/>
+    <Slot3-EngineersFilter PatchFormat="1" Mode="Bandreject" Method="Inverse Chebychev"
+                           Frequency="2000" Order="6" Bandwidth="2" Gain="-48" Ripple="1"
+                           Rejection="50"/>
   </Slot>
   <Slot Type="FlatZapper">
-    <Slot4-FlatZapper PatchFormat="1" Exciter="0" Input="100" NumStages="10" AllpassMode="OnePole"
+    <Slot4-FlatZapper PatchFormat="1" Exciter="0" Input="100" NumStages="4" AllpassMode="OnePole"
                       FreqLow="1000" FreqHigh="1000"/>
   </Slot>
   <Slot Type="None">
