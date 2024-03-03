@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="1">
+  <Slot Type="FlatZapper">
+    <Slot1-FlatZapper PatchFormat="1" Level="49.87" NumStages="256" AllpassMode="OnePole"
+                      FreqHigh="20000" FreqShape="4.2"/>
+  </Slot>
+  <Slot Type="Equalizer">
+    <Slot2-Equalizer PatchFormat="2" GainRange="48 dB">
+      <Band Mode="Lowpass 6 dB/oct" Frequency="32.94966269515604" Gain="-1.599999999999994"
+            Bandwidth="1.9"/>
+      <Band Mode="Peak/Dip" Frequency="2838.958835409839" Gain="11.5" Bandwidth="4.13"/>
+    </Slot2-Equalizer>
+  </Slot>
+  <Slot Type="StereoDelay">
+    <Slot3-StereoDelay PatchFormat="1" DiffusorTimeR="12.57" LowpassCutoffL="20000"
+                       LowpassCutoffR="20000" HighpassCutoffL="1000" HighpassCutoffR="1000"
+                       FeedbackLeftToLeft="50" FeedbackRightToRight="50" FeedbackLeftToRight="-10"
+                       FeedbackRightToLeft="-10" LeftDelayToRightOut="10" RightDelayToLeftOut="10"
+                       WetDelayInBeatsR="0.25" DryWet="12.7907" DelayInBeatsL="0.25"
+                       DelayInBeatsR="0.25"/>
+  </Slot>
+  <Slot Type="Quadrifex">
+    <Slot4-Quadrifex PatchFormat="1" DryWet="0.15" Routing="1&gt;2&gt;3&gt;4" Slot1="Reverb"
+                     Slot2="Bypass" Slot3="Bypass" Slot4="Bypass">
+      <RoutingMatrix5x5 PatchFormat="1"/>
+      <AudioModule PatchFormat="1"/>
+      <AudioModule PatchFormat="1"/>
+      <AudioModule PatchFormat="1"/>
+      <Reverb1 PatchFormat="1" DryWetRatio="0.52" FirstEcho="50" DecayTime="3"
+               HighDecayScale="0.84" LowDecayScale="0.1" HighCrossoverFrequency="4000"
+               LowCrossoverFrequency="182.257" Pinking="0"/>
+    </Slot4-Quadrifex>
+  </Slot>
+  <Slot Type="None">
+    <Slot5-None PatchFormat="1"/>
+  </Slot>
+</ToolChain>
