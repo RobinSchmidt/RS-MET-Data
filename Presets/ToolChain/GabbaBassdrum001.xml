@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="4">
+  <Slot Type="Straightliner">
+    <Slot1-Straightliner PatchFormat="1" MasterLevel="-10.3">
+      <OscSection PatchFormat="1">
+        <Osc1 PatchFormat="1" PitchModulationDepth="4" PhaseShift="90" StereoPhaseShift="20"
+              AudioFileRelativePath="Samples\SingleCycle\Classic\Triangle.flac"/>
+        <Osc2 PatchFormat="1" Mute="1" PhaseShift="1" EvenOddPhaseShift="1"
+              StereoPhaseShift="1" EvenOddStereoPhaseShift="1" AudioFileRelativePath="Samples\SingleCycle\Classic\Saw.flac"/>
+        <Osc3 PatchFormat="1" Mute="1" PhaseShift="1" EvenOddPhaseShift="1"
+              StereoPhaseShift="1" EvenOddStereoPhaseShift="1" AudioFileRelativePath="Samples\SingleCycle\Classic\Saw.flac"/>
+        <Osc4 PatchFormat="1" Mute="1" PhaseShift="1" EvenOddPhaseShift="1"
+              StereoPhaseShift="1" EvenOddStereoPhaseShift="1" AudioFileRelativePath="Samples\SingleCycle\Classic\Saw.flac"/>
+      </OscSection>
+      <Filter PatchFormat="1" Frequency="1000" Resonance="0" PreAllpass="20000"
+              MakeUp="1" Order="1"/>
+      <PitchEnvelope PatchFormat="1" TimeScale="0.9999999999999999" TimeScaleByVel="-75.0"
+                     DepthByVel="40.0" GridX="1/8" GridY="1/8" ScaleFactor="1.0" Offset="0.0"
+                     TimeScaleByKey="0.0" Depth="1.0" DepthByKey="0.0" SyncMode="1"
+                     LoopStartIndex="0" LoopEndIndex="3" LoopMode="Off">
+        <Breakpoint Time="0.0" Level="4.0" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="0.04493578838365897" Level="1.623529411764706" Shape="Analog"
+                    ShapeAmount="1.1"/>
+        <Breakpoint Time="0.375" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="1.0" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+      </PitchEnvelope>
+      <FilterEnvelope PatchFormat="1" TimeScale="1.0" GridX="1" GridY="1" ScaleFactor="1.0"
+                      Offset="0.0" TimeScaleByKey="0.0" TimeScaleByVel="0.0" Depth="1.0"
+                      DepthByKey="0.0" DepthByVel="0.0" SyncMode="1" LoopStartIndex="0"
+                      LoopEndIndex="1" LoopMode="Forward">
+        <Breakpoint Time="0.0" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="1.0" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="1.07654676" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+      </FilterEnvelope>
+      <AmpEnvelope PatchFormat="1" TimeScale="1.0" GridX="1/64" GridY="1/8" SnapX="1"
+                   SnapY="1" ScaleFactor="1.0" Offset="0.0" TimeScaleByKey="0.0"
+                   TimeScaleByVel="0.0" Depth="1.0" DepthByKey="0.0" DepthByVel="0.0"
+                   SyncMode="1" LoopStartIndex="3" LoopEndIndex="4" LoopMode="Forward">
+        <Breakpoint Time="-0.0" Level="1.5" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="0.171875" Level="0.125" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="0.28125" Level="0.375" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="0.546875" Level="0.375" Shape="Smooth" ShapeAmount="1.0"/>
+        <Breakpoint Time="0.59375" Level="0.375" Shape="Analog" ShapeAmount="1.0"/>
+        <Breakpoint Time="0.7470813838934282" Level="0.0" Shape="Analog" ShapeAmount="0.71"/>
+      </AmpEnvelope>
+    </Slot1-Straightliner>
+  </Slot>
+  <Slot Type="FuncShaper">
+    <Slot2-FuncShaper PatchFormat="1" InputLowpass="20000" OutputLowpass="20000" DryWet="82.1429"
+                      a="0.573" b="0.26" c="0" d="0" aMin="0" bMin="0" cMin="0" dMin="0"
+                      aMax="5" bMax="5" FunctionString="softClip(select(x, -abs(x)&#94;a, x&#94;b));"/>
+  </Slot>
+  <Slot Type="Equalizer">
+    <Slot3-Equalizer PatchFormat="2">
+      <Band Mode="Lowpass 6 dB/oct" Frequency="2132.42248208995" Gain="-4.699999999999996"
+            Bandwidth="1.9"/>
+    </Slot3-Equalizer>
+  </Slot>
+  <Slot Type="FuncShaper">
+    <Slot4-FuncShaper PatchFormat="1" InputLowpass="20000" OutputLowpass="20000" DryWet="83.0357"
+                      a="3.32537" b="1.864" c="0" d="0" aMin="0.5" bMin="1" cMin="0"
+                      dMin="0" aMax="8" bMax="4" FunctionString="sign(x) * (1/b)*pow(quantToBits(pow(abs(b*x),b), a),1/b);"/>
+  </Slot>
+  <Slot Type="None">
+    <Slot5-None PatchFormat="1"/>
+  </Slot>
+</ToolChain>
