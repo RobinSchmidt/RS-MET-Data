@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="1">
+  <Slot Type="SweepKicker">
+    <Slot1-SweepKicker PatchFormat="1" Amplitude="0.5" FreqHigh="15858.4" FreqLow="12.5"
+                       SweepTime="193.564" Chirp="-0.323864" ChirpShape="0.630682" PhaseStereoShift="90"/>
+  </Slot>
+  <Slot Type="Quadrifex">
+    <Slot2-Quadrifex PatchFormat="1" DryWet="1" Routing="1&gt;2&gt;3&gt;4" Slot1="WaveShaper"
+                     Slot2="Bypass" Slot3="Bypass" Slot4="Bypass">
+      <RoutingMatrix5x5 PatchFormat="1"/>
+      <AudioModule PatchFormat="1"/>
+      <AudioModule PatchFormat="1"/>
+      <AudioModule PatchFormat="1"/>
+      <WaveShaper1 PatchFormat="1" CurveType="Quintic" Drive="5" DC="0.5" InterceptY="0.02"
+                   Slope="1.24"/>
+    </Slot2-Quadrifex>
+  </Slot>
+  <Slot Type="None">
+    <Slot3-None PatchFormat="1"/>
+  </Slot>
+</ToolChain>
