@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Slot1-SweepKicker PatchFormat="1" Amplitude="0.5" FadeOut="100" FreqHigh="2996.4"
+                   FreqLow="86.3636" Chirp="-0.340909" ChirpShape="-0.818182"/>

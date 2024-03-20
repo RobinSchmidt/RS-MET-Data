@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="1">
+  <Slot Type="SweepKicker">
+    <Slot1-SweepKicker PatchFormat="1" Amplitude="0.693182" FreqHigh="2646.24" SweepTime="105.398"
+                       FreqLow="54.2898"/>
+  </Slot>
+  <Slot Type="FuncShaper">
+    <Slot2-FuncShaper PatchFormat="1" InputLowpass="20000" Drive="11.7895" DC="0.456141"
+                      OutputFilterUsed="1" OutputHighpass="1499.79" OutputLowpass="20000"
+                      OutLevel="7.28571" DryWet="39.2857" Oversampling="1" a="2" aMax="4"
+                      FunctionString="tanh(a*x);"/>
+  </Slot>
+  <Slot Type="BreakpointModulator">
+    <Slot3-BreakpointModulator PatchFormat="1" TimeScale="0.6304239160915841" GridX="1/10" GridY="1/12"
+                               SnapX="1" SnapY="1" ScaleFactor="1.0" Offset="0.0" TimeScaleByKey="0.0"
+                               TimeScaleByVel="0.0" Depth="1.0" DepthByKey="0.0" DepthByVel="0.0"
+                               SyncMode="0" LoopStartIndex="3" LoopEndIndex="5" LoopMode="Forward">
+      <Breakpoint Time="0.0" Level="0.4166666666666666" Shape="Analog" ShapeAmount="1.0"/>
+      <Breakpoint Time="0.1" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+      <Breakpoint Time="0.5" Level="0.25" Shape="Analog" ShapeAmount="1.0"/>
+      <Breakpoint Time="1.0" Level="0.5" Shape="Analog" ShapeAmount="1.0"/>
+      <Breakpoint Time="1.5" Level="0.75" Shape="Smooth" ShapeAmount="1.0"/>
+      <Breakpoint Time="2.0" Level="0.5" Shape="Smooth" ShapeAmount="1.0"/>
+      <Breakpoint Time="2.436932771817435" Level="-0.0" Shape="Analog" ShapeAmount="2.34"/>
+    </Slot3-BreakpointModulator>
+  </Slot>
+  <Slot Type="None">
+    <Slot4-None PatchFormat="1"/>
+  </Slot>
+  <Modulations>
+    <Connection Source="Slot3-BreakpointModulator" Target="Slot1-SweepKicker.Amplitude"
+                Depth="1.0" DepthMin="-1.0" DepthMax="1.0" Mode="Multiplicative"/>
+  </Modulations>
+</ToolChain>

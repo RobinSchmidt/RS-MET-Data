@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="1">
+  <Slot Type="SweepKicker">
+    <Slot1-SweepKicker PatchFormat="1" Amplitude="0.693182" FreqHigh="14452.4" SweepTime="213.625"/>
+  </Slot>
+  <Slot Type="Equalizer">
+    <Slot2-Equalizer PatchFormat="2">
+      <Band Mode="Peak/Dip" Frequency="130.8397166342269" Gain="-7.599999999999994"
+            Bandwidth="1.06"/>
+    </Slot2-Equalizer>
+  </Slot>
+  <Slot Type="BreakpointModulator">
+    <Slot3-BreakpointModulator PatchFormat="1" TimeScale="1.0" GridX="1" GridY="1" SnapY="1"
+                               ScaleFactor="1.0" Offset="0.0" TimeScaleByKey="0.0" TimeScaleByVel="0.0"
+                               Depth="1.0" DepthByKey="0.0" DepthByVel="0.0" SyncMode="0" LoopStartIndex="2"
+                               LoopEndIndex="3" LoopMode="Forward">
+      <Breakpoint Time="0.0" Level="0.0" Shape="Analog" ShapeAmount="1.0"/>
+      <Breakpoint Time="0.01257845513028971" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+      <Breakpoint Time="1.0" Level="0.5" Shape="Analog" ShapeAmount="1.0"/>
+      <Breakpoint Time="2.0" Level="0.5" Shape="Analog" ShapeAmount="1.0"/>
+      <Breakpoint Time="2.436932771817435" Level="-0.0" Shape="Analog" ShapeAmount="2.34"/>
+    </Slot3-BreakpointModulator>
+  </Slot>
+  <Slot Type="None">
+    <Slot4-None PatchFormat="1"/>
+  </Slot>
+  <Modulations>
+    <Connection Source="Slot3-BreakpointModulator" Target="Slot1-SweepKicker.Amplitude"
+                Depth="1.0" DepthMin="-1.0" DepthMax="1.0" Mode="Multiplicative"/>
+  </Modulations>
+</ToolChain>
