@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Slot1-SweepKicker PatchFormat="1" Amplitude="0.5" FreqHigh="5412.21" FreqLow="55"
+                   SweepTime="80.0324" Chirp="-0.269543" ChirpShape="-0.103022"
+                   Phase="87.1726" PhaseStereoShift="16.0312"/>
