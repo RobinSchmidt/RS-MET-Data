@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ToolChain PatchFormat="1" ActiveSlot="3">
+<ToolChain PatchFormat="1" ActiveSlot="2">
   <Slot Type="Straightliner">
-    <Slot1-Straightliner PatchFormat="1" MasterLevel="-15">
+    <Slot1-Straightliner PatchFormat="1" MasterLevel="-15" NumVoices="8">
       <OscSection PatchFormat="1">
-        <Osc1 PatchFormat="1" AudioFileRelativePath="Samples/SingleCycle/Classic/Square.flac"/>
-        <Osc2 PatchFormat="1" Mute="1" AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
-        <Osc3 PatchFormat="1" Mute="1" AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
-        <Osc4 PatchFormat="1" Mute="1" AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
+        <Osc1 PatchFormat="1" AudioFileRelativePath="Samples\SingleCycle\Classic\Saw.flac"/>
+        <Osc2 PatchFormat="1" Mute="1" AudioFileRelativePath="Samples\SingleCycle\Classic\Saw.flac"/>
+        <Osc3 PatchFormat="1" Mute="1" AudioFileRelativePath="Samples\SingleCycle\Classic\Saw.flac"/>
+        <Osc4 PatchFormat="1" Mute="1" AudioFileRelativePath="Samples\SingleCycle\Classic\Saw.flac"/>
       </OscSection>
       <Filter PatchFormat="1" Frequency="1000" Resonance="0" PreAllpass="20000"
               MakeUp="100"/>

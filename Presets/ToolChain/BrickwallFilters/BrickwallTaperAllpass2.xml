@@ -2,12 +2,12 @@
 
 <ToolChain PatchFormat="1" ActiveSlot="3">
   <Slot Type="Straightliner">
-    <Slot1-Straightliner PatchFormat="1" MasterLevel="0.1">
+    <Slot1-Straightliner PatchFormat="1" MasterLevel="-15" NumVoices="8">
       <OscSection PatchFormat="1">
-        <Osc1 PatchFormat="1" AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
-        <Osc2 PatchFormat="1" Mute="1" AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
-        <Osc3 PatchFormat="1" Mute="1" AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
-        <Osc4 PatchFormat="1" Mute="1" AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
+        <Osc1 PatchFormat="1" AudioFileRelativePath="Samples\SingleCycle\Classic\Saw.flac"/>
+        <Osc2 PatchFormat="1" Mute="1" AudioFileRelativePath="Samples\SingleCycle\Classic\Saw.flac"/>
+        <Osc3 PatchFormat="1" Mute="1" AudioFileRelativePath="Samples\SingleCycle\Classic\Saw.flac"/>
+        <Osc4 PatchFormat="1" Mute="1" AudioFileRelativePath="Samples\SingleCycle\Classic\Saw.flac"/>
       </OscSection>
       <Filter PatchFormat="1" Frequency="1000" Resonance="0" PreAllpass="20000"
               MakeUp="100"/>
@@ -43,7 +43,7 @@
   </Slot>
   <Slot Type="EngineersFilter">
     <Slot3-EngineersFilter PatchFormat="1" Method="Inverse Chebychev" Frequency="1250" Order="20"
-                           Ripple="0.1" Rejection="120"/>
+                           Bandwidth="1" Ripple="0.1" Rejection="120"/>
   </Slot>
   <Slot Type="FlatZapper">
     <Slot4-FlatZapper PatchFormat="1" Exciter="0" Input="100" NumStages="4" AllpassMode="OnePole"

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ToolChain PatchFormat="1" ActiveSlot="3">
+<ToolChain PatchFormat="1" ActiveSlot="2">
   <Slot Type="Straightliner">
-    <Slot1-Straightliner PatchFormat="1" MasterLevel="-15">
+    <Slot1-Straightliner PatchFormat="1" MasterLevel="-15" NumVoices="8">
       <OscSection PatchFormat="1">
-        <Osc1 PatchFormat="1" AudioFileRelativePath="Samples\SingleCycle\Classic\Square.flac"/>
-        <Osc2 PatchFormat="1" Mute="1" AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
-        <Osc3 PatchFormat="1" Mute="1" AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
-        <Osc4 PatchFormat="1" Mute="1" AudioFileRelativePath="Samples/SingleCycle/Classic/Saw.flac"/>
+        <Osc1 PatchFormat="1" AudioFileRelativePath="Samples\SingleCycle\Classic\Saw.flac"/>
+        <Osc2 PatchFormat="1" Mute="1" AudioFileRelativePath="Samples\SingleCycle\Classic\Saw.flac"/>
+        <Osc3 PatchFormat="1" Mute="1" AudioFileRelativePath="Samples\SingleCycle\Classic\Saw.flac"/>
+        <Osc4 PatchFormat="1" Mute="1" AudioFileRelativePath="Samples\SingleCycle\Classic\Saw.flac"/>
       </OscSection>
       <Filter PatchFormat="1" Frequency="1000" Resonance="0" PreAllpass="20000"
               MakeUp="100"/>
@@ -39,7 +39,7 @@
   </Slot>
   <Slot Type="EngineersFilter">
     <Slot2-EngineersFilter PatchFormat="1" Method="Elliptic" Frequency="1000" Order="12"
-                           Ripple="0.1" Rejection="100"/>
+                           Bandwidth="1" Ripple="0.1" Rejection="100"/>
   </Slot>
   <Slot Type="Equalizer">
     <Slot3-Equalizer PatchFormat="2">
@@ -48,7 +48,8 @@
     </Slot3-Equalizer>
   </Slot>
   <Slot Type="Scope">
-    <Slot4-Scope PatchFormat="1" Brightness="0.495807" OneDimensional="1" Sync="1">
+    <Slot4-Scope PatchFormat="1" Brightness="0.495807" OneDimensional="1" Sync="1"
+                 ScaleX="1" ScaleY="1">
       <ColorMap ff000000="0" ff004a8a="0.167" ff0093b9="0.333" ff5fb59c="0.5"
                 ffb3dc77="0.667" fff3fa82="0.833" ffffffff="1"/>
     </Slot4-Scope>
