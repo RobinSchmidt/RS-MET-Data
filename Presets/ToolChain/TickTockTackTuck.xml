@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="2">
+  <Slot Type="SweepKicker">
+    <Slot1-SweepKicker PatchFormat="1" Amplitude="0.5" FreqHigh="11877.4" FreqLow="55"
+                       SweepTime="80.0324" Chirp="-0.269543" ChirpShape="-0.103022"
+                       Phase="87.1726" PhaseStereoShift="16.0312"/>
+  </Slot>
+  <Slot Type="EchoLab">
+    <Slot2-EchoLab PatchFormat="1" DryWet="1" Sync="1">
+      <DelayLine PatchFormat="1" Amplitude="1">
+        <InputFilter PatchFormat="2">
+          <Band Mode="Peak/Dip" Frequency="428.0791181192676" Gain="7.700000000000003"
+                Bandwidth="1.9"/>
+        </InputFilter>
+        <FeedbackFilter PatchFormat="2"/>
+      </DelayLine>
+      <DelayLine PatchFormat="1" DelayTime="2" Amplitude="1">
+        <InputFilter PatchFormat="2">
+          <Band Mode="Peak/Dip" Frequency="1060.548153202631" Gain="5.300000000000004"
+                Bandwidth="1.9"/>
+        </InputFilter>
+        <FeedbackFilter PatchFormat="2"/>
+      </DelayLine>
+      <DelayLine PatchFormat="1" DelayTime="3" Amplitude="1">
+        <InputFilter PatchFormat="2">
+          <Band Mode="Peak/Dip" Frequency="69.74472171769948" Gain="6.300000000000004"
+                Bandwidth="1.9"/>
+        </InputFilter>
+        <FeedbackFilter PatchFormat="2"/>
+      </DelayLine>
+      <DelayLine PatchFormat="1" DelayTime="0.0001" Amplitude="1">
+        <InputFilter PatchFormat="2">
+          <Band Mode="Peak/Dip" Frequency="3578.216068516001" Gain="6.0" Bandwidth="1.9"/>
+          <Band Mode="Peak/Dip" Frequency="54.26638183507914" Gain="5.600000000000001"
+                Bandwidth="1.9"/>
+        </InputFilter>
+        <FeedbackFilter PatchFormat="2"/>
+      </DelayLine>
+    </Slot2-EchoLab>
+  </Slot>
+  <Slot Type="None">
+    <Slot3-None PatchFormat="1"/>
+  </Slot>
+</ToolChain>
