@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="3">
+  <MetaParameterValues M1="0.5980941653251648"/>
+  <Slot Type="EngineersFilter">
+    <Slot1-EngineersFilter PatchFormat="1" Method="Halpern" Order="12"/>
+  </Slot>
+  <Slot Type="EngineersFilter">
+    <Slot2-EngineersFilter PatchFormat="1" Mode="Bandreject" Frequency="1000" Order="1"
+                           Bandwidth="1.45"/>
+  </Slot>
+  <Slot Type="FlatZapper">
+    <Slot3-FlatZapper PatchFormat="1" Input="100" NumStages="1" FreqLow="1000" FreqHigh="1000"
+                      QLow="0.400961" QHigh="0.125"/>
+  </Slot>
+  <Slot Type="None">
+    <Slot4-None PatchFormat="1"/>
+  </Slot>
+</ToolChain>
