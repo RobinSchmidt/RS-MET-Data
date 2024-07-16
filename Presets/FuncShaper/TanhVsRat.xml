@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Slot1-FuncShaper PatchFormat="1" a="0.767857" b="9.625" aMin="0" bMin="0" bMax="10"
+                  FunctionString="(1-a)*tanh(x) + a*(b*x)/(1+(b*x)&#94;2);"/>
