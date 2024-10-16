@@ -1,0 +1,3 @@
+Check the old legacy folders with the old preset working directories and maybe include them here in 
+the repo, too. Maybe have a section/folder with curated presets for release and one with presets 
+under construction.
