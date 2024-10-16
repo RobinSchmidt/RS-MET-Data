@@ -2,4 +2,4 @@
 
 <Slot1-SweepKicker PatchFormat="1" Amplitude="0.5" FreqHigh="4728.33" SweepTime="50"
                    Chirp="-0.0892613" ChirpShape="0.623739" Phase="137.877" PhaseStereoShift="6.90444"
-                   WaveShape="SinFatSaw" WaveShapeParam="0.484507"/>
+                   WaveShape="SinFatSaw" WaveShapeParam="0.339256"/>

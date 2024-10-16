@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ToolChain PatchFormat="1" ActiveSlot="2">
+<ToolChain PatchFormat="1" ActiveSlot="1">
   <Slot Type="SweepKicker">
     <Slot1-SweepKicker PatchFormat="1" Amplitude="0.5" FreqHigh="4728.33" SweepTime="50"
                        Chirp="-0.0892613" ChirpShape="0.623739" Phase="137.877" PhaseStereoShift="6.90444"
-                       WaveShape="SinFatSaw" WaveShapeParam="0.484507"/>
+                       WaveShape="SinFatSaw" WaveShapeParam="0.376552"/>
   </Slot>
   <Slot Type="Quadrifex">
     <Slot2-Quadrifex PatchFormat="1" DryWet="1" Routing="1&gt;2&gt;3&gt;4" Slot1="Reverb"
