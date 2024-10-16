@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="2">
+  <Slot Type="SweepKicker">
+    <Slot1-SweepKicker PatchFormat="1" Amplitude="0.5" FreqHigh="19669.8" FreqLow="110"
+                       SweepTime="70.8228" Chirp="-0.250234" ChirpShape="-0.0712974"
+                       WaveShape="TriSaw"/>
+  </Slot>
+  <Slot Type="FuncShaper">
+    <Slot2-FuncShaper PatchFormat="1" Drive="5.05263" DC="0.0890625" a="2" aMax="4"
+                      FunctionString="tanh(a*x);"/>
+  </Slot>
+  <Slot Type="None">
+    <Slot3-None PatchFormat="1"/>
+  </Slot>
+</ToolChain>
