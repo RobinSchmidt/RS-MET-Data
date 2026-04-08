@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ToolChain PatchFormat="1" ActiveSlot="4">
+  <MetaParameterValues M1="0.5980941653251648"/>
+  <Slot Type="BreakpointModulator">
+    <Slot1-BreakpointModulator PatchFormat="1" TimeScale="1.0" GridX="1" GridY="1" ScaleFactor="1.0"
+                               Offset="0.0" TimeScaleByKey="0.0" TimeScaleByVel="0.0" Depth="1.0"
+                               DepthByKey="0.0" DepthByVel="0.0" SyncMode="0" LoopStartIndex="1"
+                               LoopEndIndex="2" LoopMode="Forward">
+      <Breakpoint Time="0.0" Level="0.0" Shape="Analog" ShapeAmount="1.0"/>
+      <Breakpoint Time="0.01" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+      <Breakpoint Time="1.0" Level="1.0" Shape="Analog" ShapeAmount="1.0"/>
+      <Breakpoint Time="1.2" Level="0.0" Shape="Analog" ShapeAmount="1.0"/>
+    </Slot1-BreakpointModulator>
+  </Slot>
+  <Slot Type="PitchDitherOscillator">
+    <Slot2-PitchDitherOscillator PatchFormat="1"/>
+  </Slot>
+  <Slot Type="FuncShaper">
+    <Slot3-FuncShaper PatchFormat="1" OutLevel="-16.2857" a="2" aMax="4" FunctionString="sin(pi*x);"/>
+  </Slot>
+  <Slot Type="Scope">
+    <Slot4-Scope PatchFormat="1" OneDimensional="1" Sync="1" ScaleX="1" ScaleY="1.76351">
+      <ColorMap ff000000="0" ffffffff="1"/>
+    </Slot4-Scope>
+  </Slot>
+  <Slot Type="None">
+    <Slot5-None PatchFormat="1"/>
+  </Slot>
+  <Modulations>
+    <Connection Source="Slot1-BreakpointModulator" Target="Slot2-PitchDitherOscillator.Amplitude"
+                Depth="1.0" DepthMin="-1.0" DepthMax="1.0" Mode="Multiplicative"/>
+  </Modulations>
+</ToolChain>
