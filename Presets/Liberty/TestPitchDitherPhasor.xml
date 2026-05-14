@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Slot1-Liberty PatchFormat="1">
+  <TopLevelModule Name="Instrument" Poly="0" X="0" Y="0">
+    <AudioInput Name="AudioIn1" Poly="0" X="2" Y="2"/>
+    <AudioInput Name="AudioIn2" Poly="0" X="2" Y="6"/>
+    <Container Name="TriSaw" Poly="0" X="22" Y="5">
+      <NoteFrequency Name="NoteFrequency" Poly="0" X="2" Y="4"/>
+      <PhasorPitchDithered Name="PhsrPiDi" Poly="0" X="15" Y="4" IncomingConnections="A_0_0_0"/>
+      <NoteGate Name="NoteGate" Poly="0" X="23" Y="3"/>
+      <Multiplier Name="*" Poly="0" X="33" Y="7" IncomingConnections="A_2_0_0, A_1_0_1"/>
+      <VoiceKiller Name="VoiceKiller" Poly="0" X="38" Y="12" Threshold="-100.0"
+                   TimeOut="0.01" IncomingConnections="A_3_0_0"/>
+      <AudioOutput Name="Out1" Poly="0" X="38" Y="7" IncomingConnections="A_3_0_0"/>
+    </Container>
+    <AudioOutput Name="AudioOut1" Poly="0" X="40" Y="2" IncomingConnections="A_2_0_0"/>
+    <AudioOutput Name="AudioOut2" Poly="0" X="40" Y="6" IncomingConnections="A_2_0_0"/>
+  </TopLevelModule>
+</Slot1-Liberty>
